@@ -2,33 +2,33 @@
 
 ![Capture](./capture.png)
 
-YouTubeの動画をいい感じに並べる。
+YouTube の動画をいい感じに並べる。
 
 ## Usage
 
-利用には [YouTube Data API](https://developers.google.com/youtube/v3/getting-started?hl=ja) を利用するためのAPIキーが必要です。
+利用には [YouTube Data API](https://developers.google.com/youtube/v3/getting-started?hl=ja) を利用するための API キーが必要です。
 
 ### project.toml
 
 ここに、プロジェクトの情報を追加する。
 
 - `[project]`
-	- `title` : タイトル
-	- `description` : HTMLに書かれる説明文
-	- `origin` : デプロイ先のURLオリジン
-	- `ogimage` : OGPに表示させる画像(`/static` からのパス)
-	- `splashimage` : ページ読み込み時に表示される画像(`/static` からのパス)
-	- `color` : ヘッダなどの色
+  - `title` : タイトル
+  - `description` : HTML に書かれる説明文
+  - `origin` : デプロイ先の URL オリジン
+  - `ogimage` : OGP に表示させる画像(`/static` からのパス)
+  - `splashimage` : ページ読み込み時に表示される画像(`/static` からのパス)
+  - `color` : ヘッダなどの色
 - `[[playlist]]` (複数指定可)
-	- `id` : YouTubeのプレイリストID
+  - `id` : YouTube のプレイリスト ID
 - `[[video]]` (複数指定可)
-	- `id` : YouTubeの動画ID
+  - `id` : YouTube の動画 ID
 - `[[ignore]]` (複数指定可)
-	- `id` : プレイリストに含まれるが表示したくない動画ID
+  - `id` : プレイリストに含まれるが表示したくない動画 ID
 
 ### 開発
 
-1. `.env.template` を `.env` にコピーし、APIキーを入力する
+1. `.env.template` を `.env` にコピーし、API キーを入力する
 2. `project.toml` を編集する
 3. `pnpm fetch:local` で動画の情報を取得する
 4. `pnpm dev` で開発サーバを立ち上げプレビュー
