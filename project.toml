@@ -1,0 +1,22 @@
+[project]
+title = "template"
+description = "YouTube video playlist"
+origin = "https://holomuses.github.io"
+ogimage = "/favicon.png"
+splashimage = "/favicon.png"
+color = "#74CFE2"
+
+[[playlist]]
+id = "PL1NeGg1woXqkTks79_kSoxBrEKloB9SrI"
+
+[[video]]
+# hololive - 過去の大型ライブの映像セレクション
+id = "GIZPAJHW5bk"
+
+# https://www.hololive.tv/terms
+# 音楽利用に関するガイドラインの対象外となる楽曲について
+# hololive IDOL PROJECT／キラメキライダー☆
+[[ignore]]
+id = "0o3VrBLh8jI"
+[[ignore]]
+id = "rDSIUPkuM7U"

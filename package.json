@@ -1,0 +1,49 @@
+{
+	"name": "~TODO~",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview",
+		"fetch": "node -r dotenv/config scripts/fetchdata",
+		"fetch:ci": "node scripts/fetchdata",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^1.0.0-next.15",
+		"@sveltejs/kit": "next",
+		"@types/cookie": "^0.4.0",
+		"@types/iarna__toml": "^2.0.2",
+		"@types/isomorphic-fetch": "^0.0.35",
+		"@types/youtube-player": "^5.5.4",
+		"@typescript-eslint/eslint-plugin": "^4.19.0",
+		"@typescript-eslint/parser": "^4.19.0",
+		"colorthief": "^2.3.2",
+		"dotenv": "^10.0.0",
+		"eslint": "^7.22.0",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-svelte3": "^3.2.0",
+		"isomorphic-fetch": "^3.0.0",
+		"prettier": "~2.2.1",
+		"prettier-plugin-svelte": "^2.2.0",
+		"sass": "^1.37.5",
+		"svelte": "^3.34.0",
+		"svelte-check": "^2.0.0",
+		"svelte-preprocess": "^4.0.0",
+		"tslib": "^2.0.0",
+		"typescript": "^4.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.2.2",
+		"@iarna/toml": "^2.2.5",
+		"@lukeed/uuid": "^2.0.0",
+		"cookie": "^0.4.1",
+		"googleapis": "^83.0.0",
+		"url-regex": "^5.0.0",
+		"youtube-player": "^5.5.2"
+	}
+}
