@@ -1,38 +1,54 @@
-# create-svelte
+# YouTube Playlist
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+![Capture](./capture.png)
 
-## Creating a project
+YouTubeの動画をいい感じに並べる。
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Usage
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+利用には [YouTube Data API](https://developers.google.com/youtube/v3/getting-started?hl=ja) を利用するためのAPIキーが必要です。
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+### project.toml
 
-> Note: the `@next` is temporary
+ここに、プロジェクトの情報を追加する。
 
-## Developing
+- `[project]`
+	- `title` : タイトル
+	- `description` : HTMLに書かれる説明文
+	- `origin` : デプロイ先のURLオリジン
+	- `ogimage` : OGPに表示させる画像(`/static` からのパス)
+	- `splashimage` : ページ読み込み時に表示される画像(`/static` からのパス)
+	- `color` : ヘッダなどの色
+- `[[playlist]]` (複数指定可)
+	- `id` : YouTubeのプレイリストID
+- `[[video]]` (複数指定可)
+	- `id` : YouTubeの動画ID
+- `[[ignore]]` (複数指定可)
+	- `id` : プレイリストに含まれるが表示したくない動画ID
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### 開発
 
-```bash
-npm run dev
+1. `.env.template` を `.env` にコピーし、APIキーを入力する
+2. `project.toml` を編集する
+3. `pnpm fetch:local` で動画の情報を取得する
+4. `pnpm dev` で開発サーバを立ち上げプレビュー
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### デプロイ
 
-## Building
+#### GitHub
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+GitHub であれば GitHub Actions が設定してあります。
 
-```bash
-npm run build
-```
+1. `project.toml` を編集する(`project.origin` は `https://{ORGANIZATION}.github.io`)
+2. `svelte.config.js` の `config.kit.paths.base` をリポジトリ名にする
+3. Settings > Secrets から Repository secrets に `API_KEY` を設定する
+4. リポジトリの Actions から GitHub Pages のワークフローを実行
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+#### その他
+
+`project.toml` と `svelte.config.js` を設定後、
+`pnpm build` を実行すると `/.svelte-kit/static/build` にファイルが生成されるので、これを公開してください。
+
+## Contribution
+
+WELCOME!
