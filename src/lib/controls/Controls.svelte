@@ -86,7 +86,7 @@
 		box-sizing: border-box;
 		width: 100%;
 
-		padding: 1em;
+		padding: 1em 1.5em;
 
 		transition: background-color ease 0.2s, color ease 0.2s, height ease 0.2s;
 		background-color: var(--background-color);
@@ -101,7 +101,7 @@
 	}
 
 	.info {
-		padding: 0 2em;
+		padding: 0 0.5em;
 		h3 {
 			font-size: 1em;
 
@@ -113,7 +113,7 @@
 	.control {
 		display: flex;
 
-		padding: 0 2em;
+		padding: 0 0.5em;
 		button {
 			border: 0;
 			margin: 0;
@@ -133,7 +133,7 @@
 	.detail {
 		transition: transform ease 0.2s;
 		transform: scaleY(var(--show));
-		max-height: 80vh;
+		max-height: 60vh;
 
 		transition: background-color ease 0.2s, color ease 0.2s, height ease 0.2s;
 		background-color: var(--background-color);
