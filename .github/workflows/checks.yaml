@@ -26,6 +26,7 @@ jobs:
           cache: pnpm
       - name: Lint Check
         run: pnpm lint
+      - run: pnpm fetch:dummy
       - name: Svelte Check
         run: pnpm check
       - name: Build Check
