@@ -31,11 +31,13 @@ export const parseHexColor = (hexColorCode: string): Color => {
 	};
 };
 
+export type BlackOrWhite = '#000000' | '#ffffff';
+
 // ref. https://www.w3.org/TR/AERT/#color-contrast
-export const betterForground = (backgroundColor: Color): 'white' | 'black' =>
+export const betterForground = (backgroundColor: Color): BlackOrWhite =>
 	(backgroundColor.r * 299 + backgroundColor.g * 587 + backgroundColor.b * 114) / 1000 < 128
-		? 'white'
-		: 'black';
+		? '#ffffff'
+		: '#000000';
 
 export const splitWithUrl = (text: string): string[] => {
 	const regex = urlRegex();
