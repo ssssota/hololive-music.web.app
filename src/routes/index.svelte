@@ -22,20 +22,26 @@
 	import Splash from '$lib/splash/Splash.svelte';
 	import type { Project } from '../types';
 	import { derived, get } from 'svelte/store';
+	import { onDestroy } from 'svelte';
 	export let videos: VideoInfo[];
 	export let project: Project;
 
 	let playingIndex: number | undefined;
 	let player: Player | null | undefined;
 
-	const filtered = derived(page, ({ query }) =>
-		videos.filter(({ tags }) =>
-			query
-				.getAll('tag')
-				.filter((tag) => tag.trim() !== '')
-				.every((tag) => tags != null && tags.includes(tag))
-		)
+	const currentTag = derived(page, ({ query }) =>
+		query.getAll('tag').filter((tag) => tag.trim() !== '')
 	);
+
+	const unsubscribe = currentTag.subscribe(() => {
+		playingIndex = undefined;
+	});
+	onDestroy(unsubscribe);
+
+	const filtered = derived(currentTag, (t) =>
+		videos.filter(({ tags }) => t.every((tag) => tags != null && tags.includes(tag)))
+	);
+
 	$: if (player != null && playingIndex != null) {
 		const id = get(filtered)[playingIndex].id;
 		if (id != null) player.loadVideoById(id);
