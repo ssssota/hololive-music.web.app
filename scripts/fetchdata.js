@@ -38,8 +38,10 @@ const main = async (tomlPath) => {
 		});
 	}
 
-	if (project.video?.length > 0) {
-		const videosRes = await fetchVideos(Object.keys(idTagMap));
+	const videoIds = Object.keys(idTagMap).filter((id) => !ignoreIds.has(id));
+
+	if (videoIds.length > 0) {
+		const videosRes = await fetchVideos(videoIds);
 		await Promise.all(
 			videosRes.map(async (res) => {
 				if (res.status?.privacyStatus !== 'public') return;

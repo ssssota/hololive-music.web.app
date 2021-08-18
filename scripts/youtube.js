@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 // @ts-check
 import { google } from 'googleapis';
+import { splitArrayIntoChunk } from './utils.js';
 
 /**
  * @param {string} playlistId Playlist ID
@@ -21,22 +22,23 @@ export const fetchPlaylist = async (playlistId, pageToken = undefined) => {
 
 /**
  * @param {string[]} videoIds Video ID
- * @param {string} pageToken nextPageToken
  * @returns {Promise<import('googleapis').youtube_v3.Schema$Video[]>}
  */
-export const fetchVideos = async (videoIds, pageToken = undefined) => {
-	const res = await google.youtube('v3').videos.list({
-		key: process.env.API_KEY,
-		part: ['snippet'],
-		maxResults: 50,
-		id: videoIds,
-		pageToken
-	});
-	const items = res.data.items ?? [];
+export const fetchVideos = async (videoIds) => {
+	const maxResults = 50;
+	const results = await Promise.all(
+		splitArrayIntoChunk(videoIds, maxResults).map(async (ids) => {
+			const res = await google.youtube('v3').videos.list({
+				key: process.env.API_KEY,
+				part: ['snippet', 'status'],
+				maxResults,
+				id: ids
+			});
+			return res.data.items ?? [];
+		})
+	);
 
-	return res.data.nextPageToken != null
-		? [...items, ...(await fetchVideos(videoIds, res.data.nextPageToken))]
-		: items;
+	return results.flat();
 };
 
 /**

@@ -22,3 +22,14 @@ export const getDominantColor = async (imgUrl) => {
 	const [dominantColor] = await getPalette(imgUrl, 2, 2);
 	return `#${dominantColor.map((v) => v.toString(16).padStart(2, '0')).join('')}`;
 };
+
+/**
+ * @template T
+ * @param {T[]} arr
+ * @param {number} count
+ * @returns {T[][]}
+ */
+export const splitArrayIntoChunk = (arr, count) =>
+	Array(Math.ceil(arr.length / count))
+		.fill(0)
+		.map((_, i) => arr.slice(i * count, i * count + count));
