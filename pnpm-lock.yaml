@@ -17,6 +17,7 @@ specifiers:
   isomorphic-fetch: ^3.0.0
   prettier: ^2.3.2
   prettier-plugin-svelte: ^2.3.1
+  rimraf: ^3.0.2
   sass: ^1.37.5
   svelte: ^3.42.1
   svelte-check: ^2.2.4
@@ -47,6 +48,7 @@ devDependencies:
   isomorphic-fetch: 3.0.0
   prettier: 2.3.2
   prettier-plugin-svelte: 2.3.1_prettier@2.3.2+svelte@3.42.1
+  rimraf: 3.0.2
   sass: 1.37.5
   svelte: 3.42.1
   svelte-check: 2.2.4_sass@1.37.5+svelte@3.42.1
