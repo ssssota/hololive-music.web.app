@@ -1,28 +1,39 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+	import Tag from '$lib/tag/Tag.svelte';
 	import { betterForground, parseHexColor } from '$lib/utils';
 	import type { VideoInfo } from 'src/types';
 	import { createEventDispatcher } from 'svelte';
+	import { derived } from 'svelte/store';
 	import { slide } from 'svelte/transition';
 	import Description from './Description.svelte';
 	export let currentVideo: VideoInfo | undefined;
-	export let showDetail = false;
 
 	type EventMap = {
 		close: never;
 	};
 	const dispatch = createEventDispatcher<EventMap>();
 
-	let _showDetail = false;
-	$: _showDetail = showDetail && currentVideo !== undefined;
-
+	let showDetail = false;
 	let backgroundColor = '#000000';
 	$: backgroundColor = currentVideo?.color ?? '#000000';
-	let foregroundColor: 'white' | 'black' = 'white';
+	let foregroundColor: '#ffffff' | '#000000' = '#ffffff';
 	$: foregroundColor = betterForground(parseHexColor(backgroundColor));
 	let showDetailButtonRotate = '-90deg';
-	$: showDetailButtonRotate = _showDetail ? '90deg' : '-90deg';
+	$: showDetailButtonRotate = showDetail ? '90deg' : '-90deg';
 
 	$: currentVideo && (showDetail = false);
+
+	const currentTag = derived(page, ({ query }) =>
+		query.getAll('tag').filter((tag) => tag.trim() !== '')
+	);
+
+	const getSpecTagUrl = (tags: string[]) => {
+		const url = new URL(location.origin);
+		url.pathname = location.pathname;
+		tags.forEach((tag) => url.searchParams.append('tag', tag));
+		return url.href;
+	};
 </script>
 
 <div
@@ -71,12 +82,37 @@
 	</div>
 </div>
 
-{#if _showDetail}
+{#if showDetail}
 	<section
 		transition:slide
 		class="detail"
 		style="--background-color: {backgroundColor}; --foreground-color: {foregroundColor}"
 	>
+		{#if (currentVideo?.tags?.length ?? 0) > 0}
+			<p class="tags">
+				{#each currentVideo?.tags ?? [] as tag (tag)}
+					<Tag color={foregroundColor}>
+						{#if $currentTag.includes(tag)}
+							<a
+								class="tag-button"
+								title="{tag}を絞り込みから除外する"
+								href={getSpecTagUrl($currentTag.filter((t) => t !== tag))}>-</a
+							>
+							{tag}
+						{:else}
+							{#if $currentTag.length > 0}
+								<a
+									class="tag-button"
+									title="{tag}を絞り込みに追加する"
+									href={getSpecTagUrl([...$currentTag, tag])}>+</a
+								>
+							{/if}
+							<a title="{tag}で絞り込む" href={getSpecTagUrl([tag])}>{tag}</a>
+						{/if}
+					</Tag>
+				{/each}
+			</p>
+		{/if}
 		<Description value={currentVideo?.description ?? ''} />
 	</section>
 {/if}
@@ -127,6 +163,28 @@
 				stroke: var(--foreground-color);
 				transform: rotate(var(--rotate));
 			}
+		}
+	}
+
+	.tags {
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+
+		.tag-button {
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+
+			width: 1rem;
+			height: 1rem;
+			font-size: 0.75rem;
+
+			margin-right: 0.5rem;
+			border-radius: 50%;
+
+			color: var(--background-color);
+			background-color: var(--foreground-color);
+			text-decoration: none;
 		}
 	}
 

@@ -1,9 +1,11 @@
 <script lang="ts" context="module">
 	import type { Load } from '@sveltejs/kit';
 	import resources from '../resources.json';
+	import { getShuffled } from '$lib/utils';
+	import type { VideoInfo } from '../types';
 	export const load: Load = async () => ({
 		props: {
-			videos: resources.videos,
+			videos: getShuffled(resources.videos),
 			project: resources.project
 		}
 	});
@@ -17,24 +19,27 @@
 	import Controls from '$lib/controls/Controls.svelte';
 	import Header from '$lib/header/Header.svelte';
 	import Player from '$lib/player/Player.svelte';
-	import { getShuffled } from '$lib/utils';
-	import type { Project, VideoInfo } from '../types';
 	import Splash from '$lib/splash/Splash.svelte';
+	import type { Project } from '../types';
+	import { derived, get } from 'svelte/store';
 	export let videos: VideoInfo[];
 	export let project: Project;
-	const shuffled = getShuffled(videos);
 
-	let playingVideoId: string | undefined = undefined;
+	let playingIndex: number | undefined;
 	let player: Player | null | undefined;
 
-	$: if (player != null && playingVideoId !== undefined) {
-		player.loadVideoById(playingVideoId);
+	const filtered = derived(page, ({ query }) =>
+		videos.filter(({ tags }) =>
+			query
+				.getAll('tag')
+				.filter((tag) => tag.trim() !== '')
+				.every((tag) => tags != null && tags.includes(tag))
+		)
+	);
+	$: if (player != null && playingIndex != null) {
+		const id = get(filtered)[playingIndex].id;
+		if (id != null) player.loadVideoById(id);
 	}
-
-	const getNextVideoId = (currentId: string): string => {
-		const currentIndex = shuffled.findIndex((v) => v.id === currentId);
-		return shuffled[(currentIndex + 1) % shuffled.length].id;
-	};
 </script>
 
 <svelte:head>
@@ -52,29 +57,30 @@
 <Header title={project.title ?? 'YouTube Playlist'} backgroundColor={project.color} color="white" />
 
 <main>
-	{#each shuffled as info (info.id)}
-		{#if playingVideoId === info.id}
+	{#each $filtered as info (info.id)}
+		{#if playingIndex != null && $filtered[playingIndex].id === info.id}
 			<Player
 				bind:this={player}
 				on:statechange={(e) => {
 					if (e.detail === 0) {
 						// video ended
-						playingVideoId = playingVideoId && getNextVideoId(playingVideoId);
+						playingIndex = playingIndex == null ? undefined : (playingIndex + 1) % $filtered.length;
 					}
 				}}
 			/>
 		{:else}
-			<Card {info} {playingVideoId} on:click={() => (playingVideoId = info.id)} />
+			<Card
+				{info}
+				playingVideoId={playingIndex == null ? undefined : $filtered[playingIndex].id}
+				on:click={() => (playingIndex = $filtered.findIndex(({ id }) => id === info.id))}
+			/>
 		{/if}
 	{/each}
 </main>
 
-{#if playingVideoId !== undefined}
+{#if playingIndex != null}
 	<footer transition:slide>
-		<Controls
-			currentVideo={shuffled.find((v) => v.id === playingVideoId)}
-			on:close={() => (playingVideoId = undefined)}
-		/>
+		<Controls currentVideo={$filtered[playingIndex]} on:close={() => (playingIndex = undefined)} />
 	</footer>
 {/if}
 
@@ -83,6 +89,8 @@
 		display: grid;
 		gap: 0;
 		grid-template-columns: repeat(auto-fit, minmax(min(400px, 100vw), 1fr));
+
+		min-height: 100vh;
 	}
 
 	footer {
