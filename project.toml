@@ -8,12 +8,25 @@ color = "#74CFE2"
 
 [[playlist]]
 id = "PL1NeGg1woXqkTks79_kSoxBrEKloB9SrI"
-tags = ["Official"]
+tags = ["official"]
 
-[[video]]
-# hololive - 過去の大型ライブの映像セレクション
-id = "GIZPAJHW5bk"
-tags = ["Official", "ライブ"]
+# 星街すいせい
+[[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
+id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
+tags = ["星街すいせい", "オリジナル"]
+[[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDakgakxbOxT9dAZD0rpwvXQ
+id = "PLAo9RlHR2tDakgakxbOxT9dAZD0rpwvXQ"
+tags = ["星街すいせい"]
+
+# 猫又おかゆ
+[[playlist]] # https://www.youtube.com/playlist?list=PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR
+id = "PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR"
+tags = ["猫又おかゆ"]
+
+# [[video]]
+# hololive - 過去の大型ライブの映像セレクション(非公開)
+# id = "GIZPAJHW5bk"
+# tags = ["official", "ライブ"]
 
 # https://www.hololive.tv/terms
 # 音楽利用に関するガイドラインの対象外となる楽曲について
