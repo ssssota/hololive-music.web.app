@@ -7,6 +7,6 @@ declare module 'colorthief' {
 	function getPalette(
 		url: string,
 		colorCount?: number,
-		quality?: number,
-	): Promise<[number, number, number][]>
+		quality?: number
+	): Promise<[number, number, number][]>;
 }
