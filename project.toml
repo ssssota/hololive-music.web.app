@@ -92,6 +92,10 @@ tags = ["星街すいせい", "オリジナル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDakgakxbOxT9dAZD0rpwvXQ
 id = "PLAo9RlHR2tDakgakxbOxT9dAZD0rpwvXQ"
 tags = ["星街すいせい"]
+# 天音かなた
+[[playlist]] # https://www.youtube.com/playlist?list=PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2
+id = "PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2"
+tags = ["天音かなた"]
 
 # 猫又おかゆ
 [[playlist]] # https://www.youtube.com/playlist?list=PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR
