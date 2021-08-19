@@ -29,6 +29,10 @@ tags = ["さくらみこ", "オリジナル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id
 id = "PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id"
 tags = ["白上フブキ"]
+# 夏色まつり
+[[playlist]] # https://www.youtube.com/playlist?list=PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa
+id = "PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa"
+tags = ["夏色まつり"]
 
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
