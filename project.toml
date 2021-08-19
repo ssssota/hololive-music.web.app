@@ -14,6 +14,10 @@ tags = ["official"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ
 id = "PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ"
 tags = ["ときのそら"]
+# AZKi
+[[playlist]] # https://www.youtube.com/playlist?list=PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS
+id = "PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS"
+tags = ["AZKi"]
 
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
