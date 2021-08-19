@@ -49,6 +49,10 @@ tags = ["アキ・ローゼンタール"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLUp1t9SPBl6r4nqsQBg7HH7fPX2l9AGQk
 id = "PLUp1t9SPBl6r4nqsQBg7HH7fPX2l9AGQk"
 tags = ["湊あくあ"]
+# 癒月ちょこ
+[[playlist]] # https://www.youtube.com/playlist?list=PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_
+id = "PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_"
+tags = ["癒月ちょこ"]
 
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
