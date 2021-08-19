@@ -131,6 +131,10 @@ tags = ["尾丸ポルカ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH
 id = "PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH"
 tags = ["Ayunda Risu"]
+# Moona Hoshinova
+[[playlist]] # https://www.youtube.com/playlist?list=PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt
+id = "PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt"
+tags = ["Moona Hoshinova"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
