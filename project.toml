@@ -139,6 +139,10 @@ tags = ["Moona Hoshinova"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR
 id = "PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR"
 tags = ["Airani Iofifteen"]
+# Anya Melfissa
+[[video]] # https://www.youtube.com/watch?v=ZmM5OgXXVA4
+id = "ZmM5OgXXVA4"
+tags = ["Anya Melfissa"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
