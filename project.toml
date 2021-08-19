@@ -41,6 +41,10 @@ tags = ["夜空メル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLQoA24ikdy_kFurrcDRRJufTwHo_Kv6ew
 id = "PLQoA24ikdy_kFurrcDRRJufTwHo_Kv6ew"
 tags = ["赤井はあと"]
+# アキ・ローゼンタール
+[[playlist]] # https://www.youtube.com/playlist?list=PLYt9gyZFZDj_e7p0saJXMghPsjmBMwyiO
+id = "PLYt9gyZFZDj_e7p0saJXMghPsjmBMwyiO"
+tags = ["アキ・ローゼンタール"]
 
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
