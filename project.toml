@@ -45,6 +45,10 @@ tags = ["赤井はあと"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLYt9gyZFZDj_e7p0saJXMghPsjmBMwyiO
 id = "PLYt9gyZFZDj_e7p0saJXMghPsjmBMwyiO"
 tags = ["アキ・ローゼンタール"]
+# 湊あくあ
+[[playlist]] # https://www.youtube.com/playlist?list=PLUp1t9SPBl6r4nqsQBg7HH7fPX2l9AGQk
+id = "PLUp1t9SPBl6r4nqsQBg7HH7fPX2l9AGQk"
+tags = ["湊あくあ"]
 
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
