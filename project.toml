@@ -65,6 +65,10 @@ tags = ["紫咲シオン"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ
 id = "PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ"
 tags = ["大空スバル"]
+# 大神ミオ
+[[playlist]] # https://www.youtube.com/playlist?list=PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu
+id = "PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu"
+tags = ["大神ミオ"]
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
 id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
