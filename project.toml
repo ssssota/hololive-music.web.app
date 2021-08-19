@@ -151,6 +151,10 @@ tags = ["Pavolia Reine"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4
 id = "PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4"
 tags = ["森美声"]
+# 小鳥遊キアラ
+[[playlist]] # https://www.youtube.com/playlist?list=PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH
+id = "PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH"
+tags = ["小鳥遊キアラ"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
