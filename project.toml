@@ -77,6 +77,10 @@ tags = ["不知火フレア"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLKo9UD3uKyyFUSwUDM5hCTB4fEvZqYs0P
 id = "PLKo9UD3uKyyFUSwUDM5hCTB4fEvZqYs0P"
 tags = ["宝鐘マリン"]
+# 兎田ぺこら
+[[playlist]] # https://www.youtube.com/playlist?list=PL9jli3ZqRhJD13ORC2CUTEYnjeZt9KMPb
+id = "PL9jli3ZqRhJD13ORC2CUTEYnjeZt9KMPb"
+tags = ["兎田ぺこら"]
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
 id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
