@@ -25,6 +25,10 @@ tags = ["さくらみこ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLMF8NocLqJttJCIiUCkNXx6jW4dAYfz5G
 id = "PLMF8NocLqJttJCIiUCkNXx6jW4dAYfz5G"
 tags = ["さくらみこ", "オリジナル"]
+# 白上フブキ
+[[playlist]] # https://www.youtube.com/playlist?list=PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id
+id = "PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id"
+tags = ["白上フブキ"]
 
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
