@@ -147,6 +147,10 @@ tags = ["Anya Melfissa"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC
 id = "PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC"
 tags = ["Pavolia Reine"]
+# 森美声
+[[playlist]] # https://www.youtube.com/playlist?list=PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4
+id = "PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4"
+tags = ["森美声"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
