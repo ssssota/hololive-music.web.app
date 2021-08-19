@@ -33,6 +33,10 @@ tags = ["白上フブキ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa
 id = "PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa"
 tags = ["夏色まつり"]
+# 夜空メル
+[[playlist]] # https://www.youtube.com/playlist?list=PL43udV6iXTkCwnaFSjm3IAtggd7f12onJ
+id = "PL43udV6iXTkCwnaFSjm3IAtggd7f12onJ"
+tags = ["夜空メル"]
 
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
