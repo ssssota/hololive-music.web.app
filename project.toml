@@ -135,6 +135,10 @@ tags = ["Ayunda Risu"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt
 id = "PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt"
 tags = ["Moona Hoshinova"]
+# Airani Iofifteen
+[[playlist]] # https://www.youtube.com/playlist?list=PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR
+id = "PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR"
+tags = ["Airani Iofifteen"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
