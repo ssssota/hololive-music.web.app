@@ -211,6 +211,10 @@ tags = ["Moona Hoshinova"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR
 id = "PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR"
 tags = ["Airani Iofifteen"]
+# Kureiji Ollie
+[[video]] # https://www.youtube.com/watch?v=oLOSu6ocgUU
+id = "oLOSu6ocgUU"
+tags = ["Kureiji Ollie"]
 # Anya Melfissa
 [[video]] # https://www.youtube.com/watch?v=ZmM5OgXXVA4
 id = "ZmM5OgXXVA4"
