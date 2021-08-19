@@ -1,6 +1,6 @@
 [project]
-title = "template"
-description = "YouTube video playlist"
+title = "Holomuses"
+description = "Hololiveタレントの歌ってみたまとめ"
 origin = "https://holomuses.github.io"
 ogimage = "/favicon.png"
 splashimage = "/favicon.png"
