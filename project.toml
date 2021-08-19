@@ -10,6 +10,11 @@ color = "#74CFE2"
 id = "PL1NeGg1woXqkTks79_kSoxBrEKloB9SrI"
 tags = ["official"]
 
+# ときのそら
+[[playlist]] # https://www.youtube.com/playlist?list=PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ
+id = "PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ"
+tags = ["ときのそら"]
+
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
 id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
