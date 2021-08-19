@@ -18,6 +18,13 @@ tags = ["ときのそら"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS
 id = "PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS"
 tags = ["AZKi"]
+# さくらみこ
+[[playlist]] # https://www.youtube.com/playlist?list=PLMF8NocLqJtubiccXUm9SCZ79dDPSLq2B
+id = "PLMF8NocLqJtubiccXUm9SCZ79dDPSLq2B"
+tags = ["さくらみこ"]
+[[playlist]] # https://www.youtube.com/playlist?list=PLMF8NocLqJttJCIiUCkNXx6jW4dAYfz5G
+id = "PLMF8NocLqJttJCIiUCkNXx6jW4dAYfz5G"
+tags = ["さくらみこ", "オリジナル"]
 
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
