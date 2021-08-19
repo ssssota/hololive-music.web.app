@@ -69,6 +69,10 @@ tags = ["大空スバル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu
 id = "PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu"
 tags = ["大神ミオ"]
+# 猫又おかゆ
+[[playlist]] # https://www.youtube.com/playlist?list=PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR
+id = "PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR"
+tags = ["猫又おかゆ"]
 # 不知火フレア
 [[playlist]] # https://www.youtube.com/playlist?list=PLBoFNGFmekcMIhlW5Z-umsS3VPnQx7tI8
 id = "PLBoFNGFmekcMIhlW5Z-umsS3VPnQx7tI8"
@@ -96,11 +100,6 @@ tags = ["星街すいせい"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2
 id = "PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2"
 tags = ["天音かなた"]
-
-# 猫又おかゆ
-[[playlist]] # https://www.youtube.com/playlist?list=PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR
-id = "PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR"
-tags = ["猫又おかゆ"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
