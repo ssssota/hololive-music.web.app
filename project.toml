@@ -57,6 +57,10 @@ tags = ["癒月ちょこ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL7EFb7T-o_1O4fE4frYhWI4toIh8q5LWH
 id = "PL7EFb7T-o_1O4fE4frYhWI4toIh8q5LWH"
 tags = ["百鬼あやめ"]
+# 紫咲シオン
+[[playlist]] # https://www.youtube.com/playlist?list=PLzYaEBSRCCt5kgnBdQkLM7yDDZt2_NIZG
+id = "PLzYaEBSRCCt5kgnBdQkLM7yDDZt2_NIZG"
+tags = ["紫咲シオン"]
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
 id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
