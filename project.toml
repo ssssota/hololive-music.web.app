@@ -69,6 +69,10 @@ tags = ["大空スバル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu
 id = "PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu"
 tags = ["大神ミオ"]
+# 不知火フレア
+[[playlist]] # https://www.youtube.com/playlist?list=PLBoFNGFmekcMIhlW5Z-umsS3VPnQx7tI8
+id = "PLBoFNGFmekcMIhlW5Z-umsS3VPnQx7tI8"
+tags = ["不知火フレア"]
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
 id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
