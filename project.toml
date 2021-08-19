@@ -155,6 +155,10 @@ tags = ["森美声"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH
 id = "PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH"
 tags = ["小鳥遊キアラ"]
+# 一伊那尓栖
+[[video]] # https://www.youtube.com/watch?v=8ZdLXELdF9Q
+id = "8ZdLXELdF9Q"
+tags = ["一伊那尓栖", "オリジナル"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
