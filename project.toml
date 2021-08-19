@@ -104,6 +104,10 @@ tags = ["天音かなた"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk
 id = "PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk"
 tags = ["桐生ココ"]
+# 角巻わため
+[[playlist]] # https://www.youtube.com/playlist?list=PLZ34fLWik_iAP2AdGLOHthUhAJTrEXqGb
+id = "PLZ34fLWik_iAP2AdGLOHthUhAJTrEXqGb"
+tags = ["角巻わため"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
