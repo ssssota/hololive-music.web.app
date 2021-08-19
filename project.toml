@@ -107,6 +107,22 @@ tags = ["大神ミオ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR
 id = "PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR"
 tags = ["猫又おかゆ"]
+# 戌神ころね
+[[video]] # https://www.youtube.com/watch?v=nks1I1sY53I
+id = "nks1I1sY53I"
+tags = ["戌神ころね", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=OGYu6Kj3bL0
+id = "OGYu6Kj3bL0"
+tags = ["戌神ころね"]
+[[video]] # https://www.youtube.com/watch?v=saizawXi4i0
+id = "saizawXi4i0"
+tags = ["戌神ころね"]
+[[video]] # https://www.youtube.com/watch?v=G49bAinM6Lc
+id = "G49bAinM6Lc"
+tags = ["戌神ころね"]
+[[video]] # https://www.youtube.com/watch?v=MiuFIzr8bR0
+id = "MiuFIzr8bR0"
+tags = ["戌神ころね"]
 # 不知火フレア
 [[playlist]] # https://www.youtube.com/playlist?list=PLBoFNGFmekcMIhlW5Z-umsS3VPnQx7tI8
 id = "PLBoFNGFmekcMIhlW5Z-umsS3VPnQx7tI8"
