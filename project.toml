@@ -53,7 +53,10 @@ tags = ["湊あくあ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_
 id = "PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_"
 tags = ["癒月ちょこ"]
-
+# 百鬼あやめ
+[[playlist]] # https://www.youtube.com/playlist?list=PL7EFb7T-o_1O4fE4frYhWI4toIh8q5LWH
+id = "PL7EFb7T-o_1O4fE4frYhWI4toIh8q5LWH"
+tags = ["百鬼あやめ"]
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
 id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
