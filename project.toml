@@ -159,6 +159,10 @@ tags = ["小鳥遊キアラ"]
 [[video]] # https://www.youtube.com/watch?v=8ZdLXELdF9Q
 id = "8ZdLXELdF9Q"
 tags = ["一伊那尓栖", "オリジナル"]
+# がうるぐら
+[[video]] # https://www.youtube.com/watch?v=WGgEFoI9MhE
+id = "WGgEFoI9MhE"
+tags = ["がうるぐら", "オリジナル"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
