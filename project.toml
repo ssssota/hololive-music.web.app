@@ -116,6 +116,13 @@ tags = ["常闇トワ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl
 id = "PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl"
 tags = ["雪花ラミィ"]
+# 桃鈴ねね
+[[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q
+id = "PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q"
+tags = ["桃鈴ねね"]
+[[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzF7QGobE077uQ6HogY8abWM
+id = "PLet0wKVboCzF7QGobE077uQ6HogY8abWM"
+tags = ["桃鈴ねね", "オリジナル"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
