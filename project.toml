@@ -163,6 +163,13 @@ tags = ["一伊那尓栖", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=WGgEFoI9MhE
 id = "WGgEFoI9MhE"
 tags = ["がうるぐら", "オリジナル"]
+# IRyS
+[[playlist]] # https://www.youtube.com/playlist?list=PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m
+id = "PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m"
+tags = ["IRyS"]
+[[playlist]] # https://www.youtube.com/playlist?list=PLpBqtLy3mHw07nf_D8u-g6a3_MdLWVdIc
+id = "PLpBqtLy3mHw07nf_D8u-g6a3_MdLWVdIc"
+tags = ["IRyS", "オリジナル"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
