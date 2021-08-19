@@ -37,6 +37,10 @@ tags = ["夏色まつり"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL43udV6iXTkCwnaFSjm3IAtggd7f12onJ
 id = "PL43udV6iXTkCwnaFSjm3IAtggd7f12onJ"
 tags = ["夜空メル"]
+# 赤井はあと
+[[playlist]] # https://www.youtube.com/playlist?list=PLQoA24ikdy_kFurrcDRRJufTwHo_Kv6ew
+id = "PLQoA24ikdy_kFurrcDRRJufTwHo_Kv6ew"
+tags = ["赤井はあと"]
 
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
