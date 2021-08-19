@@ -108,6 +108,10 @@ tags = ["桐生ココ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLZ34fLWik_iAP2AdGLOHthUhAJTrEXqGb
 id = "PLZ34fLWik_iAP2AdGLOHthUhAJTrEXqGb"
 tags = ["角巻わため"]
+# 常闇トワ
+[[playlist]] # https://www.youtube.com/playlist?list=PLIHyIgRAWkUz3MAUPbTg9XcuP_rzDJ1bk
+id = "PLIHyIgRAWkUz3MAUPbTg9XcuP_rzDJ1bk"
+tags = ["常闇トワ"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
