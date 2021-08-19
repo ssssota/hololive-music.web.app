@@ -112,6 +112,10 @@ tags = ["角巻わため"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLIHyIgRAWkUz3MAUPbTg9XcuP_rzDJ1bk
 id = "PLIHyIgRAWkUz3MAUPbTg9XcuP_rzDJ1bk"
 tags = ["常闇トワ"]
+# 雪花ラミィ
+[[playlist]] # https://www.youtube.com/playlist?list=PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl
+id = "PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl"
+tags = ["雪花ラミィ"]
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
