@@ -81,6 +81,10 @@ tags = ["宝鐘マリン"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL9jli3ZqRhJD13ORC2CUTEYnjeZt9KMPb
 id = "PL9jli3ZqRhJD13ORC2CUTEYnjeZt9KMPb"
 tags = ["兎田ぺこら"]
+# 潤羽るしあ
+[[playlist]] # https://www.youtube.com/playlist?list=PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb
+id = "PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb"
+tags = ["潤羽るしあ"]
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
 id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
