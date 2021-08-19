@@ -61,6 +61,10 @@ tags = ["百鬼あやめ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLzYaEBSRCCt5kgnBdQkLM7yDDZt2_NIZG
 id = "PLzYaEBSRCCt5kgnBdQkLM7yDDZt2_NIZG"
 tags = ["紫咲シオン"]
+# 大空スバル
+[[playlist]] # https://www.youtube.com/playlist?list=PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ
+id = "PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ"
+tags = ["大空スバル"]
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
 id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
