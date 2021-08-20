@@ -18,6 +18,9 @@ tags = ["ときのそら"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS
 id = "PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS"
 tags = ["AZKi"]
+[[video]] # https://www.youtube.com/watch?v=ekFreTJ3xx8
+id = "ekFreTJ3xx8"
+tags = ["AZKi", "尾丸ポルカ"]
 # ロボ子さん
 [[video]] # https://www.youtube.com/watch?v=yfEUPlRuPac
 id = "yfEUPlRuPac"
@@ -52,6 +55,9 @@ tags = ["ロボ子さん"]
 [[video]] # https://www.youtube.com/watch?v=QP-caiSnm2Q
 id = "QP-caiSnm2Q"
 tags = ["ロボ子さん", "アキ・ローゼンタール"]
+[[video]] # https://www.youtube.com/watch?v=ETckHHfH7EI
+id = "ETckHHfH7EI"
+tags = ["ロボ子さん"]
 # さくらみこ
 [[playlist]] # https://www.youtube.com/playlist?list=PLMF8NocLqJtubiccXUm9SCZ79dDPSLq2B
 id = "PLMF8NocLqJtubiccXUm9SCZ79dDPSLq2B"
@@ -63,6 +69,9 @@ tags = ["さくらみこ", "オリジナル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id
 id = "PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id"
 tags = ["白上フブキ"]
+[[video]] # https://www.youtube.com/watch?v=VCJTJX1kXe4
+id = "VCJTJX1kXe4"
+tags = ["白上フブキ", "夜空メル", "アキ・ローゼンタール", "赤井はあと", "夏色まつり"]
 # 夏色まつり
 [[playlist]] # https://www.youtube.com/playlist?list=PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa
 id = "PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa"
@@ -83,6 +92,9 @@ tags = ["アキ・ローゼンタール"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLUp1t9SPBl6r4nqsQBg7HH7fPX2l9AGQk
 id = "PLUp1t9SPBl6r4nqsQBg7HH7fPX2l9AGQk"
 tags = ["湊あくあ"]
+[[video]] # https://www.youtube.com/watch?v=jSUv29L6cgY
+id = "jSUv29L6cgY"
+tags = ["湊あくあ", "大空スバル", "桃鈴ねね", "NEGI☆U"]
 # 癒月ちょこ
 [[playlist]] # https://www.youtube.com/playlist?list=PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_
 id = "PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_"
@@ -99,6 +111,9 @@ tags = ["紫咲シオン"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ
 id = "PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ"
 tags = ["大空スバル"]
+[[video]] # https://www.youtube.com/watch?v=3QJD9iekpDQ
+id = "3QJD9iekpDQ"
+tags = ["大空スバル", "湊あくあ", "兎田ぺこら"]
 # 大神ミオ
 [[playlist]] # https://www.youtube.com/playlist?list=PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu
 id = "PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu"
@@ -152,10 +167,22 @@ tags = ["星街すいせい", "オリジナル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDakgakxbOxT9dAZD0rpwvXQ
 id = "PLAo9RlHR2tDakgakxbOxT9dAZD0rpwvXQ"
 tags = ["星街すいせい"]
+[[video]] # https://www.youtube.com/watch?v=xyXKJAZH_Pw
+id = "xyXKJAZH_Pw"
+tags = ["星街すいせい", "友人A"]
+[[video]] # https://www.youtube.com/watch?v=LYFciXBcXIQ
+id = "LYFciXBcXIQ"
+tags = ["星街すいせい"]
+[[video]] # https://www.youtube.com/watch?v=JiNIHQ28pGc
+id = "JiNIHQ28pGc"
+tags = ["星街すいせい"]
 # 天音かなた
 [[playlist]] # https://www.youtube.com/playlist?list=PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2
 id = "PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2"
 tags = ["天音かなた"]
+[[video]] # https://www.youtube.com/watch?v=k7cpjmkc1Rw
+id = "k7cpjmkc1Rw"
+tags = ["天音かなた", "桐生ココ", "角巻わため", "常闇トワ", "姫森ルーナ"]
 # 桐生ココ
 [[playlist]] # https://www.youtube.com/playlist?list=PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk
 id = "PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk"
@@ -164,6 +191,9 @@ tags = ["桐生ココ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLZ34fLWik_iAP2AdGLOHthUhAJTrEXqGb
 id = "PLZ34fLWik_iAP2AdGLOHthUhAJTrEXqGb"
 tags = ["角巻わため"]
+[[playlist]] # https://www.youtube.com/playlist?list=PLZ34fLWik_iBK39rTWRAs_G93pnUW3K-7
+id = "PLZ34fLWik_iBK39rTWRAs_G93pnUW3K-7"
+tags = ["角巻わため", "オリジナル"]
 # 常闇トワ
 [[playlist]] # https://www.youtube.com/playlist?list=PLIHyIgRAWkUz3MAUPbTg9XcuP_rzDJ1bk
 id = "PLIHyIgRAWkUz3MAUPbTg9XcuP_rzDJ1bk"
