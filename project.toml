@@ -103,6 +103,12 @@ tags = ["大空スバル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu
 id = "PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu"
 tags = ["大神ミオ"]
+[[video]] # https://www.youtube.com/watch?v=YPm9T622OX0
+id = "YPm9T622OX0"
+tags = ["大神ミオ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=cr9iLdXK9ik
+id = "cr9iLdXK9ik"
+tags = ["大神ミオ", "オリジナル"]
 # 猫又おかゆ
 [[playlist]] # https://www.youtube.com/playlist?list=PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR
 id = "PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR"
