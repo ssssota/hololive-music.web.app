@@ -4,7 +4,7 @@ description = "Hololiveタレントの歌ってみたまとめ"
 origin = "https://holomuses.github.io"
 ogimage = "/favicon.png"
 splashimage = "/favicon.png"
-color = "#74CFE2"
+color = "#50c5de"
 
 [[playlist]]
 id = "PL1NeGg1woXqkTks79_kSoxBrEKloB9SrI"
