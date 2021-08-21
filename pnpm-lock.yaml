@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@iarna/toml': ^2.2.5
   '@sveltejs/adapter-static': next
-  '@sveltejs/kit': 1.0.0-next.146
+  '@sveltejs/kit': next
   '@types/iarna__toml': ^2.0.2
   '@types/youtube-player': ^5.5.4
   '@typescript-eslint/eslint-plugin': ^4.29.1
@@ -35,7 +35,7 @@ dependencies:
 devDependencies:
   '@iarna/toml': 2.2.5
   '@sveltejs/adapter-static': 1.0.0-next.16
-  '@sveltejs/kit': 1.0.0-next.146_svelte@3.42.1
+  '@sveltejs/kit': 1.0.0-next.154_svelte@3.42.1
   '@types/iarna__toml': 2.0.2
   '@types/youtube-player': 5.5.4
   '@typescript-eslint/eslint-plugin': 4.29.1_d4376362794b743c19f4cba25c7fc6f5
@@ -147,24 +147,24 @@ packages:
     resolution: {integrity: sha512-xGFcg+GHF0BL1fyWx2vCzlYj4S4R+Od9cF00soo1TVp/scGOi1G9grSYYW4x5H+iDn1sscoJ65OGBGWIcOgrXg==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.146_svelte@3.42.1:
-    resolution: {integrity: sha512-MSatcaCRfjl88Prd5mW4pNOJ3Gsr525+Vjr24MoKtyTt6PZQmTfQsDVwyP93exn/6w2xl9uMCW6cFpDVBu7jSg==}
+  /@sveltejs/kit/1.0.0-next.154_svelte@3.42.1:
+    resolution: {integrity: sha512-3WqdmZyTwrAnPtFI5cNLXswGiCx934tfWckS6MLbOTlN6zGtex2H9A2WZKlXRhpxtIM8XqrYlGKr1qNDBmATWQ==}
     engines: {node: ^12.20 || >=14.13}
     hasBin: true
     peerDependencies:
-      svelte: ^3.34.0
+      svelte: ^3.39.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.17_svelte@3.42.1+vite@2.4.4
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.17_svelte@3.42.1+vite@2.5.0
       cheap-watch: 1.0.3
       sade: 1.7.4
       svelte: 3.42.1
-      vite: 2.4.4
+      vite: 2.5.0
     transitivePeerDependencies:
       - diff-match-patch
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.17_svelte@3.42.1+vite@2.4.4:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.17_svelte@3.42.1+vite@2.5.0:
     resolution: {integrity: sha512-Xh/YYqBMDJnDheutnGHk/I5TO6w9gZ2GMgvG+qQm/gpIRkaTLts6Mw5xDe6cac/nH/aVPPVPibhq2pf26d44fA==}
     engines: {node: ^12.20 || ^14.13.1 || >= 16}
     peerDependencies:
@@ -182,7 +182,7 @@ packages:
       require-relative: 0.8.7
       svelte: 3.42.1
       svelte-hmr: 0.14.7_svelte@3.42.1
-      vite: 2.4.4
+      vite: 2.5.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2063,9 +2063,9 @@ packages:
       extsprintf: 1.3.0
     dev: true
 
-  /vite/2.4.4:
-    resolution: {integrity: sha512-m1wK6pFJKmaYA6AeZIUXyiAgUAAJzVXhIMYCdZUpCaFMGps0v0IlNJtbmPvkUhVEyautalajmnW5X6NboUPsnw==}
-    engines: {node: '>=12.0.0'}
+  /vite/2.5.0:
+    resolution: {integrity: sha512-Dn4B+g54PJsMG5WCc4QeFy1ygMXRdTtFrUPegqfk4+vzVQcbF/DqqmI/1bxezArzbujBJg/67QeT5wz8edfJVQ==}
+    engines: {node: '>=12.2.0'}
     hasBin: true
     dependencies:
       esbuild: 0.12.17

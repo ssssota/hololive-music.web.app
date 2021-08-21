@@ -17,7 +17,7 @@
 	"devDependencies": {
 		"@iarna/toml": "^2.2.5",
 		"@sveltejs/adapter-static": "next",
-		"@sveltejs/kit": "1.0.0-next.146",
+		"@sveltejs/kit": "next",
 		"@types/iarna__toml": "^2.0.2",
 		"@types/youtube-player": "^5.5.4",
 		"@typescript-eslint/eslint-plugin": "^4.29.1",
