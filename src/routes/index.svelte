@@ -1,7 +1,7 @@
 <script lang="ts" context="module">
+	import { getShuffled } from '$lib/utils';
 	import type { Load } from '@sveltejs/kit';
 	import resources from '../resources.json';
-	import { getShuffled } from '$lib/utils';
 	import type { VideoInfo } from '../types';
 	export const load: Load = async () => ({
 		props: {
@@ -12,7 +12,6 @@
 </script>
 
 <script lang="ts">
-	import { slide } from 'svelte/transition';
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 	import Card from '$lib/card/Card.svelte';
@@ -20,18 +19,34 @@
 	import Header from '$lib/header/Header.svelte';
 	import Player from '$lib/player/Player.svelte';
 	import Splash from '$lib/splash/Splash.svelte';
-	import type { Project } from '../types';
-	import { derived, get } from 'svelte/store';
+	import HorizontalScroll from '$lib/horizontalscroll/HorizontalScroll.svelte';
+	import { currentTag } from '$lib/store/tag';
+	import Tags from '$lib/tags/Tags.svelte';
 	import { onDestroy } from 'svelte';
+	import { slide } from 'svelte/transition';
+	import { derived, get } from 'svelte/store';
+	import type { Project } from '../types';
 	export let videos: VideoInfo[];
 	export let project: Project;
 
 	let playingIndex: number | undefined;
 	let player: Player | null | undefined;
 
-	const currentTag = derived(page, ({ query }) =>
-		query.getAll('tag').filter((tag) => tag.trim() !== '')
-	);
+	const getAllTagsSortedByCount = (tags: string[]): string[] => {
+		const tagCountMap = videos
+			.map(({ tags }) => tags ?? [])
+			.reduce((acc, cur) => acc.concat(cur), [])
+			.filter((tag) => !tags.includes(tag))
+			.sort()
+			.reduce((acc: Record<string, number>, cur) => {
+				acc[cur] = (acc[cur] ?? 0) + 1;
+				return acc;
+			}, {});
+		const sorted = Object.entries(tagCountMap)
+			.sort(([_1, a], [_2, b]) => b - a)
+			.map(([tag]) => tag);
+		return [...tags, ...sorted];
+	};
 
 	const unsubscribe = currentTag.subscribe(() => {
 		playingIndex = undefined;
@@ -61,6 +76,12 @@
 
 <Splash imagePath={project.splashimage} color={project.color} />
 <Header title={project.title ?? 'YouTube Playlist'} backgroundColor={project.color} color="white" />
+
+<div class="tags" style="--background-color: {project.color ?? '#ffffff'};">
+	<HorizontalScroll>
+		<Tags tags={getAllTagsSortedByCount($currentTag)} color={project.color} />
+	</HorizontalScroll>
+</div>
 
 <main>
 	{#each $filtered as info (info.id)}
@@ -95,8 +116,10 @@
 		display: grid;
 		gap: 0;
 		grid-template-columns: repeat(auto-fit, minmax(min(400px, 100vw), 1fr));
+	}
 
-		min-height: 100vh;
+	.tags {
+		background-color: var(--background-color);
 	}
 
 	footer {

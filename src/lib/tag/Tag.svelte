@@ -30,6 +30,7 @@
 			display: inline-flex;
 			align-items: center;
 			justify-content: baseline;
+			white-space: nowrap;
 		}
 	}
 </style>
