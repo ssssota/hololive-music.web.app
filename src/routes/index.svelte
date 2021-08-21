@@ -43,7 +43,7 @@
 				return acc;
 			}, {});
 		const sorted = Object.entries(tagCountMap)
-			.sort(([_1, a], [_2, b]) => b - a)
+			.sort(([, a], [, b]) => b - a)
 			.map(([tag]) => tag);
 		return [...tags, ...sorted];
 	};

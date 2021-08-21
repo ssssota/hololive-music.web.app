@@ -2,7 +2,7 @@
 	import LinkedTag from '$lib/tag/LinkedTag.svelte';
 
 	export let tags: string[];
-	export let color: string = '#ffffff';
+	export let color = '#ffffff';
 </script>
 
 <ul>
