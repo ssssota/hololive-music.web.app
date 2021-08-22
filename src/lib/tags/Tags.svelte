@@ -17,6 +17,7 @@
 		list-style: none;
 
 		margin: 0;
+		padding: 0;
 		padding-bottom: 0.5rem;
 
 		display: inline-flex;
