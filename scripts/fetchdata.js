@@ -46,7 +46,13 @@ const main = async (tomlPath) => {
 		const videosRes = await fetchVideos(videoIds);
 		await Promise.all(
 			videosRes.map(async ({ id, snippet, status }) => {
-				if (status?.privacyStatus !== 'public' || id == null || snippet == null) return;
+				if (
+					status?.privacyStatus !== 'public' ||
+					!status.embeddable ||
+					id == null ||
+					snippet == null
+				)
+					return;
 				const thumbnail = snippet.thumbnails && getThumbnail(snippet.thumbnails);
 				const tags = [...new Set(idTagMap[id])] ?? [];
 				if (thumbnail == null) return;
