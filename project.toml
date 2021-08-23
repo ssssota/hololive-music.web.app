@@ -6,14 +6,98 @@ ogimage = "/favicon.png"
 splashimage = "/favicon.png"
 color = "#50c5de"
 
-[[playlist]]
-id = "PL1NeGg1woXqkTks79_kSoxBrEKloB9SrI"
-tags = ["official"]
-
+# 全体
+[[video]] # https://www.youtube.com/watch?v=O-SXhtYjprc
+id = "O-SXhtYjprc"
+tags = [
+	"ときのそら",
+	"ロボ子さん",
+	"夜空メル",
+	"アキ・ローゼンタール",
+	"赤井はあと",
+	"白上フブキ",
+	"夏色まつり",
+	"湊あくあ",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"大神ミオ",
+	"さくらみこ",
+	"猫又おかゆ",
+	"戌神ころね",
+	"兎田ぺこら",
+	"潤羽るしあ",
+	"宝鐘マリン",
+	"不知火フレア",
+	"白銀ノエル"
+]
+[[video]] # https://www.youtube.com/watch?v=68KV7JnrvDo
+id = "68KV7JnrvDo"
+tags = [
+	"ときのそら",
+	"ロボ子さん",
+	"夜空メル",
+	"アキ・ローゼンタール",
+	"赤井はあと",
+	"白上フブキ",
+	"夏色まつり",
+	"湊あくあ",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"AZKi",
+	"大神ミオ",
+	"さくらみこ",
+	"猫又おかゆ",
+	"戌神ころね",
+	"兎田ぺこら",
+	"潤羽るしあ",
+	"宝鐘マリン",
+	"不知火フレア",
+	"白銀ノエル",
+	"星街すいせい",
+	"オリジナル"
+]
+[[video]] # https://www.youtube.com/watch?v=RrsGNMMghKM
+id = "RrsGNMMghKM"
+tags = [
+	"ときのそら",
+	"ロボ子さん",
+	"夜空メル",
+	"アキ・ローゼンタール",
+	"赤井はあと",
+	"白上フブキ",
+	"夏色まつり",
+	"湊あくあ",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"AZKi",
+	"大神ミオ",
+	"さくらみこ",
+	"猫又おかゆ",
+	"戌神ころね",
+	"オリジナル"
+]
 # ときのそら
 [[playlist]] # https://www.youtube.com/playlist?list=PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ
 id = "PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ"
 tags = ["ときのそら"]
+[[video]] # https://www.youtube.com/watch?v=tiTnyZ5QLao
+id = "tiTnyZ5QLao"
+tags = ["ときのそら", "AZKi", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=rfONeeXgdCA
+id = "rfONeeXgdCA"
+tags = ["ときのそら", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=rbd-m8r5Ujs
+id = "rbd-m8r5Ujs"
+tags = ["ときのそら", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=0XW7d83XI_s
+id = "0XW7d83XI_s"
+tags = ["ときのそら", "オリジナル"]
 # AZKi
 [[playlist]] # https://www.youtube.com/playlist?list=PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS
 id = "PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS"
@@ -21,6 +105,15 @@ tags = ["AZKi"]
 [[video]] # https://www.youtube.com/watch?v=ekFreTJ3xx8
 id = "ekFreTJ3xx8"
 tags = ["AZKi", "尾丸ポルカ"]
+[[video]] # https://www.youtube.com/watch?v=QM20uZAv6kc
+id = "QM20uZAv6kc"
+tags = ["AZKi", "ときのそら"]
+[[video]] # https://www.youtube.com/watch?v=YcfZziSg0cg
+id = "YcfZziSg0cg"
+tags = ["AZKi", "天音かなた"]
+[[video]] # https://www.youtube.com/watch?v=k12oVF-o528
+id = "k12oVF-o528"
+tags = ["AZKi", "さくらみこ", "宝鐘マリン"]
 # ロボ子さん
 [[video]] # https://www.youtube.com/watch?v=yfEUPlRuPac
 id = "yfEUPlRuPac"
@@ -58,6 +151,18 @@ tags = ["ロボ子さん", "アキ・ローゼンタール"]
 [[video]] # https://www.youtube.com/watch?v=ETckHHfH7EI
 id = "ETckHHfH7EI"
 tags = ["ロボ子さん"]
+[[video]] # https://www.youtube.com/watch?v=6sHk3CYD-IA
+id = "6sHk3CYD-IA"
+tags = ["ロボ子さん", "アキ・ローゼンタール", "百鬼あやめ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=UYyzAlbcw8w
+id = "UYyzAlbcw8w"
+tags = ["ロボ子さん", "夜空メル", "アキ・ローゼンタール", "夏色まつり", "湊あくあ", "大神ミオ,さくらみこ", "不知火フレア", "常闇トワ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=Ciq_CDwmICU
+id = "Ciq_CDwmICU"
+tags = ["ロボ子さん", "夜空メル", "アキ・ローゼンタール", "湊あくあ", "不知火フレア", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=Mb2oMO-SK7w
+id = "Mb2oMO-SK7w"
+tags = ["ロボ子さん", "白上フブキ"]
 # さくらみこ
 [[playlist]] # https://www.youtube.com/playlist?list=PLMF8NocLqJtubiccXUm9SCZ79dDPSLq2B
 id = "PLMF8NocLqJtubiccXUm9SCZ79dDPSLq2B"
@@ -65,25 +170,86 @@ tags = ["さくらみこ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLMF8NocLqJttJCIiUCkNXx6jW4dAYfz5G
 id = "PLMF8NocLqJttJCIiUCkNXx6jW4dAYfz5G"
 tags = ["さくらみこ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=9nD7aQ_cKAM
+id = "9nD7aQ_cKAM"
+tags = ["さくらみこ", "兎田ぺこら", "宝鐘マリン", "夏色まつり"]
+[[video]] # https://www.youtube.com/watch?v=0yeg4XkzrMI
+id = "0yeg4XkzrMI"
+tags = ["さくらみこ", "白上フブキ"]
+[[video]] # https://www.youtube.com/watch?v=uRB1G0cKpIk
+id = "uRB1G0cKpIk"
+tags = ["さくらみこ", "兎田ぺこら", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=MkSkQBIhGus
+id = "MkSkQBIhGus"
+tags = ["さくらみこ", "戌神ころね"]
+# 1期生
+[[video]] # https://www.youtube.com/watch?v=VCJTJX1kXe4
+id = "VCJTJX1kXe4"
+tags = ["白上フブキ", "夜空メル", "アキ・ローゼンタール", "赤井はあと", "夏色まつり", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=mE_Q5vam910
+id = "mE_Q5vam910"
+tags = ["白上フブキ", "夜空メル", "アキ・ローゼンタール", "赤井はあと", "夏色まつり", "オリジナル"]
 # 白上フブキ
 [[playlist]] # https://www.youtube.com/playlist?list=PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id
 id = "PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id"
 tags = ["白上フブキ"]
-[[video]] # https://www.youtube.com/watch?v=VCJTJX1kXe4
-id = "VCJTJX1kXe4"
-tags = ["白上フブキ", "夜空メル", "アキ・ローゼンタール", "赤井はあと", "夏色まつり"]
+[[video]] # https://www.youtube.com/watch?v=pFgUluV_00s
+id = "pFgUluV_00s"
+tags = ["白上フブキ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=21AyxKg3-2M
+id = "21AyxKg3-2M"
+tags = ["白上フブキ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=K84w0Iai40k
+id = "K84w0Iai40k"
+tags = ["白上フブキ", "百鬼あやめ", "大神ミオ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=vyUYybXWtak
+id = "vyUYybXWtak"
+tags = ["白上フブキ", "夏色まつり", "紫咲シオン", "百鬼あやめ", "癒月ちょこ", "大空スバル", "兎田ぺこら", "宝鐘マリン", "天音かなた", "オリジナル"]
 # 夏色まつり
 [[playlist]] # https://www.youtube.com/playlist?list=PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa
 id = "PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa"
 tags = ["夏色まつり"]
+[[video]] # https://www.youtube.com/watch?v=llv_1-WEQGg
+id = "llv_1-WEQGg"
+tags = ["夏色まつり", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=Lhu7zb1hers
+id = "Lhu7zb1hers"
+tags = ["夏色まつり", "白上フブキ", "さくらみこ", "宝鐘マリン"]
+[[video]] # https://www.youtube.com/watch?v=x1BGG98tcrg
+id = "x1BGG98tcrg"
+tags = ["夏色まつり", "大神ミオ", "不知火フレア", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=trKQ_PG4Z98
+id = "trKQ_PG4Z98"
+tags = ["夏色まつり", "大空スバル", "さくらみこ", "白銀ノエル", "宝鐘マリン", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=kUxl0rkmD08
+id = "kUxl0rkmD08"
+tags = ["夏色まつり", "百鬼あやめ"]
+[[video]] # https://www.youtube.com/watch?v=z2pWWKSPofA
+id = "z2pWWKSPofA"
+tags = ["夏色まつり", "紫咲シオン"]
 # 夜空メル
 [[playlist]] # https://www.youtube.com/playlist?list=PL43udV6iXTkCwnaFSjm3IAtggd7f12onJ
 id = "PL43udV6iXTkCwnaFSjm3IAtggd7f12onJ"
 tags = ["夜空メル"]
+[[video]] # https://www.youtube.com/watch?v=t1yXDcuwzpY
+id = "t1yXDcuwzpY"
+tags = ["夜空メル", "紫咲シオン", "癒月ちょこ", "潤羽るしあ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=ix3WUx25xII
+id = "ix3WUx25xII"
+tags = ["夜空メル", "癒月ちょこ", "百鬼あやめ", "紫咲シオン", "潤羽るしあ"]
 # 赤井はあと
 [[playlist]] # https://www.youtube.com/playlist?list=PLQoA24ikdy_kFurrcDRRJufTwHo_Kv6ew
 id = "PLQoA24ikdy_kFurrcDRRJufTwHo_Kv6ew"
 tags = ["赤井はあと"]
+[[video]] # https://www.youtube.com/watch?v=A9HY4DsRTCg
+id = "A9HY4DsRTCg"
+tags = ["赤井はあと", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=CrbMV64PmPU
+id = "CrbMV64PmPU"
+tags = ["赤井はあと", "桃鈴ねね", "尾丸ポルカ", "どっきりラビリンス", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=d71E3pHzibw
+id = "d71E3pHzibw"
+tags = ["赤井はあと", "夏色まつり"]
 # アキ・ローゼンタール
 [[playlist]] # https://www.youtube.com/playlist?list=PLYt9gyZFZDj_e7p0saJXMghPsjmBMwyiO
 id = "PLYt9gyZFZDj_e7p0saJXMghPsjmBMwyiO"
@@ -95,6 +261,24 @@ tags = ["湊あくあ"]
 [[video]] # https://www.youtube.com/watch?v=jSUv29L6cgY
 id = "jSUv29L6cgY"
 tags = ["湊あくあ", "大空スバル", "桃鈴ねね", "NEGI☆U"]
+[[video]] # https://www.youtube.com/watch?v=tuWw5EQPGlc
+id = "tuWw5EQPGlc"
+tags = ["湊あくあ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=6bnaBnd4kyU
+id = "6bnaBnd4kyU"
+tags = ["湊あくあ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=gP8iNSq6Kwc
+id = "gP8iNSq6Kwc"
+tags = ["湊あくあ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=CZGFm-O5IOU
+id = "CZGFm-O5IOU"
+tags = ["湊あくあ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=m1mbRCgWO90
+id = "m1mbRCgWO90"
+tags = ["湊あくあ", "白上フブキ"]
+[[video]] # https://www.youtube.com/watch?v=SoSuMVviNaU
+id = "SoSuMVviNaU"
+tags = ["湊あくあ", "紫咲シオン"]
 # 癒月ちょこ
 [[playlist]] # https://www.youtube.com/playlist?list=PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_
 id = "PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_"
@@ -107,6 +291,9 @@ tags = ["百鬼あやめ"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLzYaEBSRCCt5kgnBdQkLM7yDDZt2_NIZG
 id = "PLzYaEBSRCCt5kgnBdQkLM7yDDZt2_NIZG"
 tags = ["紫咲シオン"]
+[[video]] # https://www.youtube.com/watch?v=pMNnZIz6YYM
+id = "pMNnZIz6YYM"
+tags = ["紫咲シオン", "オリジナル"]
 # 大空スバル
 [[playlist]] # https://www.youtube.com/playlist?list=PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ
 id = "PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ"
@@ -148,6 +335,15 @@ tags = ["戌神ころね"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLBoFNGFmekcMIhlW5Z-umsS3VPnQx7tI8
 id = "PLBoFNGFmekcMIhlW5Z-umsS3VPnQx7tI8"
 tags = ["不知火フレア"]
+[[video]] # https://www.youtube.com/watch?v=G4PT1phuM9M
+id = "G4PT1phuM9M"
+tags = ["不知火フレア", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=Hye06iM9640
+id = "Hye06iM9640"
+tags = ["不知火フレア", "天音かなた", "常闇トワ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=YVdA-QCcXYc
+id = "YVdA-QCcXYc"
+tags = ["不知火フレア", "白銀ノエル"]
 # 宝鐘マリン
 [[playlist]] # https://www.youtube.com/playlist?list=PLKo9UD3uKyyFUSwUDM5hCTB4fEvZqYs0P
 id = "PLKo9UD3uKyyFUSwUDM5hCTB4fEvZqYs0P"
@@ -156,6 +352,9 @@ tags = ["宝鐘マリン"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL9jli3ZqRhJD13ORC2CUTEYnjeZt9KMPb
 id = "PL9jli3ZqRhJD13ORC2CUTEYnjeZt9KMPb"
 tags = ["兎田ぺこら"]
+[[video]] # https://www.youtube.com/watch?v=ZRCzLtCsIQs
+id = "ZRCzLtCsIQs"
+tags = ["兎田ぺこら", "Moona Hoshinova"]
 # 潤羽るしあ
 [[playlist]] # https://www.youtube.com/playlist?list=PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb
 id = "PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb"
@@ -176,13 +375,19 @@ tags = ["星街すいせい"]
 [[video]] # https://www.youtube.com/watch?v=JiNIHQ28pGc
 id = "JiNIHQ28pGc"
 tags = ["星街すいせい"]
+[[video]] # https://www.youtube.com/watch?v=-wNSFmqhQsU
+id = "-wNSFmqhQsU"
+tags = ["星街すいせい", "不知火フレア", "宝鐘マリン", "兎田ぺこら", "潤羽るしあ", "白銀ノエル"]
 # 天音かなた
 [[playlist]] # https://www.youtube.com/playlist?list=PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2
 id = "PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2"
 tags = ["天音かなた"]
+[[video]] # https://www.youtube.com/watch?v=mcQs0iQE0bs
+id = "mcQs0iQE0bs"
+tags = ["天音かなた", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=k7cpjmkc1Rw
 id = "k7cpjmkc1Rw"
-tags = ["天音かなた", "桐生ココ", "角巻わため", "常闇トワ", "姫森ルーナ"]
+tags = ["天音かなた", "桐生ココ", "角巻わため", "常闇トワ", "姫森ルーナ", "オリジナル"]
 # 桐生ココ
 [[playlist]] # https://www.youtube.com/playlist?list=PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk
 id = "PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk"
@@ -198,10 +403,17 @@ tags = ["角巻わため", "オリジナル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLIHyIgRAWkUz3MAUPbTg9XcuP_rzDJ1bk
 id = "PLIHyIgRAWkUz3MAUPbTg9XcuP_rzDJ1bk"
 tags = ["常闇トワ"]
+# 姫森ルーナ
+[[video]] # https://www.youtube.com/watch?v=ue7mFSgBAH0
+id = "ue7mFSgBAH0"
+tags = ["ロボ子さん", "アキ・ローゼンタール", "姫森ルーナ"]
 # 雪花ラミィ
 [[playlist]] # https://www.youtube.com/playlist?list=PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl
 id = "PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl"
 tags = ["雪花ラミィ"]
+[[video]] # https://www.youtube.com/watch?v=3qkXc6zheig
+id = "3qkXc6zheig"
+tags = ["雪花ラミィ", "桃鈴ねね", "獅白ぼたん", "尾丸ポルカ", "オリジナル"]
 # 桃鈴ねね
 [[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q
 id = "PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q"
@@ -235,10 +447,36 @@ tags = ["獅白ぼたん", "桃鈴ねね", "尾丸ポルカ", "雪花ラミィ",
 [[playlist]] # https://www.youtube.com/playlist?list=PLWGY2acU-ZeTnH4EvPHYEcqCUx145dDUP
 id = "PLWGY2acU-ZeTnH4EvPHYEcqCUx145dDUP"
 tags = ["尾丸ポルカ"]
+[[video]] # https://www.youtube.com/watch?v=TGJ9-1LWFtE
+id = "TGJ9-1LWFtE"
+tags = ["尾丸ポルカ", "オリジナル"]
+# ID
+[[video]] # https://www.youtube.com/watch?v=lFQW5S_xH1o
+id = "lFQW5S_xH1o"
+tags = ["Ayunda Risu", "​Moona Hoshinova", "Airani Iofifteen", "Kureiji Ollie", "Anya Melfissa", "Pavolia Reine"]
+[[video]] # https://www.youtube.com/watch?v=lA6YSTkywto
+id = "lA6YSTkywto"
+tags = ["Ayunda Risu", "​Moona Hoshinova", "Airani Iofifteen", "Kureiji Ollie", "Anya Melfissa", "Pavolia Reine"]
+[[video]] # https://www.youtube.com/watch?v=Wp90CrP-s_8
+id = "Wp90CrP-s_8"
+tags = ["Ayunda Risu", "​Moona Hoshinova", "Airani Iofifteen", "Kureiji Ollie", "Anya Melfissa", "Pavolia Reine"]
+# ID1
+[[video]] # https://www.youtube.com/watch?v=uf9YfzyLG2Q
+id = "uf9YfzyLG2Q"
+tags = ["Ayunda Risu", "​Moona Hoshinova", "Airani Iofifteen"]
+[[video]] # https://www.youtube.com/watch?v=vpViBoIVrk0
+id = "vpViBoIVrk0"
+tags = ["Ayunda Risu", "​Moona Hoshinova", "Airani Iofifteen"]
 # Ayunda Risu
 [[playlist]] # https://www.youtube.com/playlist?list=PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH
 id = "PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH"
 tags = ["Ayunda Risu"]
+[[video]] # https://www.youtube.com/watch?v=euBur-z_lmk
+id = "euBur-z_lmk"
+tags = ["Ayunda Risu", "Pavolia Reine"]
+[[video]] # https://www.youtube.com/watch?v=Dx-_i0RWwNc
+id = "Dx-_i0RWwNc"
+tags = ["Ayunda Risu", "Pavolia Reine"]
 # Moona Hoshinova
 [[playlist]] # https://www.youtube.com/playlist?list=PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt
 id = "PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt"
@@ -263,10 +501,43 @@ tags = ["Pavolia Reine"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4
 id = "PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4"
 tags = ["森美声"]
+[[video]] # https://www.youtube.com/watch?v=VNU2BDdgPZ8
+id = "VNU2BDdgPZ8"
+tags = ["森美声", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=3RxlzJWWzdY
+id = "3RxlzJWWzdY"
+tags = ["森美声", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=6ydgEipkUEU
+id = "6ydgEipkUEU"
+tags = ["森美声", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=-AuQZrUHjhg
+id = "-AuQZrUHjhg"
+tags = ["森美声", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=VYu3PvRPZR8
+id = "VYu3PvRPZR8"
+tags = ["森美声", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=h-LOlueKCtk
+id = "h-LOlueKCtk"
+tags = ["森美声", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=_M-6lkoi6L4
+id = "_M-6lkoi6L4"
+tags = ["森美声", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=5y3xh8gs24c
+id = "5y3xh8gs24c"
+tags = ["森美声", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=vz7JIBvAFqM
+id = "vz7JIBvAFqM"
+tags = ["森美声", "オリジナル"]
 # 小鳥遊キアラ
 [[playlist]] # https://www.youtube.com/playlist?list=PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH
 id = "PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH"
 tags = ["小鳥遊キアラ"]
+[[video]] # https://www.youtube.com/watch?v=Lq9eqHDKJPE
+id = "Lq9eqHDKJPE"
+tags = ["小鳥遊キアラ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=eDfMDkgheQY
+id = "eDfMDkgheQY"
+tags = ["小鳥遊キアラ", "オリジナル"]
 # 一伊那尓栖
 [[video]] # https://www.youtube.com/watch?v=8ZdLXELdF9Q
 id = "8ZdLXELdF9Q"
@@ -275,6 +546,12 @@ tags = ["一伊那尓栖", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=WGgEFoI9MhE
 id = "WGgEFoI9MhE"
 tags = ["がうるぐら", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=C5IIoZsci8Y
+id = "C5IIoZsci8Y"
+tags = ["がうるぐら", "小鳥遊キアラ"]
+[[video]] # https://www.youtube.com/watch?v=2ys9IS5r9yA
+id = "2ys9IS5r9yA"
+tags = ["がうるぐら", "夏色まつり"]
 # IRyS
 [[playlist]] # https://www.youtube.com/playlist?list=PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m
 id = "PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m"
