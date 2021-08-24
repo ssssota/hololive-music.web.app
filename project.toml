@@ -98,10 +98,16 @@ tags = ["ときのそら", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=0XW7d83XI_s
 id = "0XW7d83XI_s"
 tags = ["ときのそら", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=G9SWOk2J6aw
+id = "G9SWOk2J6aw"
+tags = ["ときのそら", "さくらみこ", "夜空メル", "ロボ子さん", "大空スバル", "AZKi"]
 # AZKi
 [[playlist]] # https://www.youtube.com/playlist?list=PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS
 id = "PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS"
 tags = ["AZKi"]
+[[playlist]] # https://www.youtube.com/playlist?list=PLpt61bADOMwW2aA9I1hWHyR8OixSuCXzc
+id = "PLpt61bADOMwW2aA9I1hWHyR8OixSuCXzc"
+tags = ["AZKi", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=ekFreTJ3xx8
 id = "ekFreTJ3xx8"
 tags = ["AZKi", "尾丸ポルカ"]
@@ -559,6 +565,10 @@ tags = ["IRyS"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLpBqtLy3mHw07nf_D8u-g6a3_MdLWVdIc
 id = "PLpBqtLy3mHw07nf_D8u-g6a3_MdLWVdIc"
 tags = ["IRyS", "オリジナル"]
+
+# fallback
+[[playlist]] # https://www.youtube.com/playlist?list=PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92
+id = "PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92"
 
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
