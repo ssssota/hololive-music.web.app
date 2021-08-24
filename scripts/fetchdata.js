@@ -82,6 +82,8 @@ const main = async (tomlPath) => {
 			videos: Object.values(videos)
 		})
 	);
+
+	console.log(`Complete with ${Object.keys(videos).length} videos!!!`);
 };
 
 main(process.argv[2])
