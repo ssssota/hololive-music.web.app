@@ -9,11 +9,8 @@
 	export let color = '#ffffff';
 
 	const getSpecTagUrl = (tags: string[]) => {
-		const { path, host } = get(page);
-		const url = new URL(browser ? location.origin : `https://${host}`);
-		url.pathname = browser ? location.pathname : path;
-		tags.forEach((tag) => url.searchParams.append('tag', tag));
-		return url.href;
+		const param = new URLSearchParams(tags.map((tag) => ['tag', tag])).toString();
+		return param === '' ? $page.path : `${$page.path}?${param}`;
 	};
 </script>
 
