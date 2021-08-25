@@ -49,6 +49,10 @@
 	}
 	.scroll {
 		overflow-x: auto;
+		scrollbar-width: none;
+		&::-webkit-scrollbar {
+			height: 0;
+		}
 	}
 	button {
 		position: absolute;
