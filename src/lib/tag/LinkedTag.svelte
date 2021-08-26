@@ -1,7 +1,5 @@
 <script lang="ts">
-	import { browser } from '$app/env';
 	import { page } from '$app/stores';
-	import { get } from 'svelte/store';
 	import Tag from './Tag.svelte';
 	import { currentTag } from '$lib/store/tag';
 
