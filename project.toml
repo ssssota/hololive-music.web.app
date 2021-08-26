@@ -456,6 +456,12 @@ tags = ["尾丸ポルカ"]
 [[video]] # https://www.youtube.com/watch?v=TGJ9-1LWFtE
 id = "TGJ9-1LWFtE"
 tags = ["尾丸ポルカ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=LQ_eazT56FA
+id = "LQ_eazT56FA"
+tags = ["尾丸ポルカ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=vbhgQ_C_jaM
+id = "vbhgQ_C_jaM"
+tags = ["尾丸ポルカ", "オリジナル"]
 # ID
 [[video]] # https://www.youtube.com/watch?v=lFQW5S_xH1o
 id = "lFQW5S_xH1o"
