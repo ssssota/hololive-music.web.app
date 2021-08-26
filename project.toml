@@ -542,6 +542,9 @@ tags = ["森美声", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=vz7JIBvAFqM
 id = "vz7JIBvAFqM"
 tags = ["森美声", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=PluDFsVo3z0
+id = "PluDFsVo3z0"
+tags = ["森美声", "オリジナル"]
 # 小鳥遊キアラ
 [[playlist]] # https://www.youtube.com/playlist?list=PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH
 id = "PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH"
