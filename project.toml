@@ -384,6 +384,10 @@ tags = ["星街すいせい"]
 [[video]] # https://www.youtube.com/watch?v=-wNSFmqhQsU
 id = "-wNSFmqhQsU"
 tags = ["星街すいせい", "不知火フレア", "宝鐘マリン", "兎田ぺこら", "潤羽るしあ", "白銀ノエル"]
+# 4期生
+[[video]] # https://www.youtube.com/watch?v=k7cpjmkc1Rw
+id = "k7cpjmkc1Rw"
+tags = ["天音かなた", "桐生ココ", "角巻わため", "常闇トワ", "姫森ルーナ", "オリジナル"]
 # 天音かなた
 [[playlist]] # https://www.youtube.com/playlist?list=PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2
 id = "PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2"
@@ -391,9 +395,6 @@ tags = ["天音かなた"]
 [[video]] # https://www.youtube.com/watch?v=mcQs0iQE0bs
 id = "mcQs0iQE0bs"
 tags = ["天音かなた", "オリジナル"]
-[[video]] # https://www.youtube.com/watch?v=k7cpjmkc1Rw
-id = "k7cpjmkc1Rw"
-tags = ["天音かなた", "桐生ココ", "角巻わため", "常闇トワ", "姫森ルーナ", "オリジナル"]
 # 桐生ココ
 [[playlist]] # https://www.youtube.com/playlist?list=PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk
 id = "PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk"
@@ -413,27 +414,10 @@ tags = ["常闇トワ"]
 [[video]] # https://www.youtube.com/watch?v=ue7mFSgBAH0
 id = "ue7mFSgBAH0"
 tags = ["ロボ子さん", "アキ・ローゼンタール", "姫森ルーナ"]
-# 雪花ラミィ
-[[playlist]] # https://www.youtube.com/playlist?list=PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl
-id = "PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl"
-tags = ["雪花ラミィ"]
+# 5期生
 [[video]] # https://www.youtube.com/watch?v=3qkXc6zheig
 id = "3qkXc6zheig"
 tags = ["雪花ラミィ", "桃鈴ねね", "獅白ぼたん", "尾丸ポルカ", "オリジナル"]
-# 桃鈴ねね
-[[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q
-id = "PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q"
-tags = ["桃鈴ねね"]
-[[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzF7QGobE077uQ6HogY8abWM
-id = "PLet0wKVboCzF7QGobE077uQ6HogY8abWM"
-tags = ["桃鈴ねね", "オリジナル"]
-# 獅白ぼたん
-[[video]] # https://www.youtube.com/watch?v=npVP58NvdQ8
-id = "npVP58NvdQ8"
-tags = ["獅白ぼたん", "オリジナル"]
-[[video]] # https://www.youtube.com/watch?v=o14s6S0k5qw
-id = "o14s6S0k5qw"
-tags = ["獅白ぼたん"]
 [[video]] # https://www.youtube.com/watch?v=cYfUaHljuKg
 id = "cYfUaHljuKg"
 tags = ["獅白ぼたん", "桃鈴ねね", "尾丸ポルカ", "雪花ラミィ"]
@@ -449,6 +433,24 @@ tags = ["獅白ぼたん", "桃鈴ねね", "尾丸ポルカ", "雪花ラミィ"]
 [[video]] # https://www.youtube.com/watch?v=IixAr5W3TIc
 id = "IixAr5W3TIc"
 tags = ["獅白ぼたん", "桃鈴ねね", "尾丸ポルカ", "雪花ラミィ", "魔乃アロエ"]
+# 雪花ラミィ
+[[playlist]] # https://www.youtube.com/playlist?list=PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl
+id = "PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl"
+tags = ["雪花ラミィ"]
+# 桃鈴ねね
+[[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q
+id = "PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q"
+tags = ["桃鈴ねね"]
+[[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzF7QGobE077uQ6HogY8abWM
+id = "PLet0wKVboCzF7QGobE077uQ6HogY8abWM"
+tags = ["桃鈴ねね", "オリジナル"]
+# 獅白ぼたん
+[[video]] # https://www.youtube.com/watch?v=npVP58NvdQ8
+id = "npVP58NvdQ8"
+tags = ["獅白ぼたん", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=o14s6S0k5qw
+id = "o14s6S0k5qw"
+tags = ["獅白ぼたん"]
 # 尾丸ポルカ
 [[playlist]] # https://www.youtube.com/playlist?list=PLWGY2acU-ZeTnH4EvPHYEcqCUx145dDUP
 id = "PLWGY2acU-ZeTnH4EvPHYEcqCUx145dDUP"
