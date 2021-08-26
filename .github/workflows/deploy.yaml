@@ -17,14 +17,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v2.0.1
-        with:
-          version: 6.14.3
-          run_install: true
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.14.3
+          run_install: true
       - name: Fetch resources
         run: pnpm fetch:ci
         env:
