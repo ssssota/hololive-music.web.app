@@ -3,6 +3,7 @@
 	import { createEventDispatcher } from 'svelte';
 	export let info: VideoInfo;
 	export let playingVideoId: string | undefined;
+	export let lazyLoading = false;
 
 	let isPlaying = playingVideoId === info.id;
 	$: isPlaying = playingVideoId === info.id;
@@ -27,7 +28,12 @@
 	on:click={() => dispatch('click')}
 >
 	<div class="img-wrapper" style="--cover-width: {coverWidth}; --cover-height: {coverHeight}">
-		<img src={info.thumbnail.url ?? ''} alt="「{info.title}」のサムネイル" style={imgStyle} />
+		<img
+			src={info.thumbnail.url ?? ''}
+			alt="「{info.title}」のサムネイル"
+			style={imgStyle}
+			loading={lazyLoading ? 'lazy' : 'auto'}
+		/>
 	</div>
 </button>
 

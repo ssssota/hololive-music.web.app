@@ -84,7 +84,7 @@
 </div>
 
 <main>
-	{#each $filtered as info (info.id)}
+	{#each $filtered as info, index (info.id)}
 		{#if playingIndex != null && $filtered[playingIndex].id === info.id}
 			<Player
 				bind:this={player}
@@ -98,6 +98,7 @@
 		{:else}
 			<Card
 				{info}
+				lazyLoading={index >= 12}
 				playingVideoId={playingIndex == null ? undefined : $filtered[playingIndex].id}
 				on:click={() => (playingIndex = $filtered.findIndex(({ id }) => id === info.id))}
 			/>
