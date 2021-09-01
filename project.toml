@@ -577,7 +577,7 @@ id = "2ys9IS5r9yA"
 tags = ["がうるぐら", "夏色まつり"]
 [[video]] # https://www.youtube.com/watch?v=qNIhngowViI
 id = "qNIhngowViI"
-tas = ["がうるぐら", "森美声"]
+tags = ["がうるぐら", "森美声"]
 # IRyS
 [[playlist]] # https://www.youtube.com/playlist?list=PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m
 id = "PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m"
