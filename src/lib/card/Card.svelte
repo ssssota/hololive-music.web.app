@@ -1,4 +1,5 @@
 <script lang="ts">
+	import VisuallyHidden from '$lib/visuallyhidden/VisuallyHidden.svelte';
 	import type { VideoInfo } from 'src/types';
 	import { createEventDispatcher } from 'svelte';
 	export let info: VideoInfo;
@@ -27,6 +28,7 @@
 	style="--background-color: {info.color}; --brightness: {brightness}"
 	on:click={() => dispatch('click')}
 >
+	<VisuallyHidden>{info.title}</VisuallyHidden>
 	<div class="img-wrapper" style="--cover-width: {coverWidth}; --cover-height: {coverHeight}">
 		<img
 			src={info.thumbnail.url ?? ''}
