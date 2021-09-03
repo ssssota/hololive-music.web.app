@@ -40,6 +40,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"firebase": "^9.0.1",
 		"googleapis": "^84.0.0",
 		"url-regex": "^5.0.0",
 		"youtube-player": "^5.5.2"

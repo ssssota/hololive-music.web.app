@@ -9,7 +9,7 @@
 	<h1>{title}</h1>
 	<section>
 		<a
-			href="https://github.com/holomuses/holomuses.github.io"
+			href="https://github.com/holomuses/hololive-music.web.app"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
