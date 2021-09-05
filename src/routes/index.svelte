@@ -56,11 +56,6 @@
 	const filtered = derived(currentTag, (t) =>
 		videos.filter(({ tags }) => t.every((tag) => tags != null && tags.includes(tag)))
 	);
-
-	$: if (player != null && playingIndex != null) {
-		const id = get(filtered)[playingIndex].id;
-		if (id != null) player.loadVideoById(id);
-	}
 </script>
 
 <svelte:head>
@@ -93,6 +88,10 @@
 						// video ended
 						playingIndex = playingIndex == null ? undefined : (playingIndex + 1) % $filtered.length;
 					}
+				}}
+				options={{
+					videoId: info.id,
+					playerVars: { playsinline: 1, autoplay: 1 }
 				}}
 			/>
 		{:else}
