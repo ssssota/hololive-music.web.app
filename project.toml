@@ -517,6 +517,10 @@ tags = ["Anya Melfissa"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC
 id = "PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC"
 tags = ["Pavolia Reine"]
+# EN
+[[video]] # https://www.youtube.com/watch?v=I1cdQp5uz5s
+id = "I1cdQp5uz5s"
+tags = ["森カリオペ", "小鳥遊キアラ", "一伊那尓栖", "がうるぐら", "ワトソン・アメリア"]
 # 森カリオペ
 [[playlist]] # https://www.youtube.com/playlist?list=PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4
 id = "PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4"
