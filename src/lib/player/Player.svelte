@@ -19,6 +19,7 @@
 
 	onMount(async () => {
 		if (!iframe) throw new Error('Svelte Error');
+		wrapper.scrollIntoView({ behavior: 'smooth', block: 'center' });
 		player = createYouTubePlayer(iframe, options);
 		player.on('ready', () => dispatch('ready'));
 		player.on('error', (e) => dispatch('error', e));
