@@ -1,14 +1,18 @@
 <script lang="ts" context="module">
-	import { getShuffled } from '$lib/utils';
 	import type { Load } from '@sveltejs/kit';
-	import resources from '../resources.json';
 	import type { VideoInfo } from '../types';
-	export const load: Load = async () => ({
-		props: {
-			videos: getShuffled(resources.videos),
-			project: resources.project
-		}
-	});
+	export const load: Load = async ({ fetch }) => {
+		const [videos, project] = await Promise.all([
+			fetch('/videos').then((res) => res.json()),
+			fetch('/project').then((res) => res.json())
+		]);
+		return {
+			props: {
+				videos,
+				project
+			}
+		};
+	};
 </script>
 
 <script lang="ts">
@@ -24,16 +28,16 @@
 	import Tags from '$lib/tags/Tags.svelte';
 	import { onDestroy } from 'svelte';
 	import { slide } from 'svelte/transition';
-	import { derived, get } from 'svelte/store';
+	import { derived } from 'svelte/store';
 	import type { Project } from '../types';
-	export let videos: VideoInfo[];
+	export let videos: Record<string, VideoInfo>;
 	export let project: Project;
 
-	let playingIndex: number | undefined;
+	let playingId: string | undefined;
 	let player: Player | null | undefined;
 
 	const getAllTagsSortedByCount = (tags: string[]): string[] => {
-		const tagCountMap = videos
+		const tagCountMap = Object.values(videos)
 			.map(({ tags }) => tags ?? [])
 			.reduce((acc, cur) => acc.concat(cur), [])
 			.filter((tag) => !tags.includes(tag))
@@ -49,12 +53,16 @@
 	};
 
 	const unsubscribe = currentTag.subscribe(() => {
-		playingIndex = undefined;
+		playingId = undefined;
 	});
 	onDestroy(unsubscribe);
 
 	const filtered = derived(currentTag, (t) =>
-		videos.filter(({ tags }) => t.every((tag) => tags != null && tags.includes(tag)))
+		Object.fromEntries(
+			Object.entries(videos).filter(([, { tags }]) =>
+				t.every((tag) => tags != null && tags.includes(tag))
+			)
+		)
 	);
 </script>
 
@@ -79,14 +87,18 @@
 </div>
 
 <main>
-	{#each $filtered as info, index (info.id)}
-		{#if playingIndex != null && $filtered[playingIndex].id === info.id}
+	{#each Object.entries($filtered) as [id, info], index (id)}
+		{#if playingId != null && playingId === id}
 			<Player
 				bind:this={player}
 				on:statechange={(e) => {
 					if (e.detail === 0) {
 						// video ended
-						playingIndex = playingIndex == null ? undefined : (playingIndex + 1) % $filtered.length;
+						const videoIds = Object.keys($filtered);
+						playingId =
+							playingId == null
+								? undefined
+								: videoIds[(videoIds.indexOf(playingId) + 1) % videoIds.length];
 					}
 				}}
 				options={{
@@ -98,16 +110,16 @@
 			<Card
 				{info}
 				lazyLoading={index >= 12}
-				playingVideoId={playingIndex == null ? undefined : $filtered[playingIndex].id}
-				on:click={() => (playingIndex = $filtered.findIndex(({ id }) => id === info.id))}
+				playingVideoId={playingId}
+				on:click={() => (playingId = id)}
 			/>
 		{/if}
 	{/each}
 </main>
 
-{#if playingIndex != null}
+{#if playingId != null}
 	<footer transition:slide>
-		<Controls currentVideo={$filtered[playingIndex]} on:close={() => (playingIndex = undefined)} />
+		<Controls currentVideo={$filtered[playingId]} on:close={() => (playingId = undefined)} />
 	</footer>
 {/if}
 
