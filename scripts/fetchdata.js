@@ -29,7 +29,7 @@ const main = async (tomlPath) => {
 	/** @type {Record<string, import('../src/types').VideoInfo>} */
 	const videos = {};
 
-	for (const playlist of project.playlist) {
+	for (const playlist of project.playlist ?? []) {
 		const videosInPlaylist = await fetchPlaylist(playlist.id);
 		const tags = playlist.tags ?? [];
 		videosInPlaylist.forEach(({ resourceId }) => {

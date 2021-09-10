@@ -1,0 +1,91 @@
+[project]
+title = "Holomuses"
+description = "Hololiveタレントの歌ってみたまとめ"
+origin = "https://holomuses.github.io"
+ogimage = "/favicon.png"
+splashimage = "/favicon.png"
+color = "#50c5de"
+
+# 全体
+[[video]] # https://www.youtube.com/watch?v=O-SXhtYjprc
+id = "O-SXhtYjprc"
+tags = [
+	"ときのそら",
+	"ロボ子さん",
+	"夜空メル",
+	"アキ・ローゼンタール",
+	"赤井はあと",
+	"白上フブキ",
+	"夏色まつり",
+	"湊あくあ",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"大神ミオ",
+	"さくらみこ",
+	"猫又おかゆ",
+	"戌神ころね",
+	"兎田ぺこら",
+	"潤羽るしあ",
+	"宝鐘マリン",
+	"不知火フレア",
+	"白銀ノエル"
+]
+[[video]] # https://www.youtube.com/watch?v=68KV7JnrvDo
+id = "68KV7JnrvDo"
+tags = [
+	"ときのそら",
+	"ロボ子さん",
+	"夜空メル",
+	"アキ・ローゼンタール",
+	"赤井はあと",
+	"白上フブキ",
+	"夏色まつり",
+	"湊あくあ",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"AZKi",
+	"大神ミオ",
+	"さくらみこ",
+	"猫又おかゆ",
+	"戌神ころね",
+	"兎田ぺこら",
+	"潤羽るしあ",
+	"宝鐘マリン",
+	"不知火フレア",
+	"白銀ノエル",
+	"星街すいせい",
+	"オリジナル"
+]
+[[video]] # https://www.youtube.com/watch?v=RrsGNMMghKM
+id = "RrsGNMMghKM"
+tags = [
+	"ときのそら",
+	"ロボ子さん",
+	"夜空メル",
+	"アキ・ローゼンタール",
+	"赤井はあと",
+	"白上フブキ",
+	"夏色まつり",
+	"湊あくあ",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"AZKi",
+	"大神ミオ",
+	"さくらみこ",
+	"猫又おかゆ",
+	"戌神ころね",
+	"オリジナル"
+]
+# https://www.hololive.tv/terms
+# 音楽利用に関するガイドラインの対象外となる楽曲について
+# hololive IDOL PROJECT／キラメキライダー☆
+[[ignore]]
+id = "0o3VrBLh8jI"
+[[ignore]]
+id = "rDSIUPkuM7U"

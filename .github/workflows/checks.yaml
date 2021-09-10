@@ -27,7 +27,7 @@ jobs:
         run: pnpm install
       - name: Lint Check
         run: pnpm lint
-      - run: pnpm fetch:dummy
+      - run: pnpm fetch-dummy:ci
       - name: Svelte Check
         run: pnpm check
       - name: Build Check
