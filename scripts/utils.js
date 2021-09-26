@@ -33,3 +33,20 @@ export const splitArrayIntoChunk = (arr, count) =>
 	Array(Math.ceil(arr.length / count))
 		.fill(0)
 		.map((_, i) => arr.slice(i * count, i * count + count));
+
+/**
+ * @template T
+ * @param {T[]} arr
+ * @returns {T[]}
+ */
+export const getShuffled = (arr) => {
+	const copied = [...arr];
+	let i = arr.length;
+	while (i > 0) {
+		const rnd = Math.floor(Math.random() * i--);
+		const tmp = copied[rnd];
+		copied[rnd] = copied[i];
+		copied[i] = tmp;
+	}
+	return copied;
+};
