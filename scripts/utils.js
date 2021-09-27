@@ -50,3 +50,10 @@ export const getShuffled = (arr) => {
 	}
 	return copied;
 };
+
+/**
+ * @template T
+ * @param {(T | null | undefined)[]} arr
+ * @returns {T[]}
+ */
+export const removeDuplicate = (...arr) => [...new Set(arr.filter((v) => v != null))];
