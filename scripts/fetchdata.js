@@ -83,17 +83,22 @@ const main = async (tomlPath) => {
 		);
 	}
 
+	const videoList = Object.values(videos);
 	await writeFile(
 		resolve(__dirname, '..', 'src', 'resources.json'),
 		JSON.stringify({
 			project: project.project,
-			videos: getShuffled(Object.values(videos))
+			videos: getShuffled(videoList)
 		})
 	);
 
 	console.log(`Complete with ${Object.keys(videos).length} videos!!!`);
 	if (duplicateDefinitions.length > 0)
 		console.warn(`Duplicate definitions found: ${duplicateDefinitions.join(', ')}`);
+
+	const notagVideos = videoList.filter(({ tags }) => tags.length === 0);
+	if (notagVideos.length > 0)
+		console.warn(`No tag video found: ${notagVideos.map(({ id }) => id).join(', ')}`);
 };
 
 main(process.argv[2])
