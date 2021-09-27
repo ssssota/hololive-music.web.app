@@ -121,6 +121,12 @@ tags = ["AZKi", "天音かなた"]
 id = "k12oVF-o528"
 tags = ["AZKi", "さくらみこ", "宝鐘マリン"]
 # ロボ子さん
+[[video]] # https://www.youtube.com/watch?v=UXuMSLOUhgs
+id = "UXuMSLOUhgs"
+tags = ["ロボ子さん", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=5A_RqpENxvg
+id = "5A_RqpENxvg"
+tags = ["ロボ子さん", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=yfEUPlRuPac
 id = "yfEUPlRuPac"
 tags = ["ロボ子さん", "友人A"]
@@ -218,6 +224,9 @@ tags = ["白上フブキ", "夏色まつり", "紫咲シオン", "百鬼あや�
 [[playlist]] # https://www.youtube.com/playlist?list=PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa
 id = "PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa"
 tags = ["夏色まつり"]
+[[video]] # https://www.youtube.com/watch?v=-ivI-Vb920I
+id = "-ivI-Vb920I"
+tags = ["夏色まつり", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=llv_1-WEQGg
 id = "llv_1-WEQGg"
 tags = ["夏色まつり", "オリジナル"]
@@ -291,10 +300,16 @@ tags = ["湊あくあ", "紫咲シオン"]
 [[video]] # https://www.youtube.com/watch?v=
 id = "j7pM4M9tO70"
 tags = ["湊あくあ", "紫咲シオン"]
+[[video]] # https://www.youtube.com/watch?v=MKEb-Ox1KEw
+id = "MKEb-Ox1KEw"
+tags = ["湊あくあ", "宝鐘マリン", "がうるぐら", "一伊那尓栖", "オリジナル"]
 # 癒月ちょこ
 [[playlist]] # https://www.youtube.com/playlist?list=PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_
 id = "PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_"
 tags = ["癒月ちょこ"]
+[[video]] # https://www.youtube.com/watch?v=njeUgc0a5ko
+id = "njeUgc0a5ko"
+tags = ["癒月ちょこ", "オリジナル"]
 # 百鬼あやめ
 [[playlist]] # https://www.youtube.com/playlist?list=PL7EFb7T-o_1O4fE4frYhWI4toIh8q5LWH
 id = "PL7EFb7T-o_1O4fE4frYhWI4toIh8q5LWH"
@@ -374,6 +389,10 @@ tags = ["兎田ぺこら", "Moona Hoshinova"]
 [[playlist]] # https://www.youtube.com/playlist?list=PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb
 id = "PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb"
 tags = ["潤羽るしあ"]
+# 白銀ノエル
+[[video]] # https://www.youtube.com/watch?v=LMYIam2RFkg
+id = "LMYIam2RFkg"
+tags = ["白銀ノエル", "オリジナル"]
 # 星街すいせい
 [[playlist]] # https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd
 id = "PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
@@ -520,6 +539,9 @@ tags = ["Anya Melfissa"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC
 id = "PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC"
 tags = ["Pavolia Reine"]
+[[video]] # https://www.youtube.com/watch?v=VFpOBazE3rs
+id = "VFpOBazE3rs"
+tags = ["Pavolia Reine", "オリジナル"]
 # EN
 [[video]] # https://www.youtube.com/watch?v=I1cdQp5uz5s
 id = "I1cdQp5uz5s"
@@ -557,6 +579,9 @@ id = "vz7JIBvAFqM"
 tags = ["森カリオペ", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=PluDFsVo3z0
 id = "PluDFsVo3z0"
+tags = ["森カリオペ", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=5HWCMh1ZmzE
+id = "5HWCMh1ZmzE"
 tags = ["森カリオペ", "オリジナル"]
 # 小鳥遊キアラ
 [[playlist]] # https://www.youtube.com/playlist?list=PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH
