@@ -32,6 +32,7 @@ tags = [
 	"不知火フレア",
 	"白銀ノエル"
 ]
+
 [[video]] # https://www.youtube.com/watch?v=68KV7JnrvDo
 id = "68KV7JnrvDo"
 tags = [
@@ -60,6 +61,7 @@ tags = [
 	"星街すいせい",
 	"オリジナル"
 ]
+
 [[video]] # https://www.youtube.com/watch?v=RrsGNMMghKM
 id = "RrsGNMMghKM"
 tags = [
@@ -82,10 +84,12 @@ tags = [
 	"戌神ころね",
 	"オリジナル"
 ]
+
 # https://www.hololive.tv/terms
 # 音楽利用に関するガイドラインの対象外となる楽曲について
 # hololive IDOL PROJECT／キラメキライダー☆
 [[ignore]]
 id = "0o3VrBLh8jI"
+
 [[ignore]]
 id = "rDSIUPkuM7U"
