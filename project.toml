@@ -585,6 +585,10 @@ id = "PLIHyIgRAWkUz3MAUPbTg9XcuP_rzDJ1bk"
 tags = ["常闇トワ"]
 
 # 姫森ルーナ
+[[playlist]] # https://www.youtube.com/playlist?list=PL6gUpTCMieF77cO4ZwUVUXCSpwt7qbsRX
+id = "PL6gUpTCMieF77cO4ZwUVUXCSpwt7qbsRX"
+tags = ["姫森ルーナ"]
+
 [[video]] # https://www.youtube.com/watch?v=ue7mFSgBAH0
 id = "ue7mFSgBAH0"
 tags = ["ロボ子さん", "アキ・ローゼンタール", "姫森ルーナ"]
