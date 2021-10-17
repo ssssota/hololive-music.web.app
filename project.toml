@@ -357,6 +357,14 @@ tags = ["赤井はあと", "夏色まつり"]
 id = "PLYt9gyZFZDj_e7p0saJXMghPsjmBMwyiO"
 tags = ["アキ・ローゼンタール"]
 
+[[video]] # https://www.youtube.com/watch?v=Ii7rtNaGlls
+id = "Ii7rtNaGlls"
+tags = ["アキ・ローゼンタール", "オリジナル"]
+
+[[video]] # https://www.youtube.com/watch?v=eN--w_NA6hs
+id = "eN--w_NA6hs"
+tags = ["アキ・ローゼンタール", "オリジナル"]
+
 # 湊あくあ
 [[playlist]] # https://www.youtube.com/playlist?list=PLUp1t9SPBl6r4nqsQBg7HH7fPX2l9AGQk
 id = "PLUp1t9SPBl6r4nqsQBg7HH7fPX2l9AGQk"
