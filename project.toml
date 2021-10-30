@@ -232,10 +232,6 @@ tags = ["さくらみこ"]
 id = "PLMF8NocLqJttJCIiUCkNXx6jW4dAYfz5G"
 tags = ["さくらみこ", "オリジナル"]
 
-[[video]] # https://www.youtube.com/watch?v=8ZVrn4lHLqw
-id = "8ZVrn4lHLqw"
-tags = ["さくらみこ", "オリジナル"]
-
 [[video]] # https://www.youtube.com/watch?v=9nD7aQ_cKAM
 id = "9nD7aQ_cKAM"
 tags = ["さくらみこ", "兎田ぺこら", "宝鐘マリン", "夏色まつり"]
@@ -681,10 +677,6 @@ tags = ["尾丸ポルカ", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=vbhgQ_C_jaM
 id = "vbhgQ_C_jaM"
 tags = ["尾丸ポルカ", "オリジナル"]
-
-[[video]] # https://www.youtube.com/watch?v=s0p7jwJKkzs
-id = "s0p7jwJKkzs"
-tags = ["尾丸ポルカ", "Pavolia Reine"]
 
 # ID
 [[video]] # https://www.youtube.com/watch?v=lFQW5S_xH1o
