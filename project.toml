@@ -682,57 +682,57 @@ tags = ["尾丸ポルカ", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=lFQW5S_xH1o
 id = "lFQW5S_xH1o"
 tags = [
-	"Ayunda Risu",
-	"​Moona Hoshinova",
-	"Airani Iofifteen",
-	"Kureiji Ollie",
-	"Anya Melfissa",
-	"Pavolia Reine"
+	"アユンダ・リス",
+	"ムーナ・ホシノヴァ",
+	"アイラニ・イオフィフティーン",
+	"クレイジー・オリー",
+	"アーニャ・メルフィッサ",
+	"パヴォリア・レイネ"
 ]
 
 [[video]] # https://www.youtube.com/watch?v=lA6YSTkywto
 id = "lA6YSTkywto"
 tags = [
-	"Ayunda Risu",
-	"​Moona Hoshinova",
-	"Airani Iofifteen",
-	"Kureiji Ollie",
-	"Anya Melfissa",
-	"Pavolia Reine"
+	"アユンダ・リス",
+	"ムーナ・ホシノヴァ",
+	"アイラニ・イオフィフティーン",
+	"クレイジー・オリー",
+	"アーニャ・メルフィッサ",
+	"パヴォリア・レイネ"
 ]
 
 [[video]] # https://www.youtube.com/watch?v=Wp90CrP-s_8
 id = "Wp90CrP-s_8"
 tags = [
-	"Ayunda Risu",
-	"​Moona Hoshinova",
-	"Airani Iofifteen",
-	"Kureiji Ollie",
-	"Anya Melfissa",
-	"Pavolia Reine"
+	"アユンダ・リス",
+	"ムーナ・ホシノヴァ",
+	"アイラニ・イオフィフティーン",
+	"クレイジー・オリー",
+	"アーニャ・メルフィッサ",
+	"パヴォリア・レイネ"
 ]
 
 # ID1
 [[video]] # https://www.youtube.com/watch?v=uf9YfzyLG2Q
 id = "uf9YfzyLG2Q"
-tags = ["Ayunda Risu", "​Moona Hoshinova", "Airani Iofifteen"]
+tags = ["アユンダ・リス", "ムーナ・ホシノヴァ", "アイラニ・イオフィフティーン"]
 
 [[video]] # https://www.youtube.com/watch?v=vpViBoIVrk0
 id = "vpViBoIVrk0"
-tags = ["Ayunda Risu", "​Moona Hoshinova", "Airani Iofifteen"]
+tags = ["アユンダ・リス", "ムーナ・ホシノヴァ", "アイラニ・イオフィフティーン"]
 
-# Ayunda Risu
+# アユンダ・リス
 [[playlist]] # https://www.youtube.com/playlist?list=PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH
 id = "PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH"
-tags = ["Ayunda Risu"]
+tags = ["アユンダ・リス"]
 
 [[video]] # https://www.youtube.com/watch?v=euBur-z_lmk
 id = "euBur-z_lmk"
-tags = ["Ayunda Risu", "Pavolia Reine"]
+tags = ["アユンダ・リス", "パヴォリア・レイネ"]
 
 [[video]] # https://www.youtube.com/watch?v=Dx-_i0RWwNc
 id = "Dx-_i0RWwNc"
-tags = ["Ayunda Risu", "Pavolia Reine"]
+tags = ["アユンダ・リス", "パヴォリア・レイネ"]
 
 # Moona Hoshinova
 [[playlist]] # https://www.youtube.com/playlist?list=PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt
@@ -741,31 +741,31 @@ tags = ["Moona Hoshinova"]
 
 [[video]] # https://www.youtube.com/watch?v=8Jz0hUbu1mw
 id = "8Jz0hUbu1mw"
-tags = ["Ayunda Risu", "​Moona Hoshinova", "Pavolia Reine", "森カリオペ"]
+tags = ["アユンダ・リス", "ムーナ・ホシノヴァ", "パヴォリア・レイネ", "森カリオペ"]
 
-# Airani Iofifteen
+# アイラニ・イオフィフティーン
 [[playlist]] # https://www.youtube.com/playlist?list=PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR
 id = "PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR"
-tags = ["Airani Iofifteen"]
+tags = ["アイラニ・イオフィフティーン"]
 
-# Kureiji Ollie
+# クレイジー・オリー
 [[video]] # https://www.youtube.com/watch?v=oLOSu6ocgUU
 id = "oLOSu6ocgUU"
-tags = ["Kureiji Ollie"]
+tags = ["クレイジー・オリー"]
 
-# Anya Melfissa
+# アーニャ・メルフィッサ
 [[video]] # https://www.youtube.com/watch?v=ZmM5OgXXVA4
 id = "ZmM5OgXXVA4"
-tags = ["Anya Melfissa"]
+tags = ["アーニャ・メルフィッサ"]
 
-# Pavolia Reine
+# パヴォリア・レイネ
 [[playlist]] # https://www.youtube.com/playlist?list=PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC
 id = "PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC"
-tags = ["Pavolia Reine"]
+tags = ["パヴォリア・レイネ"]
 
 [[video]] # https://www.youtube.com/watch?v=VFpOBazE3rs
 id = "VFpOBazE3rs"
-tags = ["Pavolia Reine", "オリジナル"]
+tags = ["パヴォリア・レイネ", "オリジナル"]
 
 # EN
 [[video]] # https://www.youtube.com/watch?v=I1cdQp5uz5s
