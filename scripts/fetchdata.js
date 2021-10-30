@@ -61,6 +61,7 @@ const main = async (tomlPath) => {
 		await Promise.all(
 			videosRes.map(async ({ id, snippet, status }) => {
 				if (
+					snippet?.liveBroadcastContent !== 'none' ||
 					status?.privacyStatus !== 'public' ||
 					!status.embeddable ||
 					id == null ||
