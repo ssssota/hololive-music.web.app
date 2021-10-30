@@ -534,7 +534,7 @@ tags = ["兎田ぺこら"]
 
 [[video]] # https://www.youtube.com/watch?v=ZRCzLtCsIQs
 id = "ZRCzLtCsIQs"
-tags = ["兎田ぺこら", "Moona Hoshinova"]
+tags = ["兎田ぺこら", "ムーナ・ホシノヴァ"]
 
 # 潤羽るしあ
 [[playlist]] # https://www.youtube.com/playlist?list=PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb
@@ -734,10 +734,10 @@ tags = ["アユンダ・リス", "パヴォリア・レイネ"]
 id = "Dx-_i0RWwNc"
 tags = ["アユンダ・リス", "パヴォリア・レイネ"]
 
-# Moona Hoshinova
+# ムーナ・ホシノヴァ
 [[playlist]] # https://www.youtube.com/playlist?list=PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt
 id = "PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt"
-tags = ["Moona Hoshinova"]
+tags = ["ムーナ・ホシノヴァ"]
 
 [[video]] # https://www.youtube.com/watch?v=8Jz0hUbu1mw
 id = "8Jz0hUbu1mw"
