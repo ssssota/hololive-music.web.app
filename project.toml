@@ -865,6 +865,11 @@ tags = ["アイリス"]
 id = "PLpBqtLy3mHw07nf_D8u-g6a3_MdLWVdIc"
 tags = ["アイリス", "オリジナル"]
 
+# ハコス・ベールズ
+[[video]] # https://www.youtube.com/watch?v=09xVC-xun_c
+id = "09xVC-xun_c"
+tags = ["ハコス・ベールズ"]
+
 # fallback
 [[playlist]] # https://www.youtube.com/playlist?list=PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92
 id = "PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92"
