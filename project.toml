@@ -856,14 +856,14 @@ tags = ["がうるぐら", "夏色まつり"]
 id = "qNIhngowViI"
 tags = ["がうるぐら", "森カリオペ"]
 
-# IRyS
+# アイリス
 [[playlist]] # https://www.youtube.com/playlist?list=PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m
 id = "PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m"
-tags = ["IRyS"]
+tags = ["アイリス"]
 
 [[playlist]] # https://www.youtube.com/playlist?list=PLpBqtLy3mHw07nf_D8u-g6a3_MdLWVdIc
 id = "PLpBqtLy3mHw07nf_D8u-g6a3_MdLWVdIc"
-tags = ["IRyS", "オリジナル"]
+tags = ["アイリス", "オリジナル"]
 
 # fallback
 [[playlist]] # https://www.youtube.com/playlist?list=PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92
