@@ -772,6 +772,10 @@ tags = ["パヴォリア・レイネ", "オリジナル"]
 id = "I1cdQp5uz5s"
 tags = ["森カリオペ", "小鳥遊キアラ", "一伊那尓栖", "がうるぐら", "ワトソン・アメリア"]
 
+[[video]] # https://www.youtube.com/watch?v=VupT9JCJaOY
+id = "VupT9JCJaOY"
+tags = ["森カリオペ", "小鳥遊キアラ", "一伊那尓栖", "がうるぐら", "ワトソン・アメリア"]
+
 # 森カリオペ
 [[playlist]] # https://www.youtube.com/playlist?list=PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4
 id = "PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4"
