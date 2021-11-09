@@ -416,7 +416,7 @@ tags = ["湊あくあ", "紫咲シオン"]
 
 [[video]] # https://www.youtube.com/watch?v=MKEb-Ox1KEw
 id = "MKEb-Ox1KEw"
-tags = ["湊あくあ", "宝鐘マリン", "がうるぐら", "一伊那尓栖", "オリジナル"]
+tags = ["湊あくあ", "宝鐘マリン", "Gawr Gura", "Ninomae Ina'nis", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=6Wbto57VKWk
 id = "6Wbto57VKWk"
@@ -538,7 +538,7 @@ tags = ["兎田ぺこら"]
 
 [[video]] # https://www.youtube.com/watch?v=ZRCzLtCsIQs
 id = "ZRCzLtCsIQs"
-tags = ["兎田ぺこら", "ムーナ・ホシノヴァ"]
+tags = ["兎田ぺこら", "Moona Hoshinova"]
 
 # 潤羽るしあ
 [[playlist]] # https://www.youtube.com/playlist?list=PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb
@@ -690,197 +690,197 @@ tags = ["尾丸ポルカ", "雪花ラミィ"]
 [[video]] # https://www.youtube.com/watch?v=lFQW5S_xH1o
 id = "lFQW5S_xH1o"
 tags = [
-	"アユンダ・リス",
-	"ムーナ・ホシノヴァ",
-	"アイラニ・イオフィフティーン",
-	"クレイジー・オリー",
-	"アーニャ・メルフィッサ",
-	"パヴォリア・レイネ"
+	"Ayunda Risu",
+	"Moona Hoshinova",
+	"Airani Iofifteen",
+	"Kureiji Ollie",
+	"Anya Melfissa",
+	"Pavolia Reine"
 ]
 
 [[video]] # https://www.youtube.com/watch?v=lA6YSTkywto
 id = "lA6YSTkywto"
 tags = [
-	"アユンダ・リス",
-	"ムーナ・ホシノヴァ",
-	"アイラニ・イオフィフティーン",
-	"クレイジー・オリー",
-	"アーニャ・メルフィッサ",
-	"パヴォリア・レイネ"
+	"Ayunda Risu",
+	"Moona Hoshinova",
+	"Airani Iofifteen",
+	"Kureiji Ollie",
+	"Anya Melfissa",
+	"Pavolia Reine"
 ]
 
 [[video]] # https://www.youtube.com/watch?v=Wp90CrP-s_8
 id = "Wp90CrP-s_8"
 tags = [
-	"アユンダ・リス",
-	"ムーナ・ホシノヴァ",
-	"アイラニ・イオフィフティーン",
-	"クレイジー・オリー",
-	"アーニャ・メルフィッサ",
-	"パヴォリア・レイネ"
+	"Ayunda Risu",
+	"Moona Hoshinova",
+	"Airani Iofifteen",
+	"Kureiji Ollie",
+	"Anya Melfissa",
+	"Pavolia Reine"
 ]
 
 # ID1
 [[video]] # https://www.youtube.com/watch?v=uf9YfzyLG2Q
 id = "uf9YfzyLG2Q"
-tags = ["アユンダ・リス", "ムーナ・ホシノヴァ", "アイラニ・イオフィフティーン"]
+tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen"]
 
 [[video]] # https://www.youtube.com/watch?v=vpViBoIVrk0
 id = "vpViBoIVrk0"
-tags = ["アユンダ・リス", "ムーナ・ホシノヴァ", "アイラニ・イオフィフティーン"]
+tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen"]
 
-# アユンダ・リス
+# Ayunda Risu
 [[playlist]] # https://www.youtube.com/playlist?list=PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH
 id = "PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH"
-tags = ["アユンダ・リス"]
+tags = ["Ayunda Risu"]
 
 [[video]] # https://www.youtube.com/watch?v=euBur-z_lmk
 id = "euBur-z_lmk"
-tags = ["アユンダ・リス", "パヴォリア・レイネ"]
+tags = ["Ayunda Risu", "Pavolia Reine"]
 
 [[video]] # https://www.youtube.com/watch?v=Dx-_i0RWwNc
 id = "Dx-_i0RWwNc"
-tags = ["アユンダ・リス", "パヴォリア・レイネ"]
+tags = ["Ayunda Risu", "Pavolia Reine"]
 
-# ムーナ・ホシノヴァ
+# Moona Hoshinova
 [[playlist]] # https://www.youtube.com/playlist?list=PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt
 id = "PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt"
-tags = ["ムーナ・ホシノヴァ"]
+tags = ["Moona Hoshinova"]
 
 [[video]] # https://www.youtube.com/watch?v=8Jz0hUbu1mw
 id = "8Jz0hUbu1mw"
-tags = ["アユンダ・リス", "ムーナ・ホシノヴァ", "パヴォリア・レイネ", "森カリオペ"]
+tags = ["Ayunda Risu", "Moona Hoshinova", "Pavolia Reine", "Mori Calliope"]
 
-# アイラニ・イオフィフティーン
+# Airani Iofifteen
 [[playlist]] # https://www.youtube.com/playlist?list=PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR
 id = "PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR"
-tags = ["アイラニ・イオフィフティーン"]
+tags = ["Airani Iofifteen"]
 
-# クレイジー・オリー
+# Kureiji Ollie
 [[video]] # https://www.youtube.com/watch?v=oLOSu6ocgUU
 id = "oLOSu6ocgUU"
-tags = ["クレイジー・オリー"]
+tags = ["Kureiji Ollie"]
 
-# アーニャ・メルフィッサ
+# Anya Melfissa
 [[video]] # https://www.youtube.com/watch?v=ZmM5OgXXVA4
 id = "ZmM5OgXXVA4"
-tags = ["アーニャ・メルフィッサ"]
+tags = ["Anya Melfissa"]
 
-# パヴォリア・レイネ
+# Pavolia Reine
 [[playlist]] # https://www.youtube.com/playlist?list=PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC
 id = "PLrALGrrF-6IVnnurSv7Nxdxpo5zJmmjnC"
-tags = ["パヴォリア・レイネ"]
+tags = ["Pavolia Reine"]
 
 [[video]] # https://www.youtube.com/watch?v=VFpOBazE3rs
 id = "VFpOBazE3rs"
-tags = ["パヴォリア・レイネ", "オリジナル"]
+tags = ["Pavolia Reine", "オリジナル"]
 
 # EN
 [[video]] # https://www.youtube.com/watch?v=I1cdQp5uz5s
 id = "I1cdQp5uz5s"
-tags = ["森カリオペ", "小鳥遊キアラ", "一伊那尓栖", "がうるぐら", "ワトソン・アメリア"]
+tags = ["Mori Calliope", "Takanashi Kiara", "Ninomae Ina'nis", "Gawr Gura", "Watson Amelia"]
 
 [[video]] # https://www.youtube.com/watch?v=VupT9JCJaOY
 id = "VupT9JCJaOY"
-tags = ["森カリオペ", "小鳥遊キアラ", "一伊那尓栖", "がうるぐら", "ワトソン・アメリア"]
+tags = ["Mori Calliope", "Takanashi Kiara", "Ninomae Ina'nis", "Gawr Gura", "Watson Amelia"]
 
-# 森カリオペ
+# Mori Calliope
 [[playlist]] # https://www.youtube.com/playlist?list=PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4
 id = "PLB8Nt5W7hnKA_pG2qljWbgVmJPobrLTm4"
-tags = ["森カリオペ"]
+tags = ["Mori Calliope"]
 
 [[video]] # https://www.youtube.com/watch?v=VNU2BDdgPZ8
 id = "VNU2BDdgPZ8"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=3RxlzJWWzdY
 id = "3RxlzJWWzdY"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=6ydgEipkUEU
 id = "6ydgEipkUEU"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=-AuQZrUHjhg
 id = "-AuQZrUHjhg"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=VYu3PvRPZR8
 id = "VYu3PvRPZR8"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=h-LOlueKCtk
 id = "h-LOlueKCtk"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=_M-6lkoi6L4
 id = "_M-6lkoi6L4"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=5y3xh8gs24c
 id = "5y3xh8gs24c"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=vz7JIBvAFqM
 id = "vz7JIBvAFqM"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=PluDFsVo3z0
 id = "PluDFsVo3z0"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=5HWCMh1ZmzE
 id = "5HWCMh1ZmzE"
-tags = ["森カリオペ", "オリジナル"]
+tags = ["Mori Calliope", "オリジナル"]
 
-# 小鳥遊キアラ
+# Takanashi Kiara
 [[playlist]] # https://www.youtube.com/playlist?list=PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH
 id = "PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH"
-tags = ["小鳥遊キアラ"]
+tags = ["Takanashi Kiara"]
 
 [[video]] # https://www.youtube.com/watch?v=Lq9eqHDKJPE
 id = "Lq9eqHDKJPE"
-tags = ["小鳥遊キアラ", "オリジナル"]
+tags = ["Takanashi Kiara", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=eDfMDkgheQY
 id = "eDfMDkgheQY"
-tags = ["小鳥遊キアラ", "オリジナル"]
+tags = ["Takanashi Kiara", "オリジナル"]
 
-# 一伊那尓栖
+# Ninomae Ina'nis
 [[video]] # https://www.youtube.com/watch?v=8ZdLXELdF9Q
 id = "8ZdLXELdF9Q"
-tags = ["一伊那尓栖", "オリジナル"]
+tags = ["Ninomae Ina'nis", "オリジナル"]
 
-# がうるぐら
+# Gawr Gura
 [[video]] # https://www.youtube.com/watch?v=WGgEFoI9MhE
 id = "WGgEFoI9MhE"
-tags = ["がうるぐら", "オリジナル"]
+tags = ["Gawr Gura", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=C5IIoZsci8Y
 id = "C5IIoZsci8Y"
-tags = ["がうるぐら", "小鳥遊キアラ"]
+tags = ["Gawr Gura", "Takanashi Kiara"]
 
 [[video]] # https://www.youtube.com/watch?v=2ys9IS5r9yA
 id = "2ys9IS5r9yA"
-tags = ["がうるぐら", "夏色まつり"]
+tags = ["Gawr Gura", "夏色まつり"]
 
 [[video]] # https://www.youtube.com/watch?v=qNIhngowViI
 id = "qNIhngowViI"
-tags = ["がうるぐら", "森カリオペ"]
+tags = ["Gawr Gura", "Mori Calliope"]
 
-# アイリス
+# IRyS
 [[playlist]] # https://www.youtube.com/playlist?list=PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m
 id = "PLpBqtLy3mHw2Wlox1cPU2-WGM5VmMYR8m"
-tags = ["アイリス"]
+tags = ["IRyS"]
 
 [[playlist]] # https://www.youtube.com/playlist?list=PLpBqtLy3mHw07nf_D8u-g6a3_MdLWVdIc
 id = "PLpBqtLy3mHw07nf_D8u-g6a3_MdLWVdIc"
-tags = ["アイリス", "オリジナル"]
+tags = ["IRyS", "オリジナル"]
 
-# ハコス・ベールズ
+# Hakos Baelz
 [[video]] # https://www.youtube.com/watch?v=09xVC-xun_c
 id = "09xVC-xun_c"
-tags = ["ハコス・ベールズ"]
+tags = ["Hakos Baelz"]
 
 # fallback
 [[playlist]] # https://www.youtube.com/playlist?list=PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92
