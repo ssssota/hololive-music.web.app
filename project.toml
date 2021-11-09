@@ -139,6 +139,10 @@ tags = ["AZKi", "天音かなた"]
 id = "k12oVF-o528"
 tags = ["AZKi", "さくらみこ", "宝鐘マリン"]
 
+[[video]] # https://www.youtube.com/watch?v=-9wUbw5qevU
+id = "-9wUbw5qevU"
+tags = ["AZKi", "星街すいせい"]
+
 # ロボ子さん
 [[video]] # https://www.youtube.com/watch?v=UXuMSLOUhgs
 id = "UXuMSLOUhgs"
