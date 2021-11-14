@@ -79,6 +79,9 @@ const main = async (tomlPath) => {
 					description: snippet?.description,
 					tags: idTagMap[id] ?? []
 				};
+				const publishedTimestamp = new Date(snippet.publishedAt).valueOf();
+				if (Date.now() - publishedTimestamp <= 30 * 24 * 60 * 60 * 1000)
+					videos[id].tags?.push('NEW');
 				console.log('Video:', id);
 			})
 		);
