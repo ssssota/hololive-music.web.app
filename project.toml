@@ -589,6 +589,10 @@ tags = ["天音かなた"]
 id = "mcQs0iQE0bs"
 tags = ["天音かなた", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=kK8ajwVjBEI
+id = "kK8ajwVjBEI"
+tags = ["天音かなた", "桃鈴ねね"]
+
 # 桐生ココ
 [[playlist]] # https://www.youtube.com/playlist?list=PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk
 id = "PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk"
