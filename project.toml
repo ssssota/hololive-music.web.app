@@ -444,6 +444,10 @@ tags = ["癒月ちょこ", "大空スバル", "姫森ルーナ"]
 id = "PL7EFb7T-o_1O4fE4frYhWI4toIh8q5LWH"
 tags = ["百鬼あやめ"]
 
+[[video]] # https://www.youtube.com/watch?v=ECkxzFgbJqQ
+id = "ECkxzFgbJqQ"
+tags = ["百鬼あやめ", "オリジナル"]
+
 # 紫咲シオン
 [[playlist]] # https://www.youtube.com/playlist?list=PLzYaEBSRCCt5kgnBdQkLM7yDDZt2_NIZG
 id = "PLzYaEBSRCCt5kgnBdQkLM7yDDZt2_NIZG"
