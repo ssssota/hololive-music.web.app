@@ -699,6 +699,17 @@ tags = ["尾丸ポルカ", "オリジナル"]
 id = "kdYAZZ5SOFk"
 tags = ["尾丸ポルカ", "オリジナル"]
 
+# 6期生
+# ラプラス・ダークネス
+[[playlist]] # https://www.youtube.com/playlist?list=PL-ksV7rAwJHWfgsi38uZEsWpnY128WwBC
+id = "PL-ksV7rAwJHWfgsi38uZEsWpnY128WwBC"
+tags = ["ラプラス・ダークネス"]
+
+# 鷹嶺ルイ
+[[video]] # https://www.youtube.com/watch?v=dkCPkLmU7l4
+id = "dkCPkLmU7l4"
+tags = ["鷹嶺ルイ"]
+
 # ID
 [[video]] # https://www.youtube.com/watch?v=lFQW5S_xH1o
 id = "lFQW5S_xH1o"
