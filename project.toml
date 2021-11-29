@@ -710,6 +710,11 @@ tags = ["ラプラス・ダークネス"]
 id = "dkCPkLmU7l4"
 tags = ["鷹嶺ルイ"]
 
+# 博衣こより
+[[playlist]] # https://www.youtube.com/playlist?list=PLCxKJRIVDrYHVk6OfBsuGwIujL63ooOQV
+id = "PLCxKJRIVDrYHVk6OfBsuGwIujL63ooOQV"
+tags = ["博衣こより"]
+
 # ID
 [[video]] # https://www.youtube.com/watch?v=lFQW5S_xH1o
 id = "lFQW5S_xH1o"
