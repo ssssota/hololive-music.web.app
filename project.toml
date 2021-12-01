@@ -660,6 +660,10 @@ tags = ["獅白ぼたん", "桃鈴ねね", "尾丸ポルカ", "雪花ラミィ",
 id = "PL7Mw3OdFU891DfLqncG9cbkwH80lHFZEl"
 tags = ["雪花ラミィ"]
 
+[[video]] # https://www.youtube.com/watch?v=ULtGHb83pTI
+id = "ULtGHb83pTI"
+tags = ["雪花ラミィ", "オリジナル"]
+
 # 桃鈴ねね
 [[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q
 id = "PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q"
