@@ -792,6 +792,10 @@ tags = ["Moona Hoshinova"]
 id = "8Jz0hUbu1mw"
 tags = ["Ayunda Risu", "Moona Hoshinova", "Pavolia Reine", "Mori Calliope"]
 
+[[video]] # https://www.youtube.com/watch?v=NKQvH78Jv04
+id = "NKQvH78Jv04"
+tags = ["Moona Hoshinova", "星街すいせい"]
+
 # Airani Iofifteen
 [[playlist]] # https://www.youtube.com/playlist?list=PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR
 id = "PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR"
