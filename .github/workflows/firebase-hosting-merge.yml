@@ -22,8 +22,6 @@ jobs:
           cache: pnpm
       - name: Install deps
         run: pnpm install
-      - name: Fetch resources
-        run: pnpm fetch:ci
       - name: Build SvelteKit
         run: pnpm build
         env:
