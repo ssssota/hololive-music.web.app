@@ -3,8 +3,8 @@
 	import type { VideoInfo } from '../types';
 	export const load: Load = async ({ fetch }) => {
 		const [videos, project] = await Promise.all([
-			fetch('/videos').then((res) => res.json()),
-			fetch('/project').then((res) => res.json())
+			fetch('/data/videos').then((res) => res.json()),
+			fetch('/data/project').then((res) => res.json())
 		]);
 		return {
 			props: {
@@ -34,7 +34,6 @@
 	export let project: Project;
 
 	let playingId: string | undefined;
-	let player: Player | null | undefined;
 
 	const getAllTagsSortedByCount = (tags: string[]): string[] => {
 		const tagCountMap = Object.values(videos)
@@ -90,7 +89,6 @@
 	{#each Object.entries($filtered) as [id, info], index (id)}
 		{#if playingId != null && playingId === id}
 			<Player
-				bind:this={player}
 				on:statechange={(e) => {
 					if (e.detail === 0) {
 						// video ended
