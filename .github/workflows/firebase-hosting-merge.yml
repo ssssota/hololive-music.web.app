@@ -27,7 +27,7 @@ jobs:
       - name: Build SvelteKit
         run: pnpm build
         env:
-          API_KEY: ${{ secrets.API_KEY }}
+          VITE_API_KEY: ${{ secrets.API_KEY }}
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'

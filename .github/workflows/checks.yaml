@@ -32,4 +32,4 @@ jobs:
       - name: Build Check
         run: pnpm build
         env:
-          API_KEY: ${{ secrets.API_KEY }}
+          VITE_API_KEY: ${{ secrets.API_KEY }}

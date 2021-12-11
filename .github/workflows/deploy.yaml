@@ -29,7 +29,7 @@ jobs:
       - name: Build SvelteKit
         run: pnpm build
         env:
-          API_KEY: ${{ secrets.API_KEY }}
+          VITE_API_KEY: ${{ secrets.API_KEY }}
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
