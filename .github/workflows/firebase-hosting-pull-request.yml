@@ -13,19 +13,17 @@ jobs:
       - uses: actions/checkout@v2
       - uses: pnpm/action-setup@v2.0.1
         with:
-          version: 6.15.1
+          version: 6.23.6
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
           cache: pnpm
       - name: Install deps
         run: pnpm install
-      - name: Fetch resources
-        run: pnpm fetch:ci
-        env:
-          API_KEY: ${{ secrets.API_KEY }}
       - name: Build SvelteKit
         run: pnpm build
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
