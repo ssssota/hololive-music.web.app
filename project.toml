@@ -726,8 +726,8 @@ id = "PL-ksV7rAwJHWfgsi38uZEsWpnY128WwBC"
 tags = ["ラプラス・ダークネス"]
 
 # 鷹嶺ルイ
-[[video]] # https://www.youtube.com/watch?v=dkCPkLmU7l4
-id = "dkCPkLmU7l4"
+[[playlist]] # https://www.youtube.com/playlist?list=PLD992QYJ2953ekTB3YuoHcF505PWPXlwb
+id = "PLD992QYJ2953ekTB3YuoHcF505PWPXlwb"
 tags = ["鷹嶺ルイ"]
 
 # 博衣こより
