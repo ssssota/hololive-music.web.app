@@ -936,6 +936,9 @@ id = "PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92"
 id = "PL1NeGg1woXqkTks79_kSoxBrEKloB9SrI"
 tags = ["オリジナル"]
 
+[[playlist]] # https://www.youtube.com/playlist?list=PLl62IkfhHtN5kDBdmZ96EisueppHSZmbi
+id = "PLl62IkfhHtN5kDBdmZ96EisueppHSZmbi"
+
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
 # id = "GIZPAJHW5bk"
