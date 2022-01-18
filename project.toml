@@ -777,7 +777,7 @@ tags = [
 	"Pavolia Reine"
 ]
 
-# ID1
+# ID
 [[video]] # https://www.youtube.com/watch?v=uf9YfzyLG2Q
 id = "uf9YfzyLG2Q"
 tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen"]
@@ -786,10 +786,18 @@ tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen"]
 id = "vpViBoIVrk0"
 tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen"]
 
+[[video]] # https://www.youtube.com/watch?v=eJjz3owWnbU
+id = "eJjz3owWnbU"
+tags = ["Kureiji Ollie", "Anya Melfissa", "Pavolia Reine"]
+
 # Ayunda Risu
 [[playlist]] # https://www.youtube.com/playlist?list=PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH
 id = "PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH"
 tags = ["Ayunda Risu"]
+
+[[playlist]] # https://www.youtube.com/playlist?list=PLHeIKIUgnbJDhs2mTJ6WFXUvol189G7IK
+id = "PLHeIKIUgnbJDhs2mTJ6WFXUvol189G7IK"
+tags = ["Ayunda Risu", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=euBur-z_lmk
 id = "euBur-z_lmk"
@@ -798,6 +806,10 @@ tags = ["Ayunda Risu", "Pavolia Reine"]
 [[video]] # https://www.youtube.com/watch?v=Dx-_i0RWwNc
 id = "Dx-_i0RWwNc"
 tags = ["Ayunda Risu", "Pavolia Reine"]
+
+[[video]] # https://www.youtube.com/watch?v=cos54QJsb7o
+id = "cos54QJsb7o"
+tags = ["Ayunda Risu"]
 
 # Moona Hoshinova
 [[playlist]] # https://www.youtube.com/playlist?list=PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt
@@ -813,14 +825,22 @@ tags = ["Ayunda Risu", "Moona Hoshinova", "Pavolia Reine", "Mori Calliope"]
 id = "PL0OWyC-pOgQnQ1POfg1fOiXffUPE-b3sR"
 tags = ["Airani Iofifteen"]
 
+[[video]] # https://www.youtube.com/watch?v=MJz6SHKmrC4
+id = "MJz6SHKmrC4"
+tags = ["Airani Iofifteen", "オリジナル"]
+
 # Kureiji Ollie
-[[video]] # https://www.youtube.com/watch?v=oLOSu6ocgUU
-id = "oLOSu6ocgUU"
+[[playlist]] # https://www.youtube.com/playlist?list=PL6DI34hJswwQ8um3dpgrZY1elCO-tNfrc
+id = "PL6DI34hJswwQ8um3dpgrZY1elCO-tNfrc"
 tags = ["Kureiji Ollie"]
 
 # Anya Melfissa
 [[video]] # https://www.youtube.com/watch?v=ZmM5OgXXVA4
 id = "ZmM5OgXXVA4"
+tags = ["Anya Melfissa"]
+
+[[video]] # https://www.youtube.com/watch?v=mqwRg9ZgANI
+id = "mqwRg9ZgANI"
 tags = ["Anya Melfissa"]
 
 # Pavolia Reine
