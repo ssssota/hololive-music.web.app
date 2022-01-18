@@ -293,6 +293,10 @@ tags = [
 	"オリジナル"
 ]
 
+[[video]] # https://www.youtube.com/watch?v=dPX0_IEXVRo
+id = "dPX0_IEXVRo"
+tags = ["白上フブキ"]
+
 # 夏色まつり
 [[playlist]] # https://www.youtube.com/playlist?list=PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa
 id = "PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa"
@@ -439,6 +443,10 @@ tags = ["癒月ちょこ", "オリジナル"]
 id = "jlELf83gpBw"
 tags = ["癒月ちょこ", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=QaEW5hhLxuk
+id = "QaEW5hhLxuk"
+tags = ["癒月ちょこ", "夜空メル", "オリジナル"]
+
 [[video]] # https://www.youtube.com/watch?v=BAx2GtYGJxs
 id = "BAx2GtYGJxs"
 tags = ["癒月ちょこ", "大空スバル", "姫森ルーナ"]
@@ -515,6 +523,10 @@ tags = ["戌神ころね"]
 
 [[video]] # https://www.youtube.com/watch?v=MiuFIzr8bR0
 id = "MiuFIzr8bR0"
+tags = ["戌神ころね"]
+
+[[video]] # https://www.youtube.com/watch?v=7jk8e94Cr7U
+id = "7jk8e94Cr7U"
 tags = ["戌神ころね"]
 
 # 3期生
@@ -668,6 +680,10 @@ tags = ["雪花ラミィ"]
 id = "ULtGHb83pTI"
 tags = ["雪花ラミィ", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=Hl1-8j9OJyo
+id = "Hl1-8j9OJyo"
+tags = ["獅白ぼたん", "雪花ラミィ"]
+
 # 桃鈴ねね
 [[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q
 id = "PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q"
@@ -714,8 +730,8 @@ id = "PL-ksV7rAwJHWfgsi38uZEsWpnY128WwBC"
 tags = ["ラプラス・ダークネス"]
 
 # 鷹嶺ルイ
-[[video]] # https://www.youtube.com/watch?v=dkCPkLmU7l4
-id = "dkCPkLmU7l4"
+[[playlist]] # https://www.youtube.com/playlist?list=PLD992QYJ2953ekTB3YuoHcF505PWPXlwb
+id = "PLD992QYJ2953ekTB3YuoHcF505PWPXlwb"
 tags = ["鷹嶺ルイ"]
 
 # 博衣こより
@@ -887,6 +903,10 @@ tags = ["Takanashi Kiara", "オリジナル"]
 id = "eDfMDkgheQY"
 tags = ["Takanashi Kiara", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=R5yfM_UlucY
+id = "R5yfM_UlucY"
+tags = ["Takanashi Kiara", "Ninomae Ina'nis"]
+
 # Ninomae Ina'nis
 [[video]] # https://www.youtube.com/watch?v=8ZdLXELdF9Q
 id = "8ZdLXELdF9Q"
@@ -951,3 +971,7 @@ id = "0o3VrBLh8jI"
 
 [[ignore]]
 id = "rDSIUPkuM7U"
+
+# remix
+[[ignore]]
+id = "7afoD1ZBn3I"
