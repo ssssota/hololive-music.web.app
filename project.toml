@@ -923,6 +923,11 @@ tags = ["IRyS", "オリジナル"]
 id = "09xVC-xun_c"
 tags = ["Hakos Baelz"]
 
+# Nanashi Mumei
+[[video]] # https://www.youtube.com/watch?v=Py21QCndbxc
+id = "Py21QCndbxc"
+tags = ["Nanashi Mumei", "オリジナル"]
+
 # fallback
 [[playlist]] # https://www.youtube.com/playlist?list=PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92
 id = "PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92"
