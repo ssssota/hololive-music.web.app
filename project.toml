@@ -434,6 +434,10 @@ tags = ["湊あくあ", "宝鐘マリン", "Gawr Gura", "Ninomae Ina'nis", "オ�
 id = "6Wbto57VKWk"
 tags = ["湊あくあ", "白上フブキ", "大神ミオ", "宝鐘マリン", "潤羽るしあ", "天音かなた"]
 
+[[video]] # https://www.youtube.com/watch?v=E6LWLQjgynE
+id = "E6LWLQjgynE"
+tags = ["湊あくあ", "天音かなた"]
+
 # 癒月ちょこ
 [[playlist]] # https://www.youtube.com/playlist?list=PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_
 id = "PLbk25bH74T5ZgCqaphR7q_dQ8Ja65Z4r_"
