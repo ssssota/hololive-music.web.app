@@ -114,6 +114,10 @@ tags = ["ときのそら", "オリジナル"]
 id = "G9SWOk2J6aw"
 tags = ["ときのそら", "さくらみこ", "夜空メル", "ロボ子さん", "大空スバル", "AZKi"]
 
+[[video]] # https://www.youtube.com/watch?v=4Hg0Nchl3HU
+id = "4Hg0Nchl3HU"
+tags = ["白上フブキ", "百鬼あやめ", "大神ミオ", "いろはにほへっと あやふぶみ", "オリジナル"]
+
 # AZKi
 [[playlist]] # https://www.youtube.com/playlist?list=PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS
 id = "PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS"
