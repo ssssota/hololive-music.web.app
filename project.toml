@@ -958,6 +958,10 @@ tags = ["Mori Calliope", "オリジナル"]
 id = "5HWCMh1ZmzE"
 tags = ["Mori Calliope", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=aetXqd9B8WE
+id = "aetXqd9B8WE"
+tags = ["Mori Calliope", "Gawr Gura", "オリジナル"]
+
 # Takanashi Kiara
 [[playlist]] # https://www.youtube.com/playlist?list=PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH
 id = "PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH"
