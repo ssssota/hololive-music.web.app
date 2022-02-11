@@ -26,9 +26,8 @@
 	import HorizontalScroll from '$lib/horizontalscroll/HorizontalScroll.svelte';
 	import { currentTag } from '$lib/store/tag';
 	import Tags from '$lib/tags/Tags.svelte';
-	import { onDestroy } from 'svelte';
+	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
-	import { derived } from 'svelte/store';
 	import type { Project } from '../types';
 	export let videos: Record<string, VideoInfo>;
 	export let project: Project;
@@ -51,25 +50,27 @@
 		return [...tags, ...sorted];
 	};
 
-	const unsubscribe = currentTag.subscribe(() => {
+	let filtered = videos;
+	const filtering = (selectedTags: string[]) => {
 		playingId = undefined;
-	});
-	onDestroy(unsubscribe);
-
-	const filtered = derived(currentTag, (t) =>
-		Object.fromEntries(
+		filtered = Object.fromEntries(
 			Object.entries(videos).filter(([, { tags }]) =>
-				t.every((tag) => tags != null && tags.includes(tag))
+				selectedTags.every((tag) => tags != null && tags.includes(tag))
 			)
-		)
-	);
+		);
+	};
+	onMount(() => {
+		filtering(new URL(window.location.href).searchParams.getAll('tags'));
+		const unsubscribe = currentTag.subscribe(filtering);
+		return unsubscribe;
+	});
 </script>
 
 <svelte:head>
 	<title>{project.title}</title>
 	<meta name="description" content={project.description} />
 	<meta property="og:title" content={project.title} />
-	<meta property="og:url" content="{project.origin}{base}{$page.path}" />
+	<meta property="og:url" content="{project.origin}{base}{$page.url.pathname}" />
 	<meta property="og:description" content={project.description} />
 	<meta property="og:image" content="{project.origin}{base}{project.ogimage}" />
 	<meta name="twitter:card" content="summary" />
@@ -86,13 +87,13 @@
 </div>
 
 <main>
-	{#each Object.entries($filtered) as [id, info], index (id)}
+	{#each Object.entries(filtered) as [id, info], index (id)}
 		{#if playingId != null && playingId === id}
 			<Player
 				on:statechange={(e) => {
 					if (e.detail === 0) {
 						// video ended
-						const videoIds = Object.keys($filtered);
+						const videoIds = Object.keys(filtered);
 						playingId =
 							playingId == null
 								? undefined
@@ -117,7 +118,7 @@
 
 {#if playingId != null}
 	<footer transition:slide>
-		<Controls currentVideo={$filtered[playingId]} on:close={() => (playingId = undefined)} />
+		<Controls currentVideo={filtered[playingId]} on:close={() => (playingId = undefined)} />
 	</footer>
 {/if}
 
