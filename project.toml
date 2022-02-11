@@ -482,6 +482,9 @@ tags = ["大空スバル"]
 id = "3QJD9iekpDQ"
 tags = ["大空スバル", "湊あくあ", "兎田ぺこら"]
 
+[[ignore]] # https://www.youtube.com/watch?v=mhvHZpK-9Ss
+id = "mhvHZpK-9Ss" # ぷ・れ・あ・で・す！（ライブ）
+
 # 大神ミオ
 [[playlist]] # https://www.youtube.com/playlist?list=PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu
 id = "PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu"
@@ -722,6 +725,10 @@ tags = ["尾丸ポルカ", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=kdYAZZ5SOFk
 id = "kdYAZZ5SOFk"
 tags = ["尾丸ポルカ", "オリジナル"]
+
+[[video]] # https://www.youtube.com/watch?v=mFLu8TKDsrk
+id = "mFLu8TKDsrk"
+tags = ["尾丸ポルカ", "さくらみこ", "不知火フレア", "角巻わため", "常闇トワ", "湊あくあ"]
 
 # 6期生
 # ラプラス・ダークネス
