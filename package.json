@@ -7,10 +7,6 @@
 		"preview": "svelte-kit preview",
 		"start": "sirv build --port 3000",
 		"clean": "rimraf .svelte-kit build",
-		"fetch:local": "node -r dotenv/config scripts/fetchdata",
-		"fetch-dummy:local": "pnpm fetch:local -- dummy.toml",
-		"fetch:ci": "node scripts/fetchdata",
-		"fetch-dummy:ci": "pnpm fetch:ci -- dummy.toml",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -48,5 +44,6 @@
 		"googleapis": "^92.0.0",
 		"url-regex": "^5.0.0",
 		"youtube-player": "^5.5.2"
-	}
+	},
+	"packageManager": "pnpm@6.30.1"
 }
