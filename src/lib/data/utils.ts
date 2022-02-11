@@ -37,3 +37,5 @@ export const notNullable = <T>(item?: T | null): item is T => item != null;
 export const removeDuplicate = <T>(...arr: (T | null | undefined)[]): T[] => [
 	...new Set(arr.filter(notNullable))
 ];
+
+export const sleep = (ms: number): Promise<void> => new Promise((r) => setTimeout(r, ms));

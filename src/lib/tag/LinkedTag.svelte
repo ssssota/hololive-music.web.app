@@ -8,7 +8,7 @@
 
 	const getSpecTagUrl = (tags: string[]) => {
 		const param = new URLSearchParams(tags.map((tag) => ['tag', tag])).toString();
-		return param === '' ? $page.path : `${$page.path}?${param}`;
+		return param === '' ? $page.url.pathname : `${$page.url.pathname}?${param}`;
 	};
 </script>
 

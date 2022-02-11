@@ -7,10 +7,6 @@
 		"preview": "svelte-kit preview",
 		"start": "sirv build --port 3000",
 		"clean": "rimraf .svelte-kit build",
-		"fetch:local": "node -r dotenv/config scripts/fetchdata",
-		"fetch-dummy:local": "pnpm fetch:local -- dummy.toml",
-		"fetch:ci": "node scripts/fetchdata",
-		"fetch-dummy:ci": "pnpm fetch:ci -- dummy.toml",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -28,25 +24,26 @@
 		"dotenv": "^10.0.0",
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
-		"eslint-plugin-svelte3": "^3.2.1",
+		"eslint-plugin-svelte3": "^3.4.0",
 		"isomorphic-fetch": "^3.0.0",
-		"prettier": "^2.4.1",
-		"prettier-plugin-svelte": "^2.4.0",
+		"prettier": "^2.5.1",
+		"prettier-plugin-svelte": "^2.6.0",
 		"prettier-plugin-toml": "^0.3.1",
 		"rimraf": "^3.0.2",
-		"sass": "^1.43.4",
+		"sass": "^1.49.7",
 		"sirv-cli": "^1.0.14",
-		"svelte": "^3.44.0",
-		"svelte-check": "^2.2.7",
-		"svelte-preprocess": "^4.9.8",
+		"svelte": "^3.46.4",
+		"svelte-check": "^2.4.3",
+		"svelte-preprocess": "^4.10.3",
 		"tslib": "^2.3.1",
-		"typescript": "^4.4.4"
+		"typescript": "^4.5.5"
 	},
 	"type": "module",
 	"dependencies": {
-		"firebase": "^9.2.0",
-		"googleapis": "^84.0.0",
+		"firebase": "^9.6.6",
+		"googleapis": "^92.0.0",
 		"url-regex": "^5.0.0",
 		"youtube-player": "^5.5.2"
-	}
+	},
+	"packageManager": "pnpm@6.30.1"
 }
