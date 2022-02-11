@@ -2,12 +2,14 @@ import { google } from 'googleapis';
 import { notNullable, splitArrayIntoChunk } from './utils.js';
 import type { youtube_v3 } from 'googleapis';
 
+const client = google.youtube('v3');
+
 export const fetchPlaylist = async (
 	apiKey: string,
 	playlistId: string,
 	pageToken: string | undefined = undefined
 ): Promise<youtube_v3.Schema$PlaylistItemSnippet[]> => {
-	const res = await google.youtube('v3').playlistItems.list({
+	const res = await client.playlistItems.list({
 		key: apiKey,
 		part: ['snippet'],
 		maxResults: 50,
@@ -26,7 +28,7 @@ export const fetchVideos = async (
 	return splitArrayIntoChunk(videoIds, maxResults).reduce<Promise<youtube_v3.Schema$Video[]>>(
 		async (prevPromise, ids: string[]) => {
 			const acc = await prevPromise;
-			const res = await google.youtube('v3').videos.list({
+			const res = await client.videos.list({
 				key: apiKey,
 				part: ['snippet', 'status'],
 				maxResults,
