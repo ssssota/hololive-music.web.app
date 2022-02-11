@@ -455,6 +455,10 @@ tags = ["癒月ちょこ", "夜空メル", "オリジナル"]
 id = "BAx2GtYGJxs"
 tags = ["癒月ちょこ", "大空スバル", "姫森ルーナ"]
 
+[[video]] # https://www.youtube.com/watch?v=MQ-QnXZR4mc
+id = "MQ-QnXZR4mc"
+tags = ["癒月ちょこ", "大空スバル", "姫森ルーナ"]
+
 # 百鬼あやめ
 [[playlist]] # https://www.youtube.com/playlist?list=PL7EFb7T-o_1O4fE4frYhWI4toIh8q5LWH
 id = "PL7EFb7T-o_1O4fE4frYhWI4toIh8q5LWH"
