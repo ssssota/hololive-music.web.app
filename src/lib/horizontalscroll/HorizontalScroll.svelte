@@ -12,22 +12,14 @@
 	const onScroll = (e: UIEvent & { currentTarget: EventTarget & HTMLDivElement }) => {
 		scroll = e.currentTarget.scrollLeft;
 	};
-	const goLeft = () =>
-		scrollElement?.scrollBy({
-			left: -offsetWidth * 0.8,
-			behavior: 'smooth'
-		});
-	const goRight = () =>
-		scrollElement?.scrollBy({
-			left: offsetWidth * 0.8,
-			behavior: 'smooth'
-		});
+	const goLeft = () => scrollElement?.scrollBy({ left: -offsetWidth * 0.8, behavior: 'smooth' });
+	const goRight = () => scrollElement?.scrollBy({ left: offsetWidth * 0.8, behavior: 'smooth' });
 	onMount(() => {
 		if (scrollElement == null) return;
 		const observer = new window.ResizeObserver(setWidth);
 		observer.observe(scrollElement);
 		setWidth();
-		return observer.disconnect;
+		return () => observer.disconnect();
 	});
 </script>
 
