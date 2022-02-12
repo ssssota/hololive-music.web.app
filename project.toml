@@ -270,6 +270,10 @@ tags = ["白上フブキ", "夜空メル", "アキ・ローゼンタール", "�
 id = "PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id"
 tags = ["白上フブキ"]
 
+[[playlist]] # https://www.youtube.com/playlist?list=PL7LdRPp7xCkP9JJYvAqrQJLScbSol7S4-
+id = "PL7LdRPp7xCkP9JJYvAqrQJLScbSol7S4-"
+tags = ["白上フブキ"]
+
 [[video]] # https://www.youtube.com/watch?v=pFgUluV_00s
 id = "pFgUluV_00s"
 tags = ["白上フブキ", "オリジナル"]
