@@ -721,13 +721,13 @@ id = "PLet0wKVboCzF7QGobE077uQ6HogY8abWM"
 tags = ["桃鈴ねね", "オリジナル"]
 
 # 獅白ぼたん
+[[playlist]] # https://www.youtube.com/playlist?list=PLrQwEkvx5phi8umsHZd-VKAKZ1XZ_7OCy
+id = "PLrQwEkvx5phi8umsHZd-VKAKZ1XZ_7OCy"
+tags = ["獅白ぼたん"]
+
 [[video]] # https://www.youtube.com/watch?v=npVP58NvdQ8
 id = "npVP58NvdQ8"
 tags = ["獅白ぼたん", "オリジナル"]
-
-[[video]] # https://www.youtube.com/watch?v=o14s6S0k5qw
-id = "o14s6S0k5qw"
-tags = ["獅白ぼたん"]
 
 # 尾丸ポルカ
 [[playlist]] # https://www.youtube.com/playlist?list=PLWGY2acU-ZeTnH4EvPHYEcqCUx145dDUP
