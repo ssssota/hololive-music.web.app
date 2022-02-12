@@ -847,6 +847,9 @@ tags = ["Ayunda Risu", "Pavolia Reine"]
 id = "cos54QJsb7o"
 tags = ["Ayunda Risu"]
 
+[[ignore]] # https://www.youtube.com/watch?v=ZfoUh2-1c9Q
+id = "ZfoUh2-1c9Q"
+
 # Moona Hoshinova
 [[playlist]] # https://www.youtube.com/playlist?list=PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt
 id = "PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt"
