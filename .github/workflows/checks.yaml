@@ -12,13 +12,13 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [16.x]
 
     steps:
       - uses: actions/checkout@v2
       - uses: pnpm/action-setup@v2.0.1
         with:
-          version: 6.30.1
+          version: 6.32.3
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
