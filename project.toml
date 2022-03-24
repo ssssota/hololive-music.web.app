@@ -301,10 +301,6 @@ tags = [
 	"オリジナル"
 ]
 
-[[video]] # https://www.youtube.com/watch?v=dPX0_IEXVRo
-id = "dPX0_IEXVRo"
-tags = ["白上フブキ"]
-
 # 夏色まつり
 [[playlist]] # https://www.youtube.com/playlist?list=PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa
 id = "PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa"
@@ -416,6 +412,10 @@ tags = ["湊あくあ", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=fXeM0fXvOp8
 id = "fXeM0fXvOp8"
+tags = ["湊あくあ", "オリジナル"]
+
+[[video]] # https://www.youtube.com/watch?v=swX1O_a_vAk
+id = "swX1O_a_vAk"
 tags = ["湊あくあ", "オリジナル"]
 
 [[video]] # https://www.youtube.com/watch?v=m1mbRCgWO90
@@ -678,10 +678,6 @@ tags = ["雪花ラミィ", "桃鈴ねね", "獅白ぼたん", "尾丸ポルカ",
 id = "cYfUaHljuKg"
 tags = ["獅白ぼたん", "桃鈴ねね", "尾丸ポルカ", "雪花ラミィ"]
 
-[[video]] # https://www.youtube.com/watch?v=063INZy-ZtM
-id = "063INZy-ZtM"
-tags = ["獅白ぼたん", "桃鈴ねね", "尾丸ポルカ", "雪花ラミィ"]
-
 [[video]] # https://www.youtube.com/watch?v=mO0s9WTI-eU
 id = "mO0s9WTI-eU"
 tags = ["獅白ぼたん", "桃鈴ねね", "尾丸ポルカ", "雪花ラミィ"]
@@ -702,10 +698,6 @@ tags = ["雪花ラミィ"]
 [[video]] # https://www.youtube.com/watch?v=ULtGHb83pTI
 id = "ULtGHb83pTI"
 tags = ["雪花ラミィ", "オリジナル"]
-
-[[video]] # https://www.youtube.com/watch?v=Hl1-8j9OJyo
-id = "Hl1-8j9OJyo"
-tags = ["獅白ぼたん", "雪花ラミィ"]
 
 # 桃鈴ねね
 [[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q
@@ -870,12 +862,8 @@ id = "PL6DI34hJswwQ8um3dpgrZY1elCO-tNfrc"
 tags = ["Kureiji Ollie"]
 
 # Anya Melfissa
-[[video]] # https://www.youtube.com/watch?v=ZmM5OgXXVA4
-id = "ZmM5OgXXVA4"
-tags = ["Anya Melfissa"]
-
-[[video]] # https://www.youtube.com/watch?v=mqwRg9ZgANI
-id = "mqwRg9ZgANI"
+[[playlist]] # https://www.youtube.com/playlist?list=PLuRWkjIMjanEVABxsKoHeDrRDXsMf1dbE
+id = "PLuRWkjIMjanEVABxsKoHeDrRDXsMf1dbE"
 tags = ["Anya Melfissa"]
 
 # Pavolia Reine
