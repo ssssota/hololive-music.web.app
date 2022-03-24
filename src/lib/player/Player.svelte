@@ -29,12 +29,6 @@
 		iframe = undefined;
 		player?.destroy();
 	});
-
-	export const mute = (): void => player?.mute();
-	export const loadVideoById = (id: string): void => player?.loadVideoById(id);
-	export const cueVideoById = (id: string): void => player?.cueVideoById(id);
-	export const getCurrentTime = (): number => player?.getCurrentTime() ?? 0;
-	export const getDuration = (): number => player?.getDuration() ?? 0;
 </script>
 
 <section bind:this={wrapper}>
