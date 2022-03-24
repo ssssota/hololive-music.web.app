@@ -15,7 +15,9 @@ export const fetchFromProject = async (project: Project, apiKey: string): Promis
 
 	console.log('Fetching playlists...');
 	for (const playlist of project.playlist ?? []) {
-		const videosInPlaylist = await fetchPlaylist(apiKey, playlist.id);
+		const videosInPlaylist = await fetchPlaylist(apiKey, playlist.id).catch(
+			(err) => (console.warn(`Error playlist(${playlist.id}):`, err), [])
+		);
 		const tags = playlist.tags ?? [];
 		videosInPlaylist.forEach(({ resourceId }) => {
 			if (resourceId?.videoId == null) return;
