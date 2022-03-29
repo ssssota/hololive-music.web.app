@@ -879,6 +879,11 @@ tags = ["Pavolia Reine"]
 id = "PLrALGrrF-6IWBHB3pdou530lFKrSsCtD4"
 tags = ["Pavolia Reine", "オリジナル"]
 
+# Vestia Zeta
+[[video]] # https://www.youtube.com/watch?v=wQ1_0oeXW6M
+id = "wQ1_0oeXW6M"
+tags = ["Vestia Zeta"]
+
 # EN
 [[video]] # https://www.youtube.com/watch?v=I1cdQp5uz5s
 id = "I1cdQp5uz5s"
