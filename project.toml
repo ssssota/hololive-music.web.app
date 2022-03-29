@@ -699,6 +699,10 @@ tags = ["雪花ラミィ"]
 id = "ULtGHb83pTI"
 tags = ["雪花ラミィ", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=03bbzlaPhvQ
+id = "03bbzlaPhvQ"
+tags = ["雪花ラミィ", "桃鈴ねね"]
+
 # 桃鈴ねね
 [[playlist]] # https://www.youtube.com/playlist?list=PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q
 id = "PLet0wKVboCzEMtX-hZQn1obu40HWVKn7q"
