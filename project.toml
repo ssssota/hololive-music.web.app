@@ -860,6 +860,10 @@ tags = ["Airani Iofifteen"]
 id = "MJz6SHKmrC4"
 tags = ["Airani Iofifteen", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=Rd6kufQ7ONc
+id = "Rd6kufQ7ONc"
+tags = ["Airani Iofifteen", "オリジナル"]
+
 # Kureiji Ollie
 [[playlist]] # https://www.youtube.com/playlist?list=PL6DI34hJswwQ8um3dpgrZY1elCO-tNfrc
 id = "PL6DI34hJswwQ8um3dpgrZY1elCO-tNfrc"
