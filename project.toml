@@ -89,6 +89,10 @@ tags = [
 id = "0p7P9XRoeEo"
 tags = ["夜空メル", "紫咲シオン", "白銀ノエル", "宝鐘マリン"]
 
+[[video]] # https://www.youtube.com/watch?v=OpveB76DTZk
+id = "OpveB76DTZk"
+tags = ["BABACORN", "白上フブキ", "宝鐘マリン", "オリジナル"]
+
 # ときのそら
 [[playlist]] # https://www.youtube.com/playlist?list=PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ
 id = "PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ"
