@@ -895,6 +895,11 @@ tags = ["Pavolia Reine", "オリジナル"]
 id = "wQ1_0oeXW6M"
 tags = ["Vestia Zeta"]
 
+# Kobo Kanaeru
+[[video]] # https://www.youtube.com/watch?v=SF-_47-oCtk
+id = "SF-_47-oCtk"
+tags = ["Kobo Kanaeru", "オリジナル"]
+
 # EN
 [[video]] # https://www.youtube.com/watch?v=I1cdQp5uz5s
 id = "I1cdQp5uz5s"
