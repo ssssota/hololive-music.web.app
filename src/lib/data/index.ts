@@ -79,7 +79,9 @@ export const fetchFromProject = async (project: Project, apiKey: string): Promis
 	if (duplicateDefinitions.length > 0)
 		console.warn(`Duplicate definitions found: ${duplicateDefinitions.join(', ')}`);
 
-	const notagVideos = videoList.filter(({ tags }) => tags?.length === 0);
+	const notagVideos = videoList.filter(
+		({ tags }) => tags?.filter((tag) => tag !== 'NEW')?.length === 0
+	);
 	if (notagVideos.length > 0)
 		console.warn(`No tag video found: ${notagVideos.map(({ id }) => id).join(', ')}`);
 
