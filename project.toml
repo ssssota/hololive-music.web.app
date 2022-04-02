@@ -151,6 +151,10 @@ tags = ["AZKi", "さくらみこ", "宝鐘マリン"]
 id = "-9wUbw5qevU"
 tags = ["AZKi", "星街すいせい"]
 
+[[video]] # https://www.youtube.com/watch?v=lv7UI1livw4
+id = "lv7UI1livw4"
+tags = ["AZKi", "オリジナル"]
+
 # ロボ子さん
 [[video]] # https://www.youtube.com/watch?v=UXuMSLOUhgs
 id = "UXuMSLOUhgs"
