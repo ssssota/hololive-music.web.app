@@ -588,18 +588,18 @@ tags = ["兎田ぺこら"]
 id = "ZRCzLtCsIQs"
 tags = ["兎田ぺこら", "Moona Hoshinova"]
 
-# 潤羽るしあ
-[[playlist]] # https://www.youtube.com/playlist?list=PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb
-id = "PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb"
-tags = ["潤羽るしあ"]
+# # 潤羽るしあ
+# [[playlist]] # https://www.youtube.com/playlist?list=PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb
+# id = "PL_i2uYKhN9y3qOFj4177ZsINvyS_KUDgb"
+# tags = ["潤羽るしあ"]
 
-[[video]] # https://www.youtube.com/watch?v=NtRpDpfE69Y
-id = "NtRpDpfE69Y"
-tags = ["潤羽るしあ", "オリジナル"]
+# [[video]] # https://www.youtube.com/watch?v=NtRpDpfE69Y
+# id = "NtRpDpfE69Y"
+# tags = ["潤羽るしあ", "オリジナル"]
 
-[[video]] # https://www.youtube.com/watch?v=ibXRzMUUWPE
-id = "ibXRzMUUWPE"
-tags = ["潤羽るしあ", "オリジナル"]
+# [[video]] # https://www.youtube.com/watch?v=ibXRzMUUWPE
+# id = "ibXRzMUUWPE"
+# tags = ["潤羽るしあ", "オリジナル"]
 
 # 白銀ノエル
 [[video]] # https://www.youtube.com/watch?v=LMYIam2RFkg
