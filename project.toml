@@ -833,6 +833,14 @@ tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen"]
 id = "eJjz3owWnbU"
 tags = ["Kureiji Ollie", "Anya Melfissa", "Pavolia Reine"]
 
+[[video]] # https://www.youtube.com/watch?v=fTiLguEpX5Y
+id = "fTiLguEpX5Y"
+tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen", "オリジナル"]
+
+[[video]] # https://www.youtube.com/watch?v=XSZNNbbVuho
+id = "XSZNNbbVuho"
+tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen", "オリジナル"]
+
 # Ayunda Risu
 [[playlist]] # https://www.youtube.com/playlist?list=PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH
 id = "PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH"
