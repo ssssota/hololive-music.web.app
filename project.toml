@@ -159,6 +159,10 @@ tags = ["AZKi", "星街すいせい"]
 id = "lv7UI1livw4"
 tags = ["AZKi", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=kVpUEVhrC0U
+id = "kVpUEVhrC0U"
+tags = ["AZKi", "オリジナル"]
+
 # ロボ子さん
 [[video]] # https://www.youtube.com/watch?v=UXuMSLOUhgs
 id = "UXuMSLOUhgs"
