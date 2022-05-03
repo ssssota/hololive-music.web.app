@@ -656,8 +656,8 @@ tags = ["天音かなた", "桐生ココ", "角巻わため", "常闇トワ", "�
 id = "PLNvxSJodVoAu5ABQjfuPGnzqkRMLtN0y2"
 tags = ["天音かなた"]
 
-[[video]] # https://www.youtube.com/watch?v=mcQs0iQE0bs
-id = "mcQs0iQE0bs"
+[[playlist]] # https://www.youtube.com/playlist?list=PLNvxSJodVoAuAqJxsnbT07LeETTwLpXfx
+id = "PLNvxSJodVoAuAqJxsnbT07LeETTwLpXfx"
 tags = ["天音かなた", "オリジナル"]
 
 # 桐生ココ
