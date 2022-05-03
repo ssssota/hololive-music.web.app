@@ -595,6 +595,18 @@ tags = ["不知火フレア", "白銀ノエル"]
 id = "PLKo9UD3uKyyFUSwUDM5hCTB4fEvZqYs0P"
 tags = ["宝鐘マリン"]
 
+[[video]] # https://www.youtube.com/watch?v=e7VK3pne8N4
+id = "e7VK3pne8N4"
+tags = ["宝鐘マリン", "オリジナル"]
+
+[[video]] # https://www.youtube.com/watch?v=_VIeV_LZXHM
+id = "_VIeV_LZXHM"
+tags = ["宝鐘マリン", "オリジナル"]
+
+[[video]] # https://www.youtube.com/watch?v=u_hUpHUTJwQ
+id = "u_hUpHUTJwQ"
+tags = ["宝鐘マリン", "オリジナル"]
+
 # 兎田ぺこら
 [[playlist]] # https://www.youtube.com/playlist?list=PL9jli3ZqRhJD13ORC2CUTEYnjeZt9KMPb
 id = "PL9jli3ZqRhJD13ORC2CUTEYnjeZt9KMPb"
