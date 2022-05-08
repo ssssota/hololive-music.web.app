@@ -534,6 +534,10 @@ tags = ["大神ミオ", "オリジナル"]
 id = "cbKfZy5Jpgk"
 tags = ["白上フブキ", "百鬼あやめ", "大空スバル", "大神ミオ", "猫又おかゆ", "戌神ころね"]
 
+[[video]] # https://www.youtube.com/watch?v=x08ODvaQAqU
+id = "x08ODvaQAqU"
+tags = ["大神ミオ"]
+
 # 猫又おかゆ
 [[playlist]] # https://www.youtube.com/playlist?list=PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR
 id = "PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR"
