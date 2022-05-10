@@ -97,6 +97,10 @@ tags = ["BABACORN", "白上フブキ", "宝鐘マリン", "オリジナル"]
 id = "AvOu9B5rsdA"
 tags = ["白上フブキ", "百鬼あやめ", "大神ミオ", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=5ArDbvfds9k
+id = "5ArDbvfds9k"
+tags = ["ORIO", "天音かなた", "常闇トワ", "オリジナル"]
+
 # ときのそら
 [[playlist]] # https://www.youtube.com/playlist?list=PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ
 id = "PL_0A0t0-Y0AMGFPCuKDZ3o8PMVpKcNvOQ"
