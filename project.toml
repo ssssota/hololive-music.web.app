@@ -916,6 +916,10 @@ tags = ["Airani Iofifteen", "オリジナル"]
 id = "PL6DI34hJswwQ8um3dpgrZY1elCO-tNfrc"
 tags = ["Kureiji Ollie"]
 
+[[video]] # https://www.youtube.com/watch?v=2ZqtRc3fa_s
+id = "2ZqtRc3fa_s"
+tags = ["Kureiji Ollie", "オリジナル"]
+
 # Anya Melfissa
 [[playlist]] # https://www.youtube.com/playlist?list=PLuRWkjIMjanEVABxsKoHeDrRDXsMf1dbE
 id = "PLuRWkjIMjanEVABxsKoHeDrRDXsMf1dbE"
