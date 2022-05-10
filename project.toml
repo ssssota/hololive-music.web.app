@@ -130,6 +130,22 @@ tags = ["ときのそら", "さくらみこ", "夜空メル", "ロボ子さん",
 id = "4Hg0Nchl3HU"
 tags = ["白上フブキ", "百鬼あやめ", "大神ミオ", "いろはにほへっと あやふぶみ", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=UAMhYU9SHzo
+id = "UAMhYU9SHzo"
+tags = ["AZKi", "ときのそら", "夏色まつり"]
+
+[[video]] # https://www.youtube.com/watch?v=gDfd2ICWezg
+id = "gDfd2ICWezg"
+tags = [
+	"天音かなた",
+	"尾丸ポルカ",
+	"獅白ぼたん",
+	"不知火フレア",
+	"星街すいせい",
+	"桃鈴ねね",
+	"雪花ラミィ"
+]
+
 # AZKi
 [[playlist]] # https://www.youtube.com/playlist?list=PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS
 id = "PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS"
