@@ -355,6 +355,10 @@ tags = ["夏色まつり", "紫咲シオン"]
 id = "PL43udV6iXTkCwnaFSjm3IAtggd7f12onJ"
 tags = ["夜空メル"]
 
+[[playlist]] # https://www.youtube.com/playlist?list=PL43udV6iXTkD3nEwDm8ex0TjUqMoyQzPE
+id = "PL43udV6iXTkD3nEwDm8ex0TjUqMoyQzPE"
+tags = ["夜空メル"]
+
 [[video]] # https://www.youtube.com/watch?v=8iin3HQpwSY
 id = "8iin3HQpwSY"
 tags = ["夜空メル", "オリジナル"]
