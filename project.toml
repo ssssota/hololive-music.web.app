@@ -930,6 +930,10 @@ tags = ["Pavolia Reine"]
 id = "PLrALGrrF-6IWBHB3pdou530lFKrSsCtD4"
 tags = ["Pavolia Reine", "オリジナル"]
 
+[[video]] # https://www.youtube.com/watch?v=nbB3KsFRv4U
+id = "nbB3KsFRv4U"
+tags = ["Pavolia Reine", "Mori Calliope", "星街すいせい"]
+
 # Vestia Zeta
 [[video]] # https://www.youtube.com/watch?v=wQ1_0oeXW6M
 id = "wQ1_0oeXW6M"
