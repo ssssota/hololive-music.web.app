@@ -1072,6 +1072,10 @@ id = "R5yfM_UlucY"
 tags = ["Takanashi Kiara", "Ninomae Ina'nis"]
 
 # Ninomae Ina'nis
+[[playlist]] # https://www.youtube.com/playlist?list=PLQZecHYc3j2plhVMu0squPpD4XRoQmX-y
+id = "PLQZecHYc3j2plhVMu0squPpD4XRoQmX-y"
+tags = ["Ninomae Ina'nis"]
+
 [[video]] # https://www.youtube.com/watch?v=8ZdLXELdF9Q
 id = "8ZdLXELdF9Q"
 tags = ["Ninomae Ina'nis", "オリジナル"]
