@@ -8,7 +8,7 @@ const toml = readFileSync(
 );
 export const parsedProject = parseProjectToml(toml);
 
-export const get: RequestHandler = () => {
+export const GET: RequestHandler = () => {
 	return {
 		body: parsedProject.project
 	};

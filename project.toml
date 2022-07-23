@@ -187,6 +187,10 @@ tags = ["AZKi", "オリジナル"]
 id = "zWskZx7Lp2Q"
 tags = ["AZKi", "白上フブキ", "宝鐘マリン"]
 
+[[video]] # https://www.youtube.com/watch?v=fiddR-oZta4
+id = "fiddR-oZta4"
+tags = ["AZKi", "オリジナル"]
+
 # ロボ子さん
 [[video]] # https://www.youtube.com/watch?v=UXuMSLOUhgs
 id = "UXuMSLOUhgs"
@@ -314,6 +318,10 @@ tags = ["白上フブキ"]
 id = "PL7LdRPp7xCkP9JJYvAqrQJLScbSol7S4-"
 tags = ["白上フブキ"]
 
+[[playlist]] # https://www.youtube.com/playlist?list=PL7LdRPp7xCkMAA8IJT3wPHpMsYHmUcW9o
+id = "PL7LdRPp7xCkMAA8IJT3wPHpMsYHmUcW9o"
+tags = ["白上フブキ", "オリジナル"]
+
 [[video]] # https://www.youtube.com/watch?v=pFgUluV_00s
 id = "pFgUluV_00s"
 tags = ["白上フブキ", "オリジナル"]
@@ -340,6 +348,12 @@ tags = [
 	"天音かなた",
 	"オリジナル"
 ]
+
+[[video]] # https://www.youtube.com/watch?v=mz410SPf0t4
+id = "mz410SPf0t4"
+tags = ["白上フブキ", "不知火フレア", "角巻わため", "オリジナル"]
+
+[[video]] # https://www.youtube.com/watch?v=yVaQpUUAzik
 
 # 夏色まつり
 [[playlist]] # https://www.youtube.com/playlist?list=PL6sZ3uYmeG1vGZVLNlWdJkm3W0R86y_Qa
@@ -571,18 +585,26 @@ id = "x08ODvaQAqU"
 tags = ["大神ミオ"]
 
 # 猫又おかゆ
+[[playlist]] # https://www.youtube.com/playlist?list=PL3y-e0n6k6gAkwrtIbBAbDPNFBcHWgyOl
+id = "PL3y-e0n6k6gAkwrtIbBAbDPNFBcHWgyOl"
+tags = ["猫又おかゆ", "オリジナル"]
+
 [[playlist]] # https://www.youtube.com/playlist?list=PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR
 id = "PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR"
 tags = ["猫又おかゆ"]
 
+[[video]] # https://www.youtube.com/watch?v=M8UmWCeIKyQ
+id = "M8UmWCeIKyQ"
+tags = ["猫又おかゆ"]
+
 # 戌神ころね
-[[video]] # https://www.youtube.com/watch?v=nks1I1sY53I
-id = "nks1I1sY53I"
+[[playlist]] # https://www.youtube.com/playlist?list=PLI3I4eCwIlMhCknbIPWKu9ZM60t0_WiAP
+id = "PLI3I4eCwIlMhCknbIPWKu9ZM60t0_WiAP"
 tags = ["戌神ころね", "オリジナル"]
 
-[[video]] # https://www.youtube.com/watch?v=wLNTAMY1NZA
-id = "wLNTAMY1NZA"
-tags = ["戌神ころね", "オリジナル"]
+[[video]] # https://www.youtube.com/watch?v=N_eK0ujrhmY
+id = "N_eK0ujrhmY"
+tags = ["戌神ころね", "宝鐘マリン", "白銀ノエル", "雪花ラミィ"]
 
 [[video]] # https://www.youtube.com/watch?v=OGYu6Kj3bL0
 id = "OGYu6Kj3bL0"
@@ -598,10 +620,18 @@ tags = ["戌神ころね"]
 
 [[video]] # https://www.youtube.com/watch?v=MiuFIzr8bR0
 id = "MiuFIzr8bR0"
+tags = ["戌神ころね", "猫又おかゆ"]
+
+[[video]] # https://www.youtube.com/watch?v=qgeuRSawFaw
+id = "qgeuRSawFaw"
 tags = ["戌神ころね"]
 
 [[video]] # https://www.youtube.com/watch?v=7jk8e94Cr7U
 id = "7jk8e94Cr7U"
+tags = ["戌神ころね"]
+
+[[video]] # https://www.youtube.com/watch?v=pkWFpUijuMc
+id = "pkWFpUijuMc"
 tags = ["戌神ころね"]
 
 # 3期生
@@ -653,8 +683,8 @@ id = "ZRCzLtCsIQs"
 tags = ["兎田ぺこら", "Moona Hoshinova"]
 
 # 白銀ノエル
-[[video]] # https://www.youtube.com/watch?v=LMYIam2RFkg
-id = "LMYIam2RFkg"
+[[playlist]] # https://www.youtube.com/playlist?list=PLsAgfBTGY4i3ZPGLj8Vhmfz3duyWaskUu
+id = "PLsAgfBTGY4i3ZPGLj8Vhmfz3duyWaskUu"
 tags = ["白銀ノエル", "オリジナル"]
 
 # 星街すいせい
@@ -708,6 +738,10 @@ tags = ["角巻わため"]
 
 [[playlist]] # https://www.youtube.com/playlist?list=PLZ34fLWik_iBK39rTWRAs_G93pnUW3K-7
 id = "PLZ34fLWik_iBK39rTWRAs_G93pnUW3K-7"
+tags = ["角巻わため", "オリジナル"]
+
+[[playlist]] # https://www.youtube.com/watch?v=-EHqt_WtpGA
+id = "-EHqt_WtpGA"
 tags = ["角巻わため", "オリジナル"]
 
 # 常闇トワ
@@ -811,6 +845,10 @@ tags = ["尾丸ポルカ", "さくらみこ", "不知火フレア", "角巻わ�
 id = "PL-ksV7rAwJHWfgsi38uZEsWpnY128WwBC"
 tags = ["ラプラス・ダークネス"]
 
+[[playlist]] # https://www.youtube.com/playlist?list=PL-ksV7rAwJHVHphjemOnR07QV9vQi5OY6
+id = "PL-ksV7rAwJHVHphjemOnR07QV9vQi5OY6"
+tags = ["ラプラス・ダークネス"]
+
 # 鷹嶺ルイ
 [[playlist]] # https://www.youtube.com/playlist?list=PLD992QYJ2953ekTB3YuoHcF505PWPXlwb
 id = "PLD992QYJ2953ekTB3YuoHcF505PWPXlwb"
@@ -833,6 +871,15 @@ tags = ["沙花叉クロヱ", "オリジナル"]
 [[playlist]] # https://www.youtube.com/playlist?list=PLi6TWx3pTf1dHW-DvMpPEW2NLDICBkW8z
 id = "PLi6TWx3pTf1dHW-DvMpPEW2NLDICBkW8z"
 tags = ["沙花叉クロヱ"]
+
+# 風真いろは
+[[playlist]] # https://www.youtube.com/playlist?list=PLUfQ3xz0-Jen7EoEDeZAkl5yVuBdtw-Wl
+id = "PLUfQ3xz0-Jen7EoEDeZAkl5yVuBdtw-Wl"
+tags = ["風真いろは"]
+
+[[playlist]] # https://www.youtube.com/playlist?list=PLUfQ3xz0-JemBHsJIHPvt0ZTb7YpuwzYm
+id = "PLUfQ3xz0-JemBHsJIHPvt0ZTb7YpuwzYm"
+tags = ["風真いろは"]
 
 # ID
 [[video]] # https://www.youtube.com/watch?v=lFQW5S_xH1o
@@ -958,16 +1005,16 @@ tags = ["Pavolia Reine"]
 id = "PLrALGrrF-6IWBHB3pdou530lFKrSsCtD4"
 tags = ["Pavolia Reine", "オリジナル"]
 
-[[video]] # https://www.youtube.com/watch?v=nbB3KsFRv4U
-id = "nbB3KsFRv4U"
-tags = ["Pavolia Reine", "Mori Calliope", "星街すいせい"]
-
 # Vestia Zeta
 [[video]] # https://www.youtube.com/watch?v=wQ1_0oeXW6M
 id = "wQ1_0oeXW6M"
 tags = ["Vestia Zeta"]
 
 # Kobo Kanaeru
+[[playlist]] # https://www.youtube.com/playlist?list=PLwtTNsTyL23S4MNl0-gdozd769CytE_9X
+id = "PLwtTNsTyL23S4MNl0-gdozd769CytE_9X"
+tags = ["Kobo Kanaeru"]
+
 [[video]] # https://www.youtube.com/watch?v=SF-_47-oCtk
 id = "SF-_47-oCtk"
 tags = ["Kobo Kanaeru", "オリジナル"]
@@ -1066,10 +1113,6 @@ tags = ["Takanashi Kiara", "オリジナル"]
 [[video]] # https://www.youtube.com/watch?v=eDfMDkgheQY
 id = "eDfMDkgheQY"
 tags = ["Takanashi Kiara", "オリジナル"]
-
-[[video]] # https://www.youtube.com/watch?v=R5yfM_UlucY
-id = "R5yfM_UlucY"
-tags = ["Takanashi Kiara", "Ninomae Ina'nis"]
 
 # Ninomae Ina'nis
 [[playlist]] # https://www.youtube.com/playlist?list=PLQZecHYc3j2plhVMu0squPpD4XRoQmX-y
