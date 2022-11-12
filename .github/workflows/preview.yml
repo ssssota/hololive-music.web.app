@@ -15,3 +15,6 @@ jobs:
         with:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOLOLIVE_MUSIC }}
       - run: firebase help
+      - uses: ./.github/actions/get-pr-id
+        id: pr-id
+      - run: echo ${{ steps.pr-id.outputs.pr-id }}
