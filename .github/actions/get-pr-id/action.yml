@@ -22,4 +22,6 @@ runs:
           return correctedChannelId;
         result-encoding: string
 outputs:
-  pr-id: ${{ steps.id-generator.outputs.result }}
+  pr-id:
+    description: 'PR ID'
+    value: ${{ steps.id-generator.outputs.result }}
