@@ -19,7 +19,6 @@ runs:
       run: |
         FIREBASE_BIN_PATH=/usr/local/bin/firebase
         echo "#!/bin/bash" > $FIREBASE_BIN_PATH
-        echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/firebase-service-account.json" >> $FIREBASE_BIN_PATH
-        echo "npx -p firebase-tools firebase \"\$@\"" >> $FIREBASE_BIN_PATH
+        echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/firebase-service-account.json npx -p firebase-tools firebase \"\$@\"" >> $FIREBASE_BIN_PATH
         chmod +x $FIREBASE_BIN_PATH
       shell: bash
