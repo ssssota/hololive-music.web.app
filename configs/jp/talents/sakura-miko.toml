@@ -1,0 +1,24 @@
+tags = ["さくらみこ"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLMF8NocLqJtubiccXUm9SCZ79dDPSLq2B"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLMF8NocLqJttJCIiUCkNXx6jW4dAYfz5G"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=9nD7aQ_cKAM"
+tags = ["兎田ぺこら", "宝鐘マリン", "夏色まつり"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=0yeg4XkzrMI"
+tags = ["白上フブキ"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=uRB1G0cKpIk"
+tags = ["兎田ぺこら", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=MkSkQBIhGus"
+tags = ["戌神ころね"]

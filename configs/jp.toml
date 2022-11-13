@@ -1,0 +1,123 @@
+files = [
+  "jp/0th.toml",
+  "jp/1st.toml",
+  "jp/2nd.toml",
+	"jp/gamers.toml",
+  "jp/3rd.toml",
+  "jp/4th.toml",
+  "jp/5th.toml",
+  "jp/holox.toml",
+]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=O-SXhtYjprc"
+tags = [
+	"ときのそら",
+	"ロボ子さん",
+	"夜空メル",
+	"アキ・ローゼンタール",
+	"赤井はあと",
+	"白上フブキ",
+	"夏色まつり",
+	"湊あくあ",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"大神ミオ",
+	"さくらみこ",
+	"猫又おかゆ",
+	"戌神ころね",
+	"兎田ぺこら",
+	"潤羽るしあ",
+	"宝鐘マリン",
+	"不知火フレア",
+	"白銀ノエル"
+]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=68KV7JnrvDo"
+tags = [
+	"ときのそら",
+	"ロボ子さん",
+	"夜空メル",
+	"アキ・ローゼンタール",
+	"赤井はあと",
+	"白上フブキ",
+	"夏色まつり",
+	"湊あくあ",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"AZKi",
+	"大神ミオ",
+	"さくらみこ",
+	"猫又おかゆ",
+	"戌神ころね",
+	"兎田ぺこら",
+	"潤羽るしあ",
+	"宝鐘マリン",
+	"不知火フレア",
+	"白銀ノエル",
+	"星街すいせい",
+	"オリジナル"
+]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=RrsGNMMghKM"
+tags = [
+	"ときのそら",
+	"ロボ子さん",
+	"夜空メル",
+	"アキ・ローゼンタール",
+	"赤井はあと",
+	"白上フブキ",
+	"夏色まつり",
+	"湊あくあ",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"AZKi",
+	"大神ミオ",
+	"さくらみこ",
+	"猫又おかゆ",
+	"戌神ころね",
+	"オリジナル"
+]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=0p7P9XRoeEo"
+tags = ["夜空メル", "紫咲シオン", "白銀ノエル", "宝鐘マリン"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=OpveB76DTZk"
+tags = ["BABACORN", "白上フブキ", "宝鐘マリン", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=AvOu9B5rsdA"
+tags = ["いろはにほへっと あやふぶみ", "白上フブキ", "百鬼あやめ", "大神ミオ", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=5ArDbvfds9k"
+tags = ["ORIO", "天音かなた", "常闇トワ", "オリジナル"]
+[[videos]]
+url = "https://www.youtube.com/watch?v=4Hg0Nchl3HU"
+tags = ["白上フブキ", "百鬼あやめ", "大神ミオ", "いろはにほへっと あやふぶみ", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=UAMhYU9SHzo"
+tags = ["AZKi", "ときのそら", "夏色まつり"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=gDfd2ICWezg"
+tags = [
+  "天音かなた",
+  "尾丸ポルカ",
+  "獅白ぼたん",
+  "不知火フレア",
+  "星街すいせい",
+  "桃鈴ねね",
+  "雪花ラミィ"
+]

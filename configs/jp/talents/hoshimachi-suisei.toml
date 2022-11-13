@@ -1,0 +1,22 @@
+tags = ["星街すいせい"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLAo9RlHR2tDZwddeEyp9nTfpaFB58DrXd"
+tags = ["オリジナル"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLAo9RlHR2tDakgakxbOxT9dAZD0rpwvXQ"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=xyXKJAZH_Pw"
+tags = ["友人A"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=LYFciXBcXIQ"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=JiNIHQ28pGc"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=-wNSFmqhQsU"
+tags = ["不知火フレア", "宝鐘マリン", "兎田ぺこら", "潤羽るしあ", "白銀ノエル"]
