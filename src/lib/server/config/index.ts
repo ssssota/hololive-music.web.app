@@ -1,19 +1,17 @@
-import { config } from './types';
-import type { ParsedConfig, Config } from './types';
+import { config } from '../../config/types';
+import type { ParsedConfig, Config } from '../../config/types';
 import TOML from '@iarna/toml';
 import { readFile } from 'fs/promises';
 import { resolve } from 'path';
 import { sequence } from '$lib/utils';
 
-const load = async (configPath: string): Promise<Required<Config>> => {
-  console.log('Loading from', configPath);
+const load = async (configPath: string): Promise<Config> => {
   const file = await readFile(configPath, 'utf-8');
   const json = TOML.parse(file);
   return config.parse(json);
 };
 
 export const loadConfig = async (configPath: string): Promise<ParsedConfig> => {
-  console.log('Loading config from', configPath);
   const parsed = await load(configPath);
   const children = await sequence(
     parsed.files.map((file) => () => {
@@ -35,5 +33,6 @@ export const loadConfig = async (configPath: string): Promise<ParsedConfig> => {
       ...playlist,
       tags: [...playlist.tags, ...parsed.tags],
     })),
+    ignores: [...parsed.ignores, ...children.flatMap((c) => c.ignores)],
   };
 };

@@ -13,9 +13,14 @@
   "devDependencies": {
     "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",
+    "@types/color-convert": "^2.0.0",
     "@types/iarna__toml": "^2.0.2",
+    "@types/sharp": "^0.31.0",
+    "@types/uuid": "^8.3.4",
+    "@types/youtube-player": "^5.5.6",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
+    "better-typescript-lib": "^2.1.0",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^4.0.0",
@@ -32,7 +37,13 @@
   "packageManager": "pnpm@7.15.0",
   "dependencies": {
     "@iarna/toml": "^2.2.5",
+    "color-convert": "^2.0.1",
+    "colorthief": "^2.3.2",
     "firebase": "^9.14.0",
+    "sharp": "^0.31.2",
+    "the-new-css-reset": "^1.7.3",
+    "uuid": "^9.0.0",
+    "youtube-player": "^5.5.2",
     "youtubei.js": "^2.3.3",
     "zod": "^3.19.1"
   }

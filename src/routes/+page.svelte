@@ -1,9 +1,45 @@
 <script lang="ts">
-  import type { PageServerData } from './$types';
-  export let data: PageServerData;
+  import Card from '$lib/components/Card.svelte';
+  import type { YTPlayer } from '$lib/components/YoutubePlayer.svelte';
+  import YoutubePlayer from '$lib/components/YoutubePlayer.svelte';
+  import type { PageData } from './$types';
+  export let data: PageData;
+
+  let playingVideoId: string | undefined = undefined;
+  let player: YTPlayer | undefined = undefined;
 </script>
 
-<article>
-  <h1>Hololive music</h1>
-  <pre>{JSON.stringify(data, undefined, 2)}</pre>
-</article>
+<main>
+  {#each data.videos as video (video.id)}
+    <Card
+      info={video}
+      {playingVideoId}
+      on:click={() => {
+        playingVideoId = video.id;
+        player?.cueVideoById(video.id);
+      }}
+    />
+  {/each}
+</main>
+
+<section>
+  <YoutubePlayer
+    bind:player
+    options={{ playerVars: { playsinline: 1, autoplay: 1 } }}
+  />
+</section>
+
+<style>
+  section {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    width: min(320px, 100vw);
+  }
+  main {
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100vw), 1fr));
+  }
+</style>
