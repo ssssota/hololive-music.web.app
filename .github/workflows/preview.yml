@@ -16,10 +16,10 @@ jobs:
         id: pr-id
       - run: pnpm build
       - run: firebase hosting:channel:deploy ${{ steps.pr-id.outputs.pr-id }} | tee deploy.log
-      # - if: ${{ github.event.action == 'opened' }}
       - id: get-deploy-url
-        run: echo "URL=$(cat deploy.log | grep ${{ steps.pr-id.outputs.pr-id }} | sed -e 's/\x1b\[[0-9;]*m//g')" >> $GITHUB_OUTPUT
+        run: echo "URL=$(cat deploy.log | grep ${{ steps.pr-id.outputs.pr-id }} | sed -e 's/\x1b\[[0-9;]*m//g' | grep -Eo 'https?://[^ >]+')" >> $GITHUB_OUTPUT
       - uses: actions/github-script@v6
+        # if: ${{ github.event.action == 'opened' }}
         with:
           script: |
             github.rest.issues.createComment({
