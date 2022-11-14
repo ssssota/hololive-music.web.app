@@ -1,29 +1,20 @@
-<script lang="ts" context="module">
-  type CreateYouTubePlayer = typeof createYouTubePlayer;
-  export type YTPlayer = ReturnType<CreateYouTubePlayer>;
-  export type YTPlayerOptions = Parameters<CreateYouTubePlayer>[1];
-</script>
-
 <script lang="ts">
-  import { createEventDispatcher, onDestroy, onMount } from 'svelte';
-  import createYouTubePlayer from 'youtube-player';
-  const dispatch = createEventDispatcher<{
-    ready: never;
-    error: CustomEvent;
-    statechange: number;
-  }>();
+  import {
+    YTPromise,
+    type YTPlayer,
+    type YTPlayerOptions,
+  } from '$lib/youtube/iframe';
+  import { onDestroy, onMount } from 'svelte';
 
-  export let options: YTPlayerOptions = undefined;
   export let player: YTPlayer | undefined = undefined;
+  export let options: YTPlayerOptions = {};
   let wrapper: HTMLElement;
   let iframe: HTMLElement | undefined;
 
   onMount(async () => {
     if (!iframe) throw new Error('Unexpected Error: iframe is undefined');
-    player = createYouTubePlayer(iframe, options);
-    player.on('ready', () => dispatch('ready'));
-    player.on('error', (e) => dispatch('error', e));
-    player.on('stateChange', (e) => dispatch('statechange', e.data));
+    const YT = await YTPromise;
+    player = new YT.Player(iframe, options);
   });
   onDestroy(() => {
     iframe = undefined;

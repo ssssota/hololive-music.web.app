@@ -41,3 +41,5 @@ const videos = (async () => {
 export const load: LayoutServerLoad = async () => {
   return { videos };
 };
+
+export const prerender = true;

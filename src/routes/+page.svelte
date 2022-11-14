@@ -1,7 +1,7 @@
 <script lang="ts">
   import Card from '$lib/components/Card.svelte';
-  import type { YTPlayer } from '$lib/components/YoutubePlayer.svelte';
   import YoutubePlayer from '$lib/components/YoutubePlayer.svelte';
+  import type { YTPlayer } from '$lib/youtube/iframe';
   import type { PageData } from './$types';
   export let data: PageData;
 
@@ -16,7 +16,7 @@
       {playingVideoId}
       on:click={() => {
         playingVideoId = video.id;
-        player?.cueVideoById(video.id);
+        player?.loadVideoById(video.id);
       }}
     />
   {/each}

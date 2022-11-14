@@ -1,15 +1,18 @@
-import { Innertube, UniversalCache } from 'youtubei.js';
+import { dev } from '$app/environment';
+import * as youtube from 'youtubei.js';
 
-let client: Innertube | undefined;
+const yt = dev ? youtube : (youtube.default as unknown as typeof youtube);
+
+let client: youtube.Innertube | undefined;
 
 export const getClient = async ({
   cachePersistence = false,
   language = 'ja',
-}): Promise<Innertube> => {
+}): Promise<youtube.Innertube> => {
   if (client) return client;
 
-  client = await Innertube.create({
-    cache: new UniversalCache(cachePersistence),
+  client = await yt.Innertube.create({
+    cache: new yt.UniversalCache(cachePersistence),
     lang: language,
   });
   return client;

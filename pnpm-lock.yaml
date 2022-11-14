@@ -9,28 +9,29 @@ specifiers:
   '@types/sharp': ^0.31.0
   '@types/uuid': ^8.3.4
   '@types/youtube-player': ^5.5.6
-  '@typescript-eslint/eslint-plugin': ^5.27.0
-  '@typescript-eslint/parser': ^5.27.0
+  '@typescript-eslint/eslint-plugin': ^5.42.1
+  '@typescript-eslint/parser': ^5.42.1
   better-typescript-lib: ^2.1.0
   color-convert: ^2.0.1
   colorthief: ^2.3.2
-  eslint: ^8.16.0
-  eslint-config-prettier: ^8.3.0
+  eslint: ^8.27.0
+  eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
   firebase: ^9.14.0
-  prettier: ^2.6.2
-  prettier-plugin-svelte: ^2.7.0
+  load-script: ^2.0.0
+  prettier: ^2.7.1
+  prettier-plugin-svelte: ^2.8.0
   sharp: ^0.31.2
-  svelte: ^3.46.0
-  svelte-check: ^2.7.1
-  svelte-preprocess: ^4.10.6
+  svelte: ^3.53.1
+  svelte-check: ^2.9.2
+  svelte-preprocess: ^4.10.7
   the-new-css-reset: ^1.7.3
-  tslib: ^2.3.1
-  typescript: ^4.7.4
+  tslib: ^2.4.1
+  typescript: ^4.8.4
   uuid: ^9.0.0
-  vite: ^3.1.0
+  vite: ^3.2.3
   youtube-player: ^5.5.2
-  youtubei.js: ^2.3.3
+  youtubei.js: ^2.4.1
   zod: ^3.19.1
 
 dependencies:
@@ -38,11 +39,12 @@ dependencies:
   color-convert: 2.0.1
   colorthief: 2.3.2
   firebase: 9.14.0
+  load-script: 2.0.0
   sharp: 0.31.2
   the-new-css-reset: 1.7.3
   uuid: 9.0.0
   youtube-player: 5.5.2
-  youtubei.js: 2.3.3
+  youtubei.js: 2.4.1
   zod: 3.19.1
 
 devDependencies:
@@ -1363,16 +1365,11 @@ packages:
     dev: false
 
   /data-uri-to-buffer/0.0.3:
-    resolution: {integrity: sha512-Cp+jOa8QJef5nXS5hU7M1DWzXPEIoVR3kbV0dQuVGwROZg8bGf1DcCnkmajBTnvghTtSNMUdRrPjgaT6ZQucbw==}
+    resolution: {integrity: sha1-GK6XmmoMqZSwYlhTkW0mYruuCxo=}
     dev: false
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
     dependencies:
       ms: 2.0.0
     dev: false
@@ -2351,6 +2348,10 @@ packages:
     resolution: {integrity: sha512-kPEjMFtZvwL9TaZo0uZ2ml+Ye9HUMmPwbYRJ324qF9tqMejwykJ5ggTyvzmrbBeapCAbk98BSbTeovHEEP1uCA==}
     dev: false
 
+  /load-script/2.0.0:
+    resolution: {integrity: sha512-km6cyoPW4rM22JMGb+SHUKPMZVDpUaMpMAKrv8UHWllIxc/qjgMGHD91nY+5hM+/NFs310OZ2pqQeJKs7HqWPA==}
+    dev: false
+
   /locate-path/6.0.0:
     resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==}
     engines: {node: '>=10'}
@@ -2464,7 +2465,7 @@ packages:
     dev: true
 
   /ms/2.0.0:
-    resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
+    resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=}
     dev: false
 
   /ms/2.1.2:
@@ -2782,7 +2783,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       inherits: 2.0.4
-      string_decoder: 1.1.1
+      string_decoder: 1.3.0
       util-deprecate: 1.0.2
     dev: false
 
@@ -3046,6 +3047,12 @@ packages:
     resolution: {integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==}
     dependencies:
       safe-buffer: 5.1.2
+    dev: false
+
+  /string_decoder/1.3.0:
+    resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==}
+    dependencies:
+      safe-buffer: 5.2.1
     dev: false
 
   /strip-ansi/6.0.1:
@@ -3467,12 +3474,10 @@ packages:
       debug: 2.6.9
       load-script: 1.0.0
       sister: 3.0.2
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
-  /youtubei.js/2.3.3:
-    resolution: {integrity: sha512-6pYPZMN2sMfIBb33nRgtlIhgj0DD1GNRf9jZXiJYxqXntt8RCa9T7N3WvuTbImJA5GgNA6RwAW5VI0uhh0jF4w==}
+  /youtubei.js/2.4.1:
+    resolution: {integrity: sha512-hBri5LVlVncWMKMt2jUv+MB8Kqsq51NShnVl0NZRvM8TqgJCVQi6S76IPqRMAIbYkrSV3tLdf6R+tjpMja0bhw==}
     dependencies:
       '@protobuf-ts/runtime': 2.8.1
       jintr: 0.3.1
