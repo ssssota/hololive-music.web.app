@@ -15,7 +15,19 @@ jobs:
       - uses: ./.github/actions/get-pr-id
         id: pr-id
       - run: pnpm build
-      - run: firebase hosting:channel:deploy ${{ steps.pr-id.outputs.pr-id }}
+      - run: firebase hosting:channel:deploy ${{ steps.pr-id.outputs.pr-id }} | tee deploy.log
+      # - if: ${{ github.event.action == 'opened' }}
+      - id: get-deploy-url
+        run: echo "URL=$(cat deploy.log | grep ${{ steps.pr-id.outputs.pr-id }})" >> $GITHUB_OUTPUT
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Preview: ${{ steps.get-deploy-url.outputs.URL }}'
+            })
   delete_preview:
     if: ${{ github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.merged == true }}
     runs-on: ubuntu-latest
