@@ -1,8 +1,4 @@
-files = [
-  "jp.toml",
-  "en.toml",
-  "id.toml",
-]
+files = ["jp.toml", "en.toml", "id.toml"]
 
 # fallback
 [[playlists]]
@@ -11,7 +7,6 @@ url = "https://www.youtube.com/playlist?list=PL1NeGg1woXqlISJkxjgwHKgB8LmR7tk92"
 [[playlists]]
 url = "https://www.youtube.com/playlist?list=PL1NeGg1woXqkTks79_kSoxBrEKloB9SrI"
 tags = ["オリジナル"]
-
 # [[video]]
 # hololive - 過去の大型ライブの映像セレクション(非公開)
 # id = "GIZPAJHW5bk"

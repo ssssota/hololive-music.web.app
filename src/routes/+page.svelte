@@ -14,9 +14,13 @@
     <Card
       info={video}
       {playingVideoId}
-      on:click={() => {
+      on:play={() => {
         playingVideoId = video.id;
         player?.loadVideoById(video.id);
+      }}
+      on:pause={() => {
+        playingVideoId = undefined;
+        player?.pauseVideo();
       }}
     />
   {/each}
@@ -33,7 +37,7 @@
   section {
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 100vw;
 
     width: min(320px, 100vw);
   }

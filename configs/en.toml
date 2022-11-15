@@ -1,4 +1,1 @@
-files = [
-  "en/myth.toml",
-  "en/council.toml",
-]
+files = ["en/myth.toml", "en/council.toml"]
