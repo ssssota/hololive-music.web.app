@@ -1,13 +1,9 @@
 import { browser } from '$app/environment';
 import load from 'load-script';
 
-import type create from 'youtube-player';
-type Create = typeof create;
-export type YTPlayer = ReturnType<Create>;
-export type YTPlayerOptions = Parameters<Create>[1];
-type YT = {
-  Player: new (...args: Parameters<Create>) => YTPlayer;
-};
+interface YTObject {
+  Player: typeof YT.Player;
+}
 
 let resolve: (() => void) | undefined;
 let reject: ((error: Error) => void) | undefined;
@@ -15,7 +11,7 @@ export const YTPromise = new Promise<void>((f, r) => {
   resolve = f;
   reject = r;
 }).then(() => {
-  return (window as unknown as { YT: YT }).YT;
+  return (window as unknown as { YT: YTObject }).YT;
 });
 
 if (browser) {

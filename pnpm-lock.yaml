@@ -8,10 +8,10 @@ specifiers:
   '@types/iarna__toml': ^2.0.2
   '@types/sharp': ^0.31.0
   '@types/uuid': ^8.3.4
+  '@types/youtube': ^0.0.47
   '@types/youtube-player': ^5.5.6
   '@typescript-eslint/eslint-plugin': ^5.42.1
   '@typescript-eslint/parser': ^5.42.1
-  better-typescript-lib: ^2.1.0
   color-convert: ^2.0.1
   colorthief: ^2.3.2
   eslint: ^8.27.0
@@ -50,15 +50,15 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.48
-  '@sveltejs/kit': 1.0.0-next.546_svelte@3.53.1+vite@3.2.3
+  '@sveltejs/kit': 1.0.0-next.548_svelte@3.53.1+vite@3.2.3
   '@types/color-convert': 2.0.0
   '@types/iarna__toml': 2.0.2
   '@types/sharp': 0.31.0
   '@types/uuid': 8.3.4
+  '@types/youtube': 0.0.47
   '@types/youtube-player': 5.5.6
   '@typescript-eslint/eslint-plugin': 5.42.1_2udltptbznfmezdozpdoa2aemq
   '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
-  better-typescript-lib: 2.1.0_typescript@4.8.4
   eslint: 8.27.0
   eslint-config-prettier: 8.5.0_eslint@8.27.0
   eslint-plugin-svelte3: 4.0.0_ktwpzwc5ejqdbyb2mks6m4mhya
@@ -73,118 +73,6 @@ devDependencies:
   vite: 3.2.3
 
 packages:
-
-  /@better-typescript-lib/dom/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-ycc4Xlnh5zGdysEme6gixnSQuHuG4SH7lgtsoJS6sSgKjzuy69GVaJYMHuAcCkd0xLJ1MmSu+j0nkFYYziBBDA==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/es2015/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-Lpunr+YxTQGHjui/pd1bP8cDhG47h1WEDa0YhaSe/09Jg9rAZSbrmGhazgCpEWnxtvs98jFfLHDInHfR+EBHWg==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/es2016/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-0J3bplMUz8/y9q5exvf/9y4Hz3kxEEBNvMR9M2e0SEXgLZK7Y5WrNbNkRlr1YEsHiW/0DWcQcqz4i7yslbY3XA==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/es2017/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-3b0EnGnTa+qyxCHQ6YdONs+30exFZlQ+Lq3SKn38NyuOUlRUw8RawbXA+hR3tR2KyfxGg+Y7oQOz25JC/jrP1A==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/es2018/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-AJZwPTsjtg+iHEqPW7+ko120YHjita3aCRhhxTiMGKzOM5LhErCui9Iv1eT7OOMH9SasyVJj3XBI3nyPwXYCfg==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/es2019/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-tXEVvNfjNeodxuJ7FqCvS2AptLYt6aliXzh+qOLrcEEbQk9kC73eEKU24sU1OK58GuMEfFv0atobVOGBFmmFGw==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/es2020/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-FunGd3dEpbbITmpFXkwiILqJMcKVTeoPw1HiUJZGX8doThIozxQjPMigAD284BgkgogFlGsFKa2gWm68RxWH9A==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/es2021/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-zFlU7nwGJTwRQM9u65FISLwA+z+pg9MKLmcJB46bWSHDlFiNIBXbvSSwklUDMPwSbVahuI1KngdjoBk7StUa3w==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/es2022/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-aEsy1cgZ36KFE9ES9xhvsrKiXqhXWzu8X7kVZcKA4Bmopf5fMxQGl5GpaXYIcwLpdR+9IXbb1UHCEVhyfIBbrA==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/es5/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-toaNOCvCH4ZKwOW2rL3GQoY40OQYIBvRNncE7NhrX+UkzDr2TOgRUIFicm9jr3AaHoq28DTNmruogftWkb/+kw==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/esnext/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-sFyGSiEUwXn2wnwAJoR383WrjDJRfNhBZC8ynxP997I6M8R3ixH7pnqZt4zCCeWPfE6M9npCctgpp6FBz6iM6A==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/header/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-r3pDhcHc40DuTElRVyE8dLcUxbMiSJ3zEQIOf0K5oLEZglaBIlvNr9Bi347rQ0dpN9lRgTrPI3bmySBD6UeSSw==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/scripthost/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-2w/7sRHhTXCNBk80Woz8j3X1X35CxGLdW5chKpPIValNPt5IxN4H1P9ZICPPmROlSlVrmQXI8hV7i44qoVxdMg==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
-
-  /@better-typescript-lib/webworker/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-kFnzWjlLgUvKkdgecY31z4AEteda+dRfsgqdDvvLr1FezmGFE+fhJYsDNXjNZ7aIGt2rMgUEC1g4MlXy/qlppg==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      typescript: 4.8.4
-    dev: true
 
   /@esbuild/android-arm/0.15.13:
     resolution: {integrity: sha512-RY2fVI8O0iFUNvZirXaQ1vMvK0xhCcl0gqRj74Z6yEiO1zAUa7hbsdwZM1kzqbxHK7LFyMizipfXT3JME+12Hw==}
@@ -836,8 +724,8 @@ packages:
     resolution: {integrity: sha512-Z5Z+QZOav6D0KDeU3ReksGERJg/sX1k5OKWWXyQ11OwGErEEwSXHYRUyjaBmZEPeGzpVVGwwMUK8YWJlG/MKeA==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.546_svelte@3.53.1+vite@3.2.3:
-    resolution: {integrity: sha512-QEA8fIdgRdjf9e0ti+EuEPG3SopyhA9/B4VuWqkT8W6A2q+jb5v2ZvImDRbpOnXJ0G55hlnFq9Mp2hHQ4DYYbQ==}
+  /@sveltejs/kit/1.0.0-next.548_svelte@3.53.1+vite@3.2.3:
+    resolution: {integrity: sha512-MiKZ+7uWiRLm7lcBXa3V1RPDhxUQ03ARCSaujn/ysoh7zbSN4zvcLwwt+lwF5X0FfJnmHj9w3xbpZN6WPKZ0Ww==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -956,6 +844,10 @@ packages:
 
   /@types/youtube-player/5.5.6:
     resolution: {integrity: sha512-RcWWUEuAZZX24dG55Xk558/HHCZxYf798/xPnV6wTwDlUF8HZNAmqyXyi+4QgN2l9juP9GRjCwILxXLSPKQBBw==}
+    dev: true
+
+  /@types/youtube/0.0.47:
+    resolution: {integrity: sha512-uwqm0DUeg+2pff/8y9b22JJb+qWKOcG5aCn2yyT7hmLdK/M8+VECcK6QuNqdAR93IAqTmZeqK2nizTlQg5j+XA==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.42.1_2udltptbznfmezdozpdoa2aemq:
@@ -1171,28 +1063,6 @@ packages:
       tweetnacl: 0.14.5
     dev: false
 
-  /better-typescript-lib/2.1.0_typescript@4.8.4:
-    resolution: {integrity: sha512-ETmLzdM2BvCHxbmt3KHwjoPcbiMg7M02JRKrPM3s01nB9LCX7CyCnsQYUM2A+sy4tAoqD55mCXBV7jj5URh+Nw==}
-    peerDependencies:
-      typescript: '>=4.5.2'
-    dependencies:
-      '@typescript/lib-dom': /@better-typescript-lib/dom/2.1.0_typescript@4.8.4
-      '@typescript/lib-es2015': /@better-typescript-lib/es2015/2.1.0_typescript@4.8.4
-      '@typescript/lib-es2016': /@better-typescript-lib/es2016/2.1.0_typescript@4.8.4
-      '@typescript/lib-es2017': /@better-typescript-lib/es2017/2.1.0_typescript@4.8.4
-      '@typescript/lib-es2018': /@better-typescript-lib/es2018/2.1.0_typescript@4.8.4
-      '@typescript/lib-es2019': /@better-typescript-lib/es2019/2.1.0_typescript@4.8.4
-      '@typescript/lib-es2020': /@better-typescript-lib/es2020/2.1.0_typescript@4.8.4
-      '@typescript/lib-es2021': /@better-typescript-lib/es2021/2.1.0_typescript@4.8.4
-      '@typescript/lib-es2022': /@better-typescript-lib/es2022/2.1.0_typescript@4.8.4
-      '@typescript/lib-es5': /@better-typescript-lib/es5/2.1.0_typescript@4.8.4
-      '@typescript/lib-esnext': /@better-typescript-lib/esnext/2.1.0_typescript@4.8.4
-      '@typescript/lib-header': /@better-typescript-lib/header/2.1.0_typescript@4.8.4
-      '@typescript/lib-scripthost': /@better-typescript-lib/scripthost/2.1.0_typescript@4.8.4
-      '@typescript/lib-webworker': /@better-typescript-lib/webworker/2.1.0_typescript@4.8.4
-      typescript: 4.8.4
-    dev: true
-
   /binary-extensions/2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
@@ -1391,6 +1261,11 @@ packages:
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
     dependencies:
       ms: 2.0.0
     dev: false
@@ -3512,6 +3387,8 @@ packages:
       debug: 2.6.9
       load-script: 1.0.0
       sister: 3.0.2
+    transitivePeerDependencies:
+      - supports-color
     dev: false
 
   /youtubei.js/2.4.1:

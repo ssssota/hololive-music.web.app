@@ -9,3 +9,9 @@ html {
   color: var(--text-color);
   font-size: var(--length-unit);
 }
+
+html,
+body,
+body > div {
+  height: 100%;
+}
