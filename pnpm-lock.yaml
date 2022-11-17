@@ -9,7 +9,6 @@ specifiers:
   '@types/sharp': ^0.31.0
   '@types/uuid': ^8.3.4
   '@types/youtube': ^0.0.47
-  '@types/youtube-player': ^5.5.6
   '@typescript-eslint/eslint-plugin': ^5.42.1
   '@typescript-eslint/parser': ^5.42.1
   color-convert: ^2.0.1
@@ -31,7 +30,6 @@ specifiers:
   typescript: ^4.8.4
   uuid: ^9.0.0
   vite: ^3.2.3
-  youtube-player: ^5.5.2
   youtubei.js: ^2.4.1
   zod: ^3.19.1
 
@@ -44,19 +42,17 @@ dependencies:
   sharp: 0.31.2
   the-new-css-reset: 1.7.3
   uuid: 9.0.0
-  youtube-player: 5.5.2
   youtubei.js: 2.4.1
   zod: 3.19.1
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.48
-  '@sveltejs/kit': 1.0.0-next.548_svelte@3.53.1+vite@3.2.3
+  '@sveltejs/kit': 1.0.0-next.551_svelte@3.53.1+vite@3.2.3
   '@types/color-convert': 2.0.0
   '@types/iarna__toml': 2.0.2
   '@types/sharp': 0.31.0
   '@types/uuid': 8.3.4
   '@types/youtube': 0.0.47
-  '@types/youtube-player': 5.5.6
   '@typescript-eslint/eslint-plugin': 5.42.1_2udltptbznfmezdozpdoa2aemq
   '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
   eslint: 8.27.0
@@ -724,8 +720,8 @@ packages:
     resolution: {integrity: sha512-Z5Z+QZOav6D0KDeU3ReksGERJg/sX1k5OKWWXyQ11OwGErEEwSXHYRUyjaBmZEPeGzpVVGwwMUK8YWJlG/MKeA==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.548_svelte@3.53.1+vite@3.2.3:
-    resolution: {integrity: sha512-MiKZ+7uWiRLm7lcBXa3V1RPDhxUQ03ARCSaujn/ysoh7zbSN4zvcLwwt+lwF5X0FfJnmHj9w3xbpZN6WPKZ0Ww==}
+  /@sveltejs/kit/1.0.0-next.551_svelte@3.53.1+vite@3.2.3:
+    resolution: {integrity: sha512-pZXPoKHFcEXCEN64bw87Xv3cZO7sGztPKYXyLuzceie4qNzAQOMejxewm1xSYcaublleYXLdBWcrWwGlaSWnyw==}
     engines: {node: '>=16.14'}
     hasBin: true
     requiresBuild: true
@@ -840,10 +836,6 @@ packages:
 
   /@types/uuid/8.3.4:
     resolution: {integrity: sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==}
-    dev: true
-
-  /@types/youtube-player/5.5.6:
-    resolution: {integrity: sha512-RcWWUEuAZZX24dG55Xk558/HHCZxYf798/xPnV6wTwDlUF8HZNAmqyXyi+4QgN2l9juP9GRjCwILxXLSPKQBBw==}
     dev: true
 
   /@types/youtube/0.0.47:
@@ -1257,17 +1249,6 @@ packages:
 
   /data-uri-to-buffer/0.0.3:
     resolution: {integrity: sha1-GK6XmmoMqZSwYlhTkW0mYruuCxo=}
-    dev: false
-
-  /debug/2.6.9:
-    resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.0.0
     dev: false
 
   /debug/4.3.4:
@@ -2240,10 +2221,6 @@ packages:
       uhyphen: 0.1.0
     dev: false
 
-  /load-script/1.0.0:
-    resolution: {integrity: sha512-kPEjMFtZvwL9TaZo0uZ2ml+Ye9HUMmPwbYRJ324qF9tqMejwykJ5ggTyvzmrbBeapCAbk98BSbTeovHEEP1uCA==}
-    dev: false
-
   /load-script/2.0.0:
     resolution: {integrity: sha512-km6cyoPW4rM22JMGb+SHUKPMZVDpUaMpMAKrv8UHWllIxc/qjgMGHD91nY+5hM+/NFs310OZ2pqQeJKs7HqWPA==}
     dev: false
@@ -2359,10 +2336,6 @@ packages:
     resolution: {integrity: sha512-hzzEagAgDyoU1Q6yg5uI+AorQgdvMCur3FcKf7NhMKWsaYg+RnbTyHRa/9IlLF9rf455MOCtcqqrQQ83pPP7Uw==}
     engines: {node: '>=10'}
     dev: true
-
-  /ms/2.0.0:
-    resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=}
-    dev: false
 
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
@@ -2899,10 +2872,6 @@ packages:
       totalist: 3.0.0
     dev: true
 
-  /sister/3.0.2:
-    resolution: {integrity: sha512-p19rtTs+NksBRKW9qn0UhZ8/TUI9BPw9lmtHny+Y3TinWlOa9jWh9xB0AtPSdmOy49NJJJSSe0Ey4C7h0TrcYA==}
-    dev: false
-
   /slash/3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
@@ -3380,16 +3349,6 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
-
-  /youtube-player/5.5.2:
-    resolution: {integrity: sha512-ZGtsemSpXnDky2AUYWgxjaopgB+shFHgXVpiJFeNB5nWEugpW1KWYDaHKuLqh2b67r24GtP6HoSW5swvf0fFIQ==}
-    dependencies:
-      debug: 2.6.9
-      load-script: 1.0.0
-      sister: 3.0.2
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
 
   /youtubei.js/2.4.1:
     resolution: {integrity: sha512-hBri5LVlVncWMKMt2jUv+MB8Kqsq51NShnVl0NZRvM8TqgJCVQi6S76IPqRMAIbYkrSV3tLdf6R+tjpMja0bhw==}

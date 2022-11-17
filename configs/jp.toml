@@ -1,9 +1,16 @@
 files = [
+  # 0th gen
   "jp/azki.toml",
   "jp/tokino-sora.toml",
   "jp/robocosan.toml",
   "jp/sakura-miko.toml",
   "jp/hoshimachi-suisei.toml",
+  # 1st gen
+  "jp/akai-haato.toml",
+  "jp/aki-rosenthal.toml",
+  "jp/natsuiro-matsuri.toml",
+  "jp/shirakami-fubuki.toml",
+  "jp/yozora-mel.toml",
 ]
 
 [[videos]]
@@ -131,3 +138,12 @@ tags = [
   "桃鈴ねね",
   "雪花ラミィ"
 ]
+
+# 1期生
+[[videos]]
+url = "https://www.youtube.com/watch?v=VCJTJX1kXe4"
+tags = ["白上フブキ", "夜空メル", "アキ・ローゼンタール", "赤井はあと", "夏色まつり", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=mE_Q5vam910"
+tags = ["白上フブキ", "夜空メル", "アキ・ローゼンタール", "赤井はあと", "夏色まつり", "オリジナル"]

@@ -1,11 +1,11 @@
 import { dedupVideos, getVideoInfo, getVideos } from '$lib/config';
 import { loadConfig } from '$lib/server/config';
-import { sequence } from '$lib/utils';
+import { sequence, shuffle } from '$lib/utils';
 import { getVideoIdFromUrl } from '$lib/youtube';
 import type { LayoutServerLoad } from './$types';
 
 const videos = (async () => {
-  const config = await loadConfig('configs/remix.toml');
+  const config = await loadConfig('configs/main.toml');
 
   const ignoreVideoIds = config.ignores.map(getVideoIdFromUrl);
   const videos = dedupVideos(
@@ -33,7 +33,7 @@ const videos = (async () => {
     videos.map((video) => () => getVideoInfo(video))
   );
 
-  return videoInfoList;
+  return shuffle(videoInfoList);
 })();
 
 export const load: LayoutServerLoad = async () => {

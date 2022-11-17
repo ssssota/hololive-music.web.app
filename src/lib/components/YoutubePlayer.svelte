@@ -1,4 +1,7 @@
 <script lang="ts" context="module">
+  import { browser } from '$app/environment';
+  import load from 'load-script';
+
   const states = {
     '-1': 'unstarted',
     '0': 'ended',
@@ -15,10 +18,34 @@
     playbackRateChange: number;
     error: YT.PlayerError;
   };
+  interface YTObject {
+    Player: typeof YT.Player;
+  }
+
+  const YTPromise = (() => {
+    let resolve: (() => void) | undefined;
+    let reject: ((error: Error) => void) | undefined;
+    const promise = new Promise<void>((f, r) => {
+      resolve = f;
+      reject = r;
+    }).then(() => {
+      return (window as unknown as { YT: YTObject }).YT;
+    });
+
+    if (browser) {
+      Object.defineProperty(window, 'onYouTubeIframeAPIReady', {
+        get() {
+          return resolve;
+        },
+      });
+      load('https://www.youtube.com/iframe_api', (err) => err && reject?.(err));
+    }
+
+    return promise;
+  })();
 </script>
 
 <script lang="ts">
-  import { YTPromise } from '$lib/youtube/iframe';
   import { createEventDispatcher, onDestroy, onMount } from 'svelte';
 
   export let player: YT.Player | undefined = undefined;
@@ -54,14 +81,10 @@
 
 <style>
   div {
-    position: relative;
     width: 100%;
-    aspect-ratio: 4/3;
+    height: 100%;
   }
   div :global(iframe) {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
   }

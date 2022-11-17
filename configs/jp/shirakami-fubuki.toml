@@ -1,0 +1,46 @@
+
+tags = ["白上フブキ"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL7LdRPp7xCkOwyOEKkE5YNC1_pGCTU2Id"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL7LdRPp7xCkP9JJYvAqrQJLScbSol7S4-"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL7LdRPp7xCkMAA8IJT3wPHpMsYHmUcW9o"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=pFgUluV_00s"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=21AyxKg3-2M"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=K84w0Iai40k"
+tags = ["百鬼あやめ", "大神ミオ", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=vyUYybXWtak"
+tags = [
+	"夏色まつり",
+	"紫咲シオン",
+	"百鬼あやめ",
+	"癒月ちょこ",
+	"大空スバル",
+	"兎田ぺこら",
+	"宝鐘マリン",
+	"天音かなた",
+	"オリジナル"
+]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=mz410SPf0t4"
+tags = ["不知火フレア", "角巻わため", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=yVaQpUUAzik"
+tags = ["オリジナル"]

@@ -1,0 +1,20 @@
+tags = ["赤井はあと"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLQoA24ikdy_kFurrcDRRJufTwHo_Kv6ew"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=A9HY4DsRTCg"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=9mj2QJE-UOI"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=CrbMV64PmPU"
+tags = ["桃鈴ねね", "尾丸ポルカ", "どっきりラビリンス", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=d71E3pHzibw"
+tags = ["夏色まつり"]

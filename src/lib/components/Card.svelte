@@ -2,9 +2,11 @@
   import VisuallyHidden from '$lib/components/VisuallyHidden.svelte';
   import type { VideoWithInfo } from '$lib/config';
   import { darken } from '$lib/utils/darken';
+  import { getVideoUrlFromId } from '$lib/youtube';
   import { createEventDispatcher } from 'svelte';
   import PauseIcon from './PauseIcon.svelte';
   import Triangle from './Triangle.svelte';
+  import youtubeLogoUrl from './yt_logo_mono_dark.svg';
   export let info: VideoWithInfo;
   export let playingVideoId: string | undefined;
   export let lazyLoading = false;
@@ -49,6 +51,14 @@
         <Triangle color="white" />
       </button>
     {/if}
+    <a
+      href={getVideoUrlFromId(info.id)}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="youtube"
+    >
+      <img src={youtubeLogoUrl} alt="YouTube" />
+    </a>
   </div>
 </div>
 
@@ -99,6 +109,19 @@
   }
   .container:hover .controls {
     opacity: 1;
+  }
+  .youtube {
+    --size: max(20px, 7.5%);
+    display: block;
+    position: absolute;
+    bottom: max(8px, calc(var(--size) * 0.5));
+    right: max(8px, calc(var(--size) * 0.5));
+    height: var(--size);
+    width: auto;
+  }
+  .youtube img {
+    display: block;
+    height: 100%;
   }
   .control:hover {
     filter: brightness(2);
