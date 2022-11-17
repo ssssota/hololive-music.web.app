@@ -8,6 +8,6 @@ export const dedupVideos = (videos: VideoWithId[]): VideoWithId[] => {
     }, {})
   ).map(([videoId, tags]) => ({
     id: videoId,
-    tags,
+    tags: [...new Set(tags)],
   }));
 };
