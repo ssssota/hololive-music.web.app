@@ -110,19 +110,6 @@
   .container:hover .controls {
     opacity: 1;
   }
-  .youtube {
-    --size: max(20px, 7.5%);
-    display: block;
-    position: absolute;
-    bottom: max(8px, calc(var(--size) * 0.5));
-    right: max(8px, calc(var(--size) * 0.5));
-    height: var(--size);
-    width: auto;
-  }
-  .youtube img {
-    display: block;
-    height: 100%;
-  }
   .control:hover {
     filter: brightness(2);
   }
@@ -133,5 +120,14 @@
     transform: translate(-50%, -50%);
     width: 30%;
     height: 30%;
+  }
+  .youtube {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    display: flex;
+    justify-content: flex-end;
+    height: max(38px, 17.5%);
+    width: max(108px, 37.5%);
   }
 </style>

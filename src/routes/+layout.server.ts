@@ -5,7 +5,7 @@ import { getVideoIdFromUrl } from '$lib/youtube';
 import type { LayoutServerLoad } from './$types';
 
 const videos = (async () => {
-  const config = await loadConfig('configs/main.toml');
+  const config = await loadConfig('configs/jp/hoshimachi-suisei.toml');
 
   const ignoreVideoIds = config.ignores.map(getVideoIdFromUrl);
   const videos = dedupVideos(

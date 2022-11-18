@@ -11,9 +11,11 @@
   const dispatch = createEventDispatcher<{
     play: void;
     pause: void;
+    shuffle: void;
   }>();
   const onPause = () => dispatch('pause');
   const onPlay = () => dispatch('play');
+  const onShuffle = () => dispatch('shuffle');
 </script>
 
 <div class="container">
@@ -26,12 +28,14 @@
       <Triangle color="white" />
     </button>
   {/if}
+  <button aria-label="shuffle" on:click={onShuffle}>🔀</button>
   <input type="range" min={0} max={100} bind:value={_volume} />
 </div>
 
 <style>
   .container {
     display: flex;
+    justify-content: flex-start;
     background-color: var(--background-color);
     padding: 1em 2em;
     gap: 1em;

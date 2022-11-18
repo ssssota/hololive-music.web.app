@@ -4,9 +4,17 @@
   import Controller from '$lib/components/Controller.svelte';
   import type { PlayerState } from '$lib/components/YoutubePlayer.svelte';
   import YoutubePlayer from '$lib/components/YoutubePlayer.svelte';
+  import type { VideoWithInfo } from '$lib/config';
   import { createPlayingStateStore } from '$lib/stores/playing';
+  import { shuffle } from '$lib/utils';
   import type { PageData } from './$types';
   export let data: PageData;
+  let videos: VideoWithInfo[];
+  $: videos = data.videos;
+
+  const shuffleVideos = () => {
+    videos = shuffle(videos);
+  };
 
   const getVolume = () => {
     const defaultVolume = 50;
@@ -63,14 +71,14 @@
 
 <div class="container">
   <main>
-    {#each data.videos as video (video.id)}
+    {#each videos as video (video.id)}
       <Card
         info={video}
         playingVideoId={$state.type === 'paused' && $state.id === video.id
           ? undefined
           : $state.id}
         on:play={() => state.play(video.id)}
-        on:pause={() => state.pause()}
+        on:pause={state.pause}
       />
     {/each}
     <div class="dummycard" />
@@ -91,8 +99,9 @@
     <Controller
       bind:volume
       playing={$state.type === 'playing' || $state.type === 'unpaused'}
-      on:pause={() => state.pause()}
+      on:pause={state.pause}
       on:play={() => $state.id && state.play($state.id)}
+      on:shuffle={shuffleVideos}
     />
   </section>
 </div>
