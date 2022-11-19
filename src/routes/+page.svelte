@@ -4,14 +4,12 @@
   import Controller from '$lib/components/Controller.svelte';
   import type { PlayerState } from '$lib/components/YoutubePlayer.svelte';
   import YoutubePlayer from '$lib/components/YoutubePlayer.svelte';
-  import type { VideoWithInfo } from '$lib/config';
+  import { createFavoriteStore } from '$lib/stores/favorite';
   import { createPlayingStateStore } from '$lib/stores/playing';
   import { shuffle } from '$lib/utils';
   import type { PageData } from './$types';
   export let data: PageData;
-  let videos: VideoWithInfo[];
-  $: videos = data.videos;
-
+  let videos = data.videos;
   const shuffleVideos = () => {
     videos = shuffle(videos);
   };
@@ -27,17 +25,24 @@
 
   let player: YT.Player | undefined = undefined;
   let volume = getVolume();
+  let favoriteFilter = false;
   const state = createPlayingStateStore();
+  const favorites = createFavoriteStore();
+
+  let filteredVideos = videos;
+  $: filteredVideos = videos.filter((video) => {
+    if (!favoriteFilter) return true;
+    return $favorites.has(video.id);
+  });
 
   const onReady = () => player?.setVolume(volume);
   const onStateChange = (ev: CustomEvent<PlayerState>) => {
-    const { videos } = data;
     switch (ev.detail) {
       case 'ended':
         state.play(
-          videos[
-            (videos.findIndex((video) => video.id === $state.id) + 1) %
-              videos.length
+          filteredVideos[
+            (filteredVideos.findIndex((video) => video.id === $state.id) + 1) %
+              filteredVideos.length
           ]!.id
         );
         return;
@@ -71,14 +76,16 @@
 
 <div class="container">
   <main>
-    {#each videos as video (video.id)}
+    {#each filteredVideos as video (video.id)}
       <Card
         info={video}
         playingVideoId={$state.type === 'paused' && $state.id === video.id
           ? undefined
           : $state.id}
+        favorite={$favorites.has(video.id)}
         on:play={() => state.play(video.id)}
         on:pause={state.pause}
+        on:favorite={() => favorites.toggle(video.id)}
       />
     {/each}
     <div class="dummycard" />
@@ -98,6 +105,7 @@
 
     <Controller
       bind:volume
+      bind:favorite={favoriteFilter}
       playing={$state.type === 'playing' || $state.type === 'unpaused'}
       on:pause={state.pause}
       on:play={() => $state.id && state.play($state.id)}

@@ -5,11 +5,13 @@
   import { getVideoUrlFromId } from '$lib/youtube';
   import { createEventDispatcher } from 'svelte';
   import PauseIcon from './PauseIcon.svelte';
+  import Star from './Star.svelte';
   import Triangle from './Triangle.svelte';
   import youtubeLogoUrl from './yt_logo_mono_dark.svg';
   export let info: VideoWithInfo;
   export let playingVideoId: string | undefined;
   export let lazyLoading = false;
+  export let favorite = false;
 
   let isPlaying = playingVideoId === info.id;
   $: isPlaying = playingVideoId === info.id;
@@ -23,6 +25,7 @@
   const dispatch = createEventDispatcher<{
     play: VideoWithInfo;
     pause: VideoWithInfo;
+    favorite: boolean;
   }>();
 </script>
 
@@ -36,6 +39,9 @@
     <VisuallyHidden>{info.title}</VisuallyHidden>
   </div>
   <div class="controls">
+    <button class="favorite" on:click={() => dispatch('favorite')}>
+      <Star color="white" filled={favorite} />
+    </button>
     {#if isPlaying}
       <button
         class="control center pause"
@@ -129,5 +135,12 @@
     justify-content: flex-end;
     height: max(38px, 17.5%);
     width: max(108px, 37.5%);
+  }
+  .favorite {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    width: 2em;
+    height: 2em;
   }
 </style>

@@ -1,18 +1,17 @@
-<script lang="ts">
-  export let color: string;
-
+<script lang="ts" context="module">
   const baseSize = 100;
   const size = baseSize * 0.4;
   const half = baseSize * 0.5;
   const cos60 = size * Math.cos(Math.PI / 3);
   const sin60 = size * Math.sin(Math.PI / 3);
 
-  let right = `${half + size},${half}`;
-  $: right = `${half + size},${half}`;
-  let top = `${half - cos60},${half - sin60}`;
-  $: top = `${half - cos60},${half - sin60}`;
-  let bottom = `${half - cos60},${half + sin60}`;
-  $: bottom = `${half - cos60},${half + sin60}`;
+  const right = `${half + size},${half}`;
+  const top = `${half - cos60},${half - sin60}`;
+  const bottom = `${half - cos60},${half + sin60}`;
+</script>
+
+<script lang="ts">
+  export let color: string;
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {baseSize} {baseSize}">

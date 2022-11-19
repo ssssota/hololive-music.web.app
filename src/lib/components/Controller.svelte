@@ -1,10 +1,13 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
   import PauseIcon from './PauseIcon.svelte';
+  import ShuffleIcon from './ShuffleIcon.svelte';
+  import Star from './Star.svelte';
   import Triangle from './Triangle.svelte';
 
   export let playing: boolean;
   export let volume: number;
+  export let favorite = false;
   let _volume = volume;
   $: volume = _volume;
 
@@ -16,6 +19,7 @@
   const onPause = () => dispatch('pause');
   const onPlay = () => dispatch('play');
   const onShuffle = () => dispatch('shuffle');
+  const onToggleFavorite = () => (favorite = !favorite);
 </script>
 
 <div class="container">
@@ -28,7 +32,15 @@
       <Triangle color="white" />
     </button>
   {/if}
-  <button aria-label="shuffle" on:click={onShuffle}>🔀</button>
+  <button aria-label="shuffle" on:click={onShuffle}>
+    <ShuffleIcon color="white" />
+  </button>
+  <button
+    aria-label={favorite ? 'Disable favorite filter' : 'Enable favorite filter'}
+    on:click={onToggleFavorite}
+  >
+    <Star color="white" filled={favorite} />
+  </button>
   <input type="range" min={0} max={100} bind:value={_volume} />
 </div>
 
@@ -43,6 +55,7 @@
   }
   button {
     height: 2em;
+    width: 2em;
     cursor: pointer;
   }
   input[type='range'] {
