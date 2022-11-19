@@ -1,3 +1,4 @@
+import { dev } from '$app/environment';
 import { dedupVideos, getVideoInfo, getVideos } from '$lib/config';
 import { loadConfig } from '$lib/server/config';
 import { sequence, shuffle } from '$lib/utils';
@@ -5,7 +6,9 @@ import { getVideoIdFromUrl } from '$lib/youtube';
 import type { LayoutServerLoad } from './$types';
 
 const videos = (async () => {
-  const config = await loadConfig('configs/jp/hoshimachi-suisei.toml');
+  const config = await loadConfig(
+    dev ? 'configs/jp/hoshimachi-suisei.toml' : 'configs/main.toml'
+  );
 
   const ignoreVideoIds = config.ignores.map(getVideoIdFromUrl);
   const videos = dedupVideos(
