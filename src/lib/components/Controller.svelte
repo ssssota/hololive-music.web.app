@@ -2,6 +2,7 @@
   import { createEventDispatcher } from 'svelte';
   import PauseIcon from './PauseIcon.svelte';
   import ShuffleIcon from './ShuffleIcon.svelte';
+  import SkipNextIcon from './SkipNextIcon.svelte';
   import Star from './Star.svelte';
   import Triangle from './Triangle.svelte';
 
@@ -15,10 +16,12 @@
     play: void;
     pause: void;
     shuffle: void;
+    next: void;
   }>();
   const onPause = () => dispatch('pause');
   const onPlay = () => dispatch('play');
   const onShuffle = () => dispatch('shuffle');
+  const onNext = () => dispatch('next');
   const onToggleFavorite = () => (favorite = !favorite);
 </script>
 
@@ -32,6 +35,9 @@
       <Triangle color="white" />
     </button>
   {/if}
+  <button aria-label="Skip next" on:click={onNext}>
+    <SkipNextIcon color="white" />
+  </button>
   <button aria-label="shuffle" on:click={onShuffle}>
     <ShuffleIcon color="white" />
   </button>

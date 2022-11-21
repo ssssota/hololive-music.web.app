@@ -36,18 +36,18 @@
   });
 
   const onReady = () => player?.setVolume(volume);
+  const playNext = () => {
+    const index = filteredVideos.findIndex((video) => video.id === $state.id);
+    const nextIndex = (index + 1) % filteredVideos.length;
+    state.play(filteredVideos[nextIndex]!.id);
+  };
   const onStateChange = (ev: CustomEvent<PlayerState>) => {
     switch (ev.detail) {
       case 'ended':
-        state.play(
-          filteredVideos[
-            (filteredVideos.findIndex((video) => video.id === $state.id) + 1) %
-              filteredVideos.length
-          ]!.id
-        );
+        playNext();
         return;
       case 'paused':
-        state.pause();
+        // state.pause();
         return;
     }
   };
@@ -110,6 +110,7 @@
       on:pause={state.pause}
       on:play={() => $state.id && state.play($state.id)}
       on:shuffle={shuffleVideos}
+      on:next={playNext}
     />
   </section>
 </div>
