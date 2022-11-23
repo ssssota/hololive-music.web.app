@@ -1,5 +1,12 @@
 tags = ["ロボ子さん"]
 
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLF54qiUa9cTu9eyx3Ukx88jtJUCKGFvWL"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=K8n-pGOrpzc"
+tags = ["オリジナル"]
+
 [[videos]]
 url = "https://www.youtube.com/watch?v=UXuMSLOUhgs"
 tags = ["オリジナル"]

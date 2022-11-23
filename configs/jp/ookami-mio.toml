@@ -3,6 +3,9 @@ tags = ["大神ミオ"]
 [[playlists]]
 url = "https://www.youtube.com/playlist?list=PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu"
 
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLMUtkfkYDjAHOWzoQcjvbMX3ElMxKmsUp"
+
 [[videos]]
 url = "https://www.youtube.com/watch?v=YPm9T622OX0"
 tags = ["オリジナル"]
@@ -17,3 +20,7 @@ tags = ["OKFAMS", "白上フブキ", "百鬼あやめ", "大空スバル", "猫�
 
 [[videos]]
 url = "https://www.youtube.com/watch?v=x08ODvaQAqU"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=sL2QMmSlRyU"
+tags = ["大神ミオ", "さくらみこ", "大空スバル", "オリジナル"]

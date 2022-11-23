@@ -1,46 +1,21 @@
 tags = ["湊あくあ"]
 
 [[playlists]]
+url = "https://www.youtube.com/playlist?list=PLUp1t9SPBl6rKXX4uAYsmEZyBlGwKE6Tl"
+tags = ["オリジナル"]
+
+[[playlists]]
 url = "https://www.youtube.com/playlist?list=PLUp1t9SPBl6r4nqsQBg7HH7fPX2l9AGQk"
 
-[[videos]]
-url = "https://www.youtube.com/watch?v=jSUv29L6cgY"
-tags = ["大空スバル", "桃鈴ねね", "NEGI☆U"]
-
-[[videos]]
-url = "https://www.youtube.com/watch?v=tuWw5EQPGlc"
-tags = ["オリジナル"]
-
-[[videos]]
-url = "https://www.youtube.com/watch?v=6bnaBnd4kyU"
-tags = ["オリジナル"]
-
-[[videos]]
-url = "https://www.youtube.com/watch?v=gP8iNSq6Kwc"
-tags = ["オリジナル"]
-
-[[videos]]
-url = "https://www.youtube.com/watch?v=CZGFm-O5IOU"
-tags = ["オリジナル"]
-
-[[videos]]
-url = "https://www.youtube.com/watch?v=fXeM0fXvOp8"
-tags = ["オリジナル"]
-
-[[videos]]
-url = "https://www.youtube.com/watch?v=swX1O_a_vAk"
-tags = ["オリジナル"]
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLUp1t9SPBl6qrPT_W79HOeR6_n-hWsAbk"
 
 [[videos]]
 url = "https://www.youtube.com/watch?v=m1mbRCgWO90"
 tags = ["白上フブキ"]
 
 [[videos]]
-url = "https://www.youtube.com/watch?v=SoSuMVviNaU"
-tags = ["紫咲シオン"]
-
-[[videos]]
-url = "https://www.youtube.com/watch?v="
+url = "https://www.youtube.com/watch?v=j7pM4M9tO70"
 tags = ["紫咲シオン"]
 
 [[videos]]
@@ -58,3 +33,12 @@ tags = ["天音かなた"]
 [[videos]]
 url = "https://www.youtube.com/watch?v=XpgSrULHibg"
 tags = ["Startend", "常闇トワ", "星街すいせい"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=ugTie-8HXLw"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=BYTP2oLr59Q"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=16WxRVoTAx0"

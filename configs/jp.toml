@@ -191,6 +191,28 @@ tags = ["ロボ子さん", "白上フブキ"]
 url = "https://www.youtube.com/watch?v=MKEb-Ox1KEw"
 tags = ["宝鐘マリン", "Gawr Gura", "湊あくあ", "Ninomae Ina'nis", "オリジナル"]
 
+[[videos]]
+url = "https://www.youtube.com/watch?v=VOFOmeHAmfk"
+tags = ["宝鐘マリン", "Gawr Gura", "湊あくあ", "Ninomae Ina'nis", "沙花叉クロヱ", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=jSUv29L6cgY"
+tags = ["湊あくあ", "大空スバル", "桃鈴ねね", "NEGI☆U"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=6Cf9PHFJ094"
+tags = [
+  "大神ミオ",
+  "姫森ルーナ",
+  "白銀ノエル",
+  "星街すいせい",
+  "風真いろは",
+  "百鬼あやめ",
+  "アキ・ローゼンタール",
+  "獅白ぼたん",
+  "オリジナル"
+]
+
 # 1期生
 [[videos]]
 url = "https://www.youtube.com/watch?v=VCJTJX1kXe4"

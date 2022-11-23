@@ -4,6 +4,10 @@ tags = ["大空スバル"]
 url = "https://www.youtube.com/playlist?list=PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ"
 
 [[videos]]
+url = "https://www.youtube.com/watch?v=RRsw5tT8BJI"
+tags = ["オリジナル"]
+
+[[videos]]
 url = "https://www.youtube.com/watch?v=bbYReCtSBbk"
 
 ignores = [
