@@ -1,0 +1,20 @@
+tags = ["Moona Hoshinova"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLdcktSYecSKfeQ7p5CrVO4avrmLzSL8mt"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=stmZAThUl64"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=q4N7EhUWOAA"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=8Jz0hUbu1mw"
+tags = ["Ayunda Risu", "Moona Hoshinova", "Pavolia Reine", "Mori Calliope"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=ZRCzLtCsIQs"
+tags = ["兎田ぺこら"]

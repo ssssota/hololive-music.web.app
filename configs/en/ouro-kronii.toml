@@ -1,0 +1,11 @@
+tags = ["Ouro Kronii"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLh_mnrb4W5H6ir9_rwZomjr5SKhPqDf7y"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLh_mnrb4W5H6JtCwZ2JAhtk1J2bYoZ_9k"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=6W749jRBg-4"
+tags = ["オリジナル"]

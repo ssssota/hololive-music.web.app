@@ -1,0 +1,15 @@
+tags = ["Takanashi Kiara"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLsAbCDORf2yRA9TvFeQkVXnSHdghrfNuH"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLsAbCDORf2yR18MpsdQgGUyfe9SDSqEPc"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLsAbCDORf2yRhbpcXJWlUIpMRRsfZu5Nt"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=C5IIoZsci8Y"
+tags = ["Gawr Gura", "Takanashi Kiara"]

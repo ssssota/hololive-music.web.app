@@ -1,0 +1,12 @@
+tags = ["大空スバル"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLOLvMgy3Jf3FVLGFJ4HooifOvd3UIQ1eJ"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=bbYReCtSBbk"
+
+ignores = [
+  # ライブ
+  "https://www.youtube.com/watch?v=mhvHZpK-9Ss"
+]

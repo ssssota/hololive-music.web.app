@@ -1,0 +1,14 @@
+tags = ["Ayunda Risu"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLHeIKIUgnbJBzW9cvaqSG6P9_NvXldgCH"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLHeIKIUgnbJDhs2mTJ6WFXUvol189G7IK"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=euBur-z_lmk"
+tags = ["Ayunda Risu", "Pavolia Reine"]
+
+ignores = ["https://www.youtube.com/watch?v=ZfoUh2-1c9Q"]

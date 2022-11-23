@@ -1,0 +1,11 @@
+tags = ["Kureiji Ollie"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL6DI34hJswwQ8um3dpgrZY1elCO-tNfrc"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL6DI34hJswwRLDUbazrru0CHk-KDS9gHB"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=2ZqtRc3fa_s"
+tags = ["オリジナル"]

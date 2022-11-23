@@ -8,6 +8,7 @@ html {
   background-color: var(--background-color);
   color: var(--text-color);
   font-size: var(--length-unit);
+  font-family: sans-serif;
 }
 
 html,

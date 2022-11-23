@@ -107,6 +107,7 @@
       bind:volume
       bind:favorite={favoriteFilter}
       playing={$state.type === 'playing' || $state.type === 'unpaused'}
+      title={videos.find(({ id }) => id === $state.id)?.title}
       on:pause={state.pause}
       on:play={() => $state.id && state.play($state.id)}
       on:shuffle={shuffleVideos}

@@ -34,7 +34,7 @@
     "vite": "^3.2.3"
   },
   "type": "module",
-  "packageManager": "pnpm@7.16.1",
+  "packageManager": "pnpm@7.17.0",
   "dependencies": {
     "@iarna/toml": "^2.2.5",
     "color-convert": "^2.0.1",

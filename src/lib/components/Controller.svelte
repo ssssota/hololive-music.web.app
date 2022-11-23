@@ -9,6 +9,7 @@
   export let playing: boolean;
   export let volume: number;
   export let favorite = false;
+  export let title: string | undefined;
   let _volume = volume;
   $: volume = _volume;
 
@@ -48,6 +49,7 @@
     <Star color="white" filled={favorite} />
   </button>
   <input type="range" min={0} max={100} bind:value={_volume} />
+  <div class="title">{title ?? ''}</div>
 </div>
 
 <style>
@@ -58,11 +60,24 @@
     padding: 1em 2em;
     gap: 1em;
     align-items: center;
+    overflow: hidden;
+  }
+  .container > * {
+    flex-shrink: 0;
   }
   button {
     height: 2em;
     width: 2em;
     cursor: pointer;
+  }
+  @media (max-width: 640px) {
+    .container {
+      padding: 1em;
+    }
+    button {
+      height: 1.5em;
+      width: 1.5em;
+    }
   }
   input[type='range'] {
     -webkit-appearance: none;
@@ -93,9 +108,18 @@
   input[type='range']::-moz-focus-outer {
     border: 0;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     input[type='range'] {
       display: none;
     }
+  }
+  .title {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: -webkit-inline-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    user-select: none;
   }
 </style>

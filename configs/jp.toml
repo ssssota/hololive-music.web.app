@@ -11,6 +11,38 @@ files = [
   "jp/natsuiro-matsuri.toml",
   "jp/shirakami-fubuki.toml",
   "jp/yozora-mel.toml",
+  # 2nd gen
+  "jp/oozora-subaru.toml",
+  "jp/minato-aqua.toml",
+  "jp/yuzuki-choco.toml",
+  "jp/nakiri-ayame.toml",
+  "jp/murasaki-shion.toml",
+  # gamers
+  "jp/ookami-mio.toml",
+  "jp/nekomata-okayu.toml",
+  "jp/inugami-korone.toml",
+  # 3rd gen
+  "jp/usada-pekora.toml",
+  "jp/shiranui-flare.toml",
+  "jp/shirogane-noel.toml",
+  "jp/houshou-marine.toml",
+  # 4th gen
+  "jp/amane-kanata.toml",
+  "jp/tsunomaki-watame.toml",
+  "jp/tokoyami-towa.toml",
+  "jp/himemori-luna.toml",
+  "jp/kiryu-coco.toml",
+  # 5th gen
+  "jp/yukihana-lamy.toml",
+  "jp/momosuzu-nene.toml",
+  "jp/shishiro-botan.toml",
+  "jp/omaru-polka.toml",
+  # holox
+  "jp/laplus-darkness.toml",
+  "jp/takane-lui.toml",
+  "jp/hakui-koyori.toml",
+  "jp/sakamata-chloe.toml",
+  "jp/kazama-iroha.toml"
 ]
 
 [[videos]]
@@ -114,6 +146,10 @@ url = "https://www.youtube.com/watch?v=5ArDbvfds9k"
 tags = ["ORIO", "天音かなた", "常闇トワ", "オリジナル"]
 
 [[videos]]
+url = "https://www.youtube.com/watch?v=23nEnPOXLEk"
+tags = ["ORIO", "天音かなた", "常闇トワ", "オリジナル"]
+
+[[videos]]
 url = "https://www.youtube.com/watch?v=4Hg0Nchl3HU"
 tags = [
   "白上フブキ",
@@ -139,6 +175,22 @@ tags = [
   "雪花ラミィ"
 ]
 
+[[videos]]
+url = "https://www.youtube.com/watch?v=Hye06iM9640"
+tags = ["不知火フレア", "天音かなた", "常闇トワ", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=3QJD9iekpDQ"
+tags = ["スパイスラブ", "大空スバル", "湊あくあ", "兎田ぺこら"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=Mb2oMO-SK7w"
+tags = ["ロボ子さん", "白上フブキ"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=MKEb-Ox1KEw"
+tags = ["宝鐘マリン", "Gawr Gura", "湊あくあ", "Ninomae Ina'nis", "オリジナル"]
+
 # 1期生
 [[videos]]
 url = "https://www.youtube.com/watch?v=VCJTJX1kXe4"
@@ -147,3 +199,13 @@ tags = ["白上フブキ", "夜空メル", "アキ・ローゼンタール", "�
 [[videos]]
 url = "https://www.youtube.com/watch?v=mE_Q5vam910"
 tags = ["白上フブキ", "夜空メル", "アキ・ローゼンタール", "赤井はあと", "夏色まつり", "オリジナル"]
+
+# 3期生
+[[video]] # https://www.youtube.com/watch?v=F61eDAXtmnw
+id = "F61eDAXtmnw"
+tags = ["オリジナル", "不知火フレア", "宝鐘マリン", "兎田ぺこら", "潤羽るしあ", "白銀ノエル"]
+
+# 4期生
+[[video]] # https://www.youtube.com/watch?v=k7cpjmkc1Rw
+id = "k7cpjmkc1Rw"
+tags = ["天音かなた", "桐生ココ", "角巻わため", "常闇トワ", "姫森ルーナ", "オリジナル"]

@@ -1,4 +1,70 @@
-files = ["id/1st.toml", "id/2nd.toml", "id/3rd.toml"]
+files = [
+  # 1st gen
+  "id/ayunda-risu.toml",
+  "id/moona-hoshinova.toml",
+  "id/airani-iofifteen.toml",
+  # 2nd gen
+  "id/kureiji-ollie.toml",
+  "id/anya-melfissa.toml",
+  "id/pavolia-reine.toml",
+  # 3rd gen
+  "id/vestia-zeta.toml",
+  "id/kaela-kovalskia.toml",
+  "id/kobo-kanaeru.toml"
+]
 
 [[playlist]]
 url = "https://www.youtube.com/playlist?list=PLl62IkfhHtN5kDBdmZ96EisueppHSZmbi"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=lFQW5S_xH1o"
+tags = [
+  "Ayunda Risu",
+  "Moona Hoshinova",
+  "Airani Iofifteen",
+  "Kureiji Ollie",
+  "Anya Melfissa",
+  "Pavolia Reine"
+]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=lA6YSTkywto"
+tags = [
+  "Ayunda Risu",
+  "Moona Hoshinova",
+  "Airani Iofifteen",
+  "Kureiji Ollie",
+  "Anya Melfissa",
+  "Pavolia Reine"
+]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=Wp90CrP-s_8"
+tags = [
+  "Ayunda Risu",
+  "Moona Hoshinova",
+  "Airani Iofifteen",
+  "Kureiji Ollie",
+  "Anya Melfissa",
+  "Pavolia Reine"
+]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=uf9YfzyLG2Q"
+tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=vpViBoIVrk0"
+tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=eJjz3owWnbU"
+tags = ["Kureiji Ollie", "Anya Melfissa", "Pavolia Reine"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=fTiLguEpX5Y"
+tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=XSZNNbbVuho"
+tags = ["Ayunda Risu", "Moona Hoshinova", "Airani Iofifteen", "オリジナル"]
