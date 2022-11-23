@@ -33,10 +33,12 @@ const videos = (async () => {
   );
 
   const videoInfoList = await sequence(
-    videos.map((video) => () => getVideoInfo(video))
+    videos.map(
+      (video) => () => getVideoInfo(video).catch((e) => console.error(video, e))
+    )
   );
 
-  return shuffle(videoInfoList);
+  return shuffle(videoInfoList.flatMap((v) => (v != null ? [v] : [])));
 })();
 
 export const load: LayoutServerLoad = async () => {
