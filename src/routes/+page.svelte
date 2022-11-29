@@ -45,8 +45,7 @@
       const nextIndex = (index + 1) % filteredVideos.length;
       id = filteredVideos[nextIndex]!.id;
     }
-    if (id === $state.id) state.play();
-    else state.load(id);
+    state.load(id);
   };
   const onStateChange = (ev: CustomEvent<PlayerState>) => {
     switch (ev.detail) {
