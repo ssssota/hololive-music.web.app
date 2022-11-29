@@ -35,20 +35,27 @@
     return $favorites.has(video.id);
   });
 
-  const onReady = () => player?.setVolume(volume);
-  const playNext = () => {
-    const index = filteredVideos.findIndex((video) => video.id === $state.id);
-    const nextIndex = (index + 1) % filteredVideos.length;
-    state.play(filteredVideos[nextIndex]!.id);
+  const onReady = () => {
+    state.ready();
+    player?.setVolume(volume);
+  };
+  const playNext = (id?: string) => {
+    if (id === undefined) {
+      const index = filteredVideos.findIndex((video) => video.id === $state.id);
+      const nextIndex = (index + 1) % filteredVideos.length;
+      id = filteredVideos[nextIndex]!.id;
+    }
+    if (id === $state.id) state.play();
+    else state.load(id);
   };
   const onStateChange = (ev: CustomEvent<PlayerState>) => {
     switch (ev.detail) {
       case 'ended':
-        playNext();
-        return;
+        return playNext();
+      case 'cued':
+        return state.play();
       case 'paused':
-        // state.pause();
-        return;
+        return state.pause();
     }
   };
 
@@ -61,15 +68,12 @@
     switch (s.type) {
       case 'unstarted':
         return;
+      case 'loading':
+        return player.cueVideoById(s.id);
       case 'playing':
-        player.loadVideoById(s.id);
-        return;
+        return player.playVideo();
       case 'paused':
-        player.pauseVideo();
-        return;
-      case 'unpaused':
-        player.playVideo();
-        return;
+        return player.pauseVideo();
     }
   });
 </script>
@@ -83,7 +87,8 @@
           ? undefined
           : $state.id}
         favorite={$favorites.has(video.id)}
-        on:play={() => state.play(video.id)}
+        on:play={() =>
+          video.id === $state.id ? state.play() : state.load(video.id)}
         on:pause={state.pause}
         on:favorite={() => favorites.toggle(video.id)}
       />
@@ -106,12 +111,12 @@
     <Controller
       bind:volume
       bind:favorite={favoriteFilter}
-      playing={$state.type === 'playing' || $state.type === 'unpaused'}
+      playing={$state.type === 'playing'}
       title={videos.find(({ id }) => id === $state.id)?.title}
       on:pause={state.pause}
-      on:play={() => $state.id && state.play($state.id)}
+      on:play={() => $state.id && state.play()}
       on:shuffle={shuffleVideos}
-      on:next={playNext}
+      on:next={() => playNext()}
     />
   </section>
 </div>

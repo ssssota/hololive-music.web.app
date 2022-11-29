@@ -12,7 +12,7 @@
   } as const;
   export type PlayerState = typeof states[YT.PlayerState];
   export type EventMap = {
-    ready: void;
+    ready: YT.Player;
     stateChange: PlayerState;
     playbackQualityChange: string;
     playbackRateChange: number;
@@ -58,7 +58,7 @@
     const YT = await YTPromise;
     player = new YT.Player(iframe, {
       events: {
-        onReady: () => dispatch('ready'),
+        onReady: () => dispatch('ready', player),
         onStateChange: (ev) => dispatch('stateChange', states[ev.data]),
         onPlaybackQualityChange: (ev) =>
           dispatch('playbackQualityChange', ev.data),

@@ -7,7 +7,7 @@ import type { LayoutServerLoad } from './$types';
 
 const videos = (async () => {
   const config = await loadConfig(
-    dev ? 'configs/jp/hoshimachi-suisei.toml' : 'configs/main.toml'
+    dev ? 'configs/jp/nekomata-okayu.toml' : 'configs/main.toml'
   );
 
   const ignoreVideoIds = config.ignores.map(getVideoIdFromUrl);
