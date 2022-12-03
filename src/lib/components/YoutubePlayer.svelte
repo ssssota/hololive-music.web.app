@@ -1,5 +1,6 @@
 <script lang="ts" context="module">
   import { browser } from '$app/environment';
+  import { requestIdleCallback } from '$lib/utils/requestIdleCallback';
   import load from 'load-script';
 
   const states = {
@@ -38,7 +39,12 @@
           return resolve;
         },
       });
-      load('https://www.youtube.com/iframe_api', (err) => err && reject?.(err));
+      requestIdleCallback(() =>
+        load(
+          'https://www.youtube.com/iframe_api',
+          (err) => err && reject?.(err)
+        )
+      );
     }
 
     return promise;

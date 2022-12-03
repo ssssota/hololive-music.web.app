@@ -3,4 +3,8 @@
   import './styles.css';
 </script>
 
+<svelte:head>
+  <title>Hololive music</title>
+</svelte:head>
+
 <slot />

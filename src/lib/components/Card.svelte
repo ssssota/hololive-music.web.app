@@ -63,7 +63,7 @@
       rel="noopener noreferrer"
       class="youtube"
     >
-      <img src={youtubeLogoUrl} alt="YouTube" />
+      <img src={youtubeLogoUrl} alt="YouTube" loading="lazy" />
     </a>
   </div>
 </div>
