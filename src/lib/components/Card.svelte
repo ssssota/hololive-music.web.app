@@ -39,11 +39,16 @@
     <VisuallyHidden>{info.title}</VisuallyHidden>
   </div>
   <div class="controls">
-    <button class="favorite" on:click={() => dispatch('favorite')}>
+    <button
+      aria-label="Add favorite"
+      class="favorite"
+      on:click={() => dispatch('favorite')}
+    >
       <Star color="white" filled={favorite} />
     </button>
     {#if isPlaying}
       <button
+        aria-label="Pause"
         class="control center pause"
         on:click={() => dispatch('pause', info)}
       >
@@ -51,6 +56,7 @@
       </button>
     {:else}
       <button
+        aria-label="Play"
         class="control center play"
         on:click={() => dispatch('play', info)}
       >
@@ -58,6 +64,7 @@
       </button>
     {/if}
     <a
+      aria-label="Open in YouTube"
       href={getVideoUrlFromId(info.id)}
       target="_blank"
       rel="noopener noreferrer"

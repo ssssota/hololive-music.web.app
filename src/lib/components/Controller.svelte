@@ -28,18 +28,18 @@
 
 <div class="container">
   {#if playing}
-    <button on:click={onPause}>
+    <button aria-label="Pause" on:click={onPause}>
       <PauseIcon color="white" />
     </button>
   {:else}
-    <button on:click={onPlay}>
+    <button aria-label="Play" on:click={onPlay}>
       <Triangle color="white" />
     </button>
   {/if}
   <button aria-label="Skip next" on:click={onNext}>
     <SkipNextIcon color="white" />
   </button>
-  <button aria-label="shuffle" on:click={onShuffle}>
+  <button aria-label="Shuffle" on:click={onShuffle}>
     <ShuffleIcon color="white" />
   </button>
   <button
@@ -48,7 +48,13 @@
   >
     <Star color="white" filled={favorite} />
   </button>
-  <input type="range" min={0} max={100} bind:value={_volume} />
+  <input
+    aria-label="Change volume"
+    type="range"
+    min={0}
+    max={100}
+    bind:value={_volume}
+  />
   <div class="title">{title ?? ''}</div>
 </div>
 
