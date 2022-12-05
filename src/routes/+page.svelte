@@ -7,6 +7,11 @@
   import { createFavoriteStore } from '$lib/stores/favorite';
   import { createPlayingStateStore } from '$lib/stores/playing';
   import { shuffle } from '$lib/utils';
+  import {
+    cancelIdleCallback,
+    requestIdleCallback,
+  } from '$lib/utils/requestIdleCallback';
+  import { onMount } from 'svelte';
   import type { PageData } from './$types';
   export let data: PageData;
   let videos = data.videos;
@@ -33,6 +38,20 @@
   $: filteredVideos = videos.filter((video) => {
     if (!favoriteFilter) return true;
     return $favorites.has(video.id);
+  });
+  let pageSize = 2;
+  let dummyCardElement: HTMLElement | undefined = undefined;
+  onMount(() => {
+    let id = 0;
+    const loadMore = () => {
+      pageSize++;
+      if (pageSize < videos.length)
+        id = requestIdleCallback(loadMore, { timeout: 1000 });
+    };
+    loadMore();
+    return () => {
+      cancelIdleCallback(id);
+    };
   });
 
   const onReady = () => {
@@ -79,7 +98,7 @@
 
 <div class="container">
   <main>
-    {#each filteredVideos as video (video.id)}
+    {#each filteredVideos.slice(0, pageSize) as video (video.id)}
       <Card
         info={video}
         playingVideoId={$state.type === 'paused' && $state.id === video.id
@@ -92,7 +111,7 @@
         on:favorite={() => favorites.toggle(video.id)}
       />
     {/each}
-    <div class="dummycard" />
+    <div class="dummycard" bind:this={dummyCardElement} />
   </main>
 
   <div class="spacer" />
