@@ -41,6 +41,8 @@ const videos = (async () => {
   return shuffle(videoInfoList.flatMap((v) => (v != null ? [v] : [])));
 })();
 
+export const prerender = true;
+
 export const GET: RequestHandler = async () => {
   return new Response(JSON.stringify(await videos));
 };
