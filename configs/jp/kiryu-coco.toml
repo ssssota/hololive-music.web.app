@@ -1,0 +1,8 @@
+tags = ["桐生ココ"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLw58RgSzDmjocRKHICR26CaiEAmbA6Jlk"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=khRDaLiyGdA"
+tags = ["オリジナル"]

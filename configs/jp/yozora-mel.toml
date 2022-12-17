@@ -1,0 +1,19 @@
+tags = ["夜空メル"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL43udV6iXTkCwnaFSjm3IAtggd7f12onJ"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL43udV6iXTkD3nEwDm8ex0TjUqMoyQzPE"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=8iin3HQpwSY"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=t1yXDcuwzpY"
+tags = ["紫咲シオン", "癒月ちょこ", "潤羽るしあ", "オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=ix3WUx25xII"
+tags = ["癒月ちょこ", "百鬼あやめ", "紫咲シオン", "潤羽るしあ"]

@@ -1,0 +1,16 @@
+tags = ["Gawr Gura"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL9781Kn53ls8W4FWSottjwLx4aW6THK8N"
+tags = ["オリジナル"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL9781Kn53ls9iSV-Kl-Gxk7X5VKeeNzoX"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=2ys9IS5r9yA"
+tags = ["夏色まつり"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=qNIhngowViI"
+tags = ["Mori Calliope"]

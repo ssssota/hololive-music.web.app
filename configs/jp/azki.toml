@@ -1,0 +1,44 @@
+tags = ["AZKi"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLpt61bADOMwXIZpLr09sCNeocN7CXjcoS"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLpt61bADOMwW2aA9I1hWHyR8OixSuCXzc"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=ekFreTJ3xx8"
+tags = ["尾丸ポルカ"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=QM20uZAv6kc"
+tags = ["ときのそら"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=YcfZziSg0cg"
+tags = ["天音かなた"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=k12oVF-o528"
+tags = ["さくらみこ", "宝鐘マリン"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=-9wUbw5qevU"
+tags = ["星街すいせい"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=lv7UI1livw4"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=kVpUEVhrC0U"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=zWskZx7Lp2Q"
+tags = ["白上フブキ", "宝鐘マリン"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=fiddR-oZta4"
+tags = ["オリジナル"]

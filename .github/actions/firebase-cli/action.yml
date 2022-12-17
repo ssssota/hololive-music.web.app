@@ -1,0 +1,24 @@
+name: Setup Firebase CLI
+description: Setup Firebase CLI
+inputs:
+  firebaseServiceAccount:
+    description: 'Firebase service account'
+    required: true
+runs:
+  using: 'composite'
+  steps:
+    - name: Install Firebase CLI
+      run: npx -p firebase-tools firebase help
+      shell: bash
+    - name: Store firebase service account
+      run: echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/firebase-service-account.json
+      shell: bash
+      env:
+        FIREBASE_SERVICE_ACCOUNT: ${{ inputs.firebaseServiceAccount }}
+    - name: Create bin
+      run: |
+        FIREBASE_BIN_PATH=/usr/local/bin/firebase
+        echo "#!/bin/bash" > $FIREBASE_BIN_PATH
+        echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/firebase-service-account.json npx -p firebase-tools firebase \"\$@\"" >> $FIREBASE_BIN_PATH
+        chmod +x $FIREBASE_BIN_PATH
+      shell: bash

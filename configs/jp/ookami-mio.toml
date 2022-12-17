@@ -1,0 +1,26 @@
+tags = ["大神ミオ"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLMUtkfkYDjAFJlZeDBNLAlrKjfue2DRRu"
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PLMUtkfkYDjAHOWzoQcjvbMX3ElMxKmsUp"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=YPm9T622OX0"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=cr9iLdXK9ik"
+tags = ["オリジナル"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=cbKfZy5Jpgk"
+tags = ["OKFAMS", "白上フブキ", "百鬼あやめ", "大空スバル", "猫又おかゆ", "戌神ころね"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=x08ODvaQAqU"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=sL2QMmSlRyU"
+tags = ["大神ミオ", "さくらみこ", "大空スバル", "オリジナル"]

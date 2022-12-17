@@ -1,0 +1,41 @@
+name: Deploy to Firebase Hosting on PR
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+jobs:
+  build_and_preview:
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.merged == false }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/setup-node
+      - uses: ./.github/actions/firebase-cli
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOLOLIVE_MUSIC }}
+      - uses: ./.github/actions/get-pr-id
+        id: pr-id
+      - run: pnpm build
+      - run: firebase hosting:channel:deploy ${{ steps.pr-id.outputs.pr-id }} | tee deploy.log
+      - id: get-deploy-url
+        run: echo "URL=$(cat deploy.log | grep ${{ steps.pr-id.outputs.pr-id }} | sed -e 's/\x1b\[[0-9;]*m//g' | grep -Eo 'https?://[^ >]+')" >> $GITHUB_OUTPUT
+      - uses: actions/github-script@v6
+        if: ${{ github.event.action == 'opened' }}
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Preview: ${{ steps.get-deploy-url.outputs.URL }}'
+            })
+  delete_preview:
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.merged == true }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/firebase-cli
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_HOLOLIVE_MUSIC }}
+      - uses: ./.github/actions/get-pr-id
+        id: pr-id
+      - run: firebase hosting:channel:delete -f ${{ steps.pr-id.outputs.pr-id }}

@@ -1,0 +1,40 @@
+files = [
+  # myth
+  "en/mori-calliope.toml",
+  "en/takanashi-kiara.toml",
+  "en/ninomae-inanis.toml",
+  "en/gawr-gura.toml",
+  "en/watson-amelia.toml",
+  # hope
+  "en/irys.toml",
+  # council
+  "en/ceres-fauna.toml",
+  "en/ouro-kronii.toml",
+  "en/nanashi-mumei.toml",
+  "en/hakos-baelz.toml",
+  "en/tsukumo-sana.toml"
+]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=I1cdQp5uz5s"
+tags = ["Mori Calliope", "Takanashi Kiara", "Ninomae Ina'nis", "Gawr Gura", "Watson Amelia"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=VupT9JCJaOY"
+tags = ["Mori Calliope", "Takanashi Kiara", "Ninomae Ina'nis", "Gawr Gura", "Watson Amelia"]
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=uFJHdT_ie9U"
+tags = [
+	"Mori Calliope",
+	"Takanashi Kiara",
+	"Ninomae Ina'nis",
+	"Gawr Gura",
+	"Watson Amelia",
+	"IRyS",
+	"Tsukumo Sana",
+	"Ceres Fauna",
+	"Ouro Kronii",
+	"Nanashi Mumei",
+	"Hakos Baelz"
+]

@@ -1,0 +1,18 @@
+tags = ["猫又おかゆ"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL3y-e0n6k6gAkwrtIbBAbDPNFBcHWgyOl"
+tags = ["オリジナル"]
+
+[[playlists]]
+url = "https://www.youtube.com/playlist?list=PL3y-e0n6k6gDoG3mViEOESGV1WhY8aCrR"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=M8UmWCeIKyQ"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=TdUbfLF6gAY"
+
+[[videos]]
+url = "https://www.youtube.com/watch?v=_9laP3fe4E0"
+tags = ["戌神ころね"]

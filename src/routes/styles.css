@@ -1,0 +1,18 @@
+:root {
+  --background-color: #101020;
+  --text-color: #f0f0e0;
+  --length-unit: 1rem;
+}
+
+html {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-size: var(--length-unit);
+  font-family: sans-serif;
+}
+
+html,
+body,
+body > div {
+  height: 100%;
+}

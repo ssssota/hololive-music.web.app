@@ -1,0 +1,27 @@
+name: Get PR ID
+description: Get PR ID from branch name
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions/github-script@v6
+      id: id-generator
+      env:
+        GIT_HEAD_REF: ${{ github.head_ref }}
+        EVENT_NUM: ${{ github.event.number }}
+      with:
+        script: |
+          const headRef = process.env.GIT_HEAD_REF;
+          const branchName = headRef.substr(0, 20);
+          const tmpChannelId = `pr-${process.env.EVENT_NUM}${branchName}`
+          // Channel IDs can only include letters, numbers, underscores, hyphens, and periods.
+          const invalidCharactersRegex = /[^a-zA-Z0-9_\-\.]/g;
+          const correctedChannelId = tmpChannelId.replace(invalidCharactersRegex, "_");
+          if (correctedChannelId !== tmpChannelId) {
+            console.log(`ChannelId "${tmpChannelId}" contains unsupported characters. Using "${correctedChannelId}" instead.`);
+          }
+          return correctedChannelId;
+        result-encoding: string
+outputs:
+  pr-id:
+    description: 'PR ID'
+    value: ${{ steps.id-generator.outputs.result }}
