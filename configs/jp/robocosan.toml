@@ -86,3 +86,9 @@ tags = [
 [[videos]]
 url = "https://www.youtube.com/watch?v=ue7mFSgBAH0"
 tags = ["アキ・ローゼンタール", "姫森ルーナ"]
+
+ignores = [
+  "https://www.youtube.com/watch?v=QA8KoMko9u8",
+  "https://www.youtube.com/watch?v=Lw3sBpkC3Rw",
+  "https://www.youtube.com/watch?v=_WuSd5M7va4"
+]
