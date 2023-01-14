@@ -4,6 +4,7 @@ import { getClient } from './client';
 export const getVideosByPlaylist = async (
   playlistId: string
 ): Promise<string[]> => {
+  console.log(`Fetching playlist(${playlistId}) ...`);
   const client = await getClient({
     cachePersistence: browser || dev,
     language: browser ? navigator.language : 'ja',
