@@ -11,8 +11,8 @@
     "fmt": "prettier --plugin-search-dir . --write ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "next",
-    "@sveltejs/kit": "next",
+    "@sveltejs/adapter-static": "^2.0.1",
+    "@sveltejs/kit": "^1.11.0",
     "@types/color-convert": "^2.0.0",
     "@types/iarna__toml": "^2.0.2",
     "@types/sharp": "^0.31.0",
@@ -34,7 +34,7 @@
     "vite": "^3.2.3"
   },
   "type": "module",
-  "packageManager": "pnpm@7.17.0",
+  "packageManager": "pnpm@8.1.0",
   "dependencies": {
     "@iarna/toml": "^2.2.5",
     "color-convert": "^2.0.1",
